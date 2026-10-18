@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD57C53B-7013-4E02-95AE-9E0BFB37F2F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BudgetBuddy</RootNamespace>
+    <AssemblyName>BudgetBuddy</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAnalytics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalytics.Designer.cs">
+      <DependentUpon>frmAnalytics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBudget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBudget.Designer.cs">
+      <DependentUpon>frmBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateAccount.Designer.cs">
+      <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpenses.Designer.cs">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncome.Designer.cs">
+      <DependentUpon>frmIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucAbout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAbout.Designer.cs">
+      <DependentUpon>ucAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAccount.Designer.cs">
+      <DependentUpon>ucAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucAnalytics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAnalytics.Designer.cs">
+      <DependentUpon>ucAnalytics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBranding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBranding.Designer.cs">
+      <DependentUpon>ucBranding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBudget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBudget.Designer.cs">
+      <DependentUpon>ucBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDashboard.Designer.cs">
+      <DependentUpon>ucDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucExpenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucExpenses.Designer.cs">
+      <DependentUpon>ucExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucIncome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucIncome.Designer.cs">
+      <DependentUpon>ucIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucNotifications.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucNotifications.Designer.cs">
+      <DependentUpon>ucNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPassword.Designer.cs">
+      <DependentUpon>ucPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSettingsHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSettingsHeader.Designer.cs">
+      <DependentUpon>ucSettingsHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSideDesignLeft.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSideDesignLeft.Designer.cs">
+      <DependentUpon>ucSideDesignLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSideDesignRight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSideDesignRight.Designer.cs">
+      <DependentUpon>ucSideDesignRight.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAnalytics.resx">
+      <DependentUpon>frmAnalytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBudget.resx">
+      <DependentUpon>frmBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateAccount.resx">
+      <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpenses.resx">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIncome.resx">
+      <DependentUpon>frmIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAbout.resx">
+      <DependentUpon>ucAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAccount.resx">
+      <DependentUpon>ucAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAnalytics.resx">
+      <DependentUpon>ucAnalytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBranding.resx">
+      <DependentUpon>ucBranding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBudget.resx">
+      <DependentUpon>ucBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDashboard.resx">
+      <DependentUpon>ucDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucExpenses.resx">
+      <DependentUpon>ucExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIncome.resx">
+      <DependentUpon>ucIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucNotifications.resx">
+      <DependentUpon>ucNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPassword.resx">
+      <DependentUpon>ucPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSettingsHeader.resx">
+      <DependentUpon>ucSettingsHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSideDesignLeft.resx">
+      <DependentUpon>ucSideDesignLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSideDesignRight.resx">
+      <DependentUpon>ucSideDesignRight.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incomeLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\budgetLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analyticsLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutlogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutlogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expensesLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summaryCardBudget1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summaryCardIncome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summaryCardExpenses1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summaryCardRemainingBalance1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changePhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brandingLogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
