@@ -27,20 +27,20 @@ namespace BudgetBuddy
             frmDashboard dashboard = new frmDashboard();
             dashboard.Show();
 
-            frmBudget budget = new frmBudget();
-            budget.Show();
+            //frmBudget budget = new frmBudget();
+            //budget.Show();
 
-            frmIncome income = new frmIncome();
-            income.Show();
+            //frmIncome income = new frmIncome();
+            //income.Show();
 
-            frmExpenses expenses = new frmExpenses();
-            expenses.Show();
+            //frmExpenses expenses = new frmExpenses();
+            //expenses.Show();
 
-            frmAnalytics analytics = new frmAnalytics();
-            analytics.Show();
+            //frmAnalytics analytics = new frmAnalytics();
+            //analytics.Show();
 
-            frmSettings settings = new frmSettings();
-            settings.Show();
+            //frmSettings settings = new frmSettings();
+            //settings.Show();
         }
 
         private void frmSplashScreen_Load(object sender, EventArgs e)

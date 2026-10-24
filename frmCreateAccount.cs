@@ -17,11 +17,6 @@ namespace BudgetBuddy
             InitializeComponent();
         }
 
-        private void frmCreateAccount_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogIn_Click(object sender, EventArgs e)
         {
 

@@ -60,7 +60,7 @@
             this.pnlSidebarAnalytics.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarAnalytics.Name = "pnlSidebarAnalytics";
             this.pnlSidebarAnalytics.ShadowDecoration.Parent = this.pnlSidebarAnalytics;
-            this.pnlSidebarAnalytics.Size = new System.Drawing.Size(252, 915);
+            this.pnlSidebarAnalytics.Size = new System.Drawing.Size(252, 1041);
             this.pnlSidebarAnalytics.TabIndex = 6;
             // 
             // btnLogOut
@@ -131,7 +131,6 @@
             this.btnAnalytics.TabIndex = 6;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.TextOffset = new System.Drawing.Point(15, 0);
-            this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
             // 
             // btnExpenses
             // 
@@ -239,25 +238,27 @@
             // 
             // pnlMainContentAnalytics
             // 
+            this.pnlMainContentAnalytics.AutoScroll = true;
             this.pnlMainContentAnalytics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.pnlMainContentAnalytics.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainContentAnalytics.Location = new System.Drawing.Point(252, 0);
             this.pnlMainContentAnalytics.Name = "pnlMainContentAnalytics";
             this.pnlMainContentAnalytics.Padding = new System.Windows.Forms.Padding(20);
             this.pnlMainContentAnalytics.ShadowDecoration.Parent = this.pnlMainContentAnalytics;
-            this.pnlMainContentAnalytics.Size = new System.Drawing.Size(1631, 915);
+            this.pnlMainContentAnalytics.Size = new System.Drawing.Size(1652, 1041);
             this.pnlMainContentAnalytics.TabIndex = 23;
             // 
             // frmAnalytics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1883, 915);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.pnlMainContentAnalytics);
             this.Controls.Add(this.pnlSidebarAnalytics);
             this.Name = "frmAnalytics";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlSidebarAnalytics.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).EndInit();
             this.ResumeLayout(false);

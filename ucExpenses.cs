@@ -15,14 +15,6 @@ namespace BudgetBuddy
         public ucExpenses()
         {
             InitializeComponent();
-
-            // Sample output
-            dgvExpenseList.Rows.Add(
-                "Internet",
-                "Bills",
-                "1,000.00",
-                "October 5, 2026"
-                );
         }
     }
 }

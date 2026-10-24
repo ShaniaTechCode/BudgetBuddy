@@ -16,43 +16,5 @@ namespace BudgetBuddy
         {
             InitializeComponent();
         }
-
-        private void btnExpenses_Click(object sender, EventArgs e)
-        {
-            // Display the Expenses UserControl 
-            ucExpenses ctrl = new ucExpenses();
-            pnlMainContentExpenses.Controls.Clear();
-            pnlMainContentExpenses.Controls.Add(ctrl);
-
-            // Set the active button
-            SetActive_Button(btnExpenses);
-        }
-
-        private Guna.UI2.WinForms.Guna2Button activeButton = null;
-
-        private void SetActive_Button(Guna.UI2.WinForms.Guna2Button selectedButton)
-        {
-            Guna.UI2.WinForms.Guna2Button[] buttons =
-            {
-               btnDashboard,
-               btnBudget,
-               btnIncome,
-               btnExpenses,
-               btnAnalytics,
-               btnSettings,
-            };
-
-            foreach (var btn in buttons)
-            {
-                btn.FillColor = Color.Transparent;
-                btn.BorderRadius = 15;
-            }
-
-            activeButton = selectedButton;
-
-            activeButton.FillColor = Color.FromArgb(56, 142, 80);
-            activeButton.ForeColor = Color.White;
-            activeButton.BorderRadius = 15;
-        }
     }
 }

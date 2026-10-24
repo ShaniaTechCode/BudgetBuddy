@@ -28,26 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.pnlBudgetHeader = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblBudgetDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblBudgetitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlBudgetList = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtSearchBudget = new Guna.UI2.WinForms.Guna2TextBox();
             this.dgvBudgetList = new Guna.UI2.WinForms.Guna2DataGridView();
             this.colBudgetName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPeriod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDateCreated = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEdit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.colDelete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
+            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.lblBudgetList = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlSetBudget = new Guna.UI2.WinForms.Guna2Panel();
             this.btnSaveBudget = new Guna.UI2.WinForms.Guna2Button();
@@ -59,6 +57,7 @@
             this.lblBudgetName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblSetBudget = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalBudget = new Guna.UI2.WinForms.Guna2Panel();
+            this.picBudgetIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblTotalBudget_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTotalBudget = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlCalcu = new Guna.UI2.WinForms.Guna2Panel();
@@ -84,58 +83,23 @@
             this.txtboxDisplay = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlCalcuHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSearchBudget = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pnlBudgetHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.picNotificationBadge = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnNotificaton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
-            this.picBudgetIcon = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pnlBudgetHeader.SuspendLayout();
             this.pnlBudgetList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBudgetList)).BeginInit();
             this.pnlSetBudget.SuspendLayout();
             this.pnlTotalBudget.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).BeginInit();
             this.pnlCalcu.SuspendLayout();
             this.pnlCalcuHeader.SuspendLayout();
+            this.pnlBudgetHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pnlBudgetHeader
-            // 
-            this.pnlBudgetHeader.AutoSize = true;
-            this.pnlBudgetHeader.Controls.Add(this.lblBudgetDescription);
-            this.pnlBudgetHeader.Controls.Add(this.lblBudgetitle);
-            this.pnlBudgetHeader.Controls.Add(this.guna2Button1);
-            this.pnlBudgetHeader.Controls.Add(this.picNotificationBadge);
-            this.pnlBudgetHeader.Controls.Add(this.btnNotificaton);
-            this.pnlBudgetHeader.Location = new System.Drawing.Point(61, 33);
-            this.pnlBudgetHeader.Name = "pnlBudgetHeader";
-            this.pnlBudgetHeader.ShadowDecoration.Parent = this.pnlBudgetHeader;
-            this.pnlBudgetHeader.Size = new System.Drawing.Size(1571, 90);
-            this.pnlBudgetHeader.TabIndex = 2;
-            // 
-            // lblBudgetDescription
-            // 
-            this.lblBudgetDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBudgetDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.lblBudgetDescription.Location = new System.Drawing.Point(14, 53);
-            this.lblBudgetDescription.Name = "lblBudgetDescription";
-            this.lblBudgetDescription.Size = new System.Drawing.Size(199, 20);
-            this.lblBudgetDescription.TabIndex = 15;
-            this.lblBudgetDescription.Text = "Set and manage your budgets";
-            // 
-            // lblBudgetitle
-            // 
-            this.lblBudgetitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBudgetitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblBudgetitle.Location = new System.Drawing.Point(14, 12);
-            this.lblBudgetitle.Name = "lblBudgetitle";
-            this.lblBudgetitle.Size = new System.Drawing.Size(100, 35);
-            this.lblBudgetitle.TabIndex = 14;
-            this.lblBudgetitle.Text = "Budget";
             // 
             // pnlBudgetList
             // 
@@ -144,30 +108,61 @@
             this.pnlBudgetList.Controls.Add(this.dgvBudgetList);
             this.pnlBudgetList.Controls.Add(this.lblBudgetList);
             this.pnlBudgetList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlBudgetList.Location = new System.Drawing.Point(590, 342);
+            this.pnlBudgetList.Location = new System.Drawing.Point(567, 333);
             this.pnlBudgetList.Name = "pnlBudgetList";
             this.pnlBudgetList.ShadowDecoration.Parent = this.pnlBudgetList;
             this.pnlBudgetList.Size = new System.Drawing.Size(854, 398);
             this.pnlBudgetList.TabIndex = 17;
             // 
+            // txtSearchBudget
+            // 
+            this.txtSearchBudget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
+            this.txtSearchBudget.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
+            this.txtSearchBudget.BorderRadius = 8;
+            this.txtSearchBudget.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchBudget.DefaultText = "";
+            this.txtSearchBudget.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchBudget.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchBudget.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBudget.DisabledState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBudget.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBudget.FocusedState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
+            this.txtSearchBudget.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
+            this.txtSearchBudget.Location = new System.Drawing.Point(618, 16);
+            this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearchBudget.Name = "txtSearchBudget";
+            this.txtSearchBudget.PasswordChar = '\0';
+            this.txtSearchBudget.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.txtSearchBudget.PlaceholderText = "Search budget name...";
+            this.txtSearchBudget.SelectedText = "";
+            this.txtSearchBudget.ShadowDecoration.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.Size = new System.Drawing.Size(220, 35);
+            this.txtSearchBudget.TabIndex = 16;
+            this.txtSearchBudget.TextOffset = new System.Drawing.Point(8, 0);
+            // 
             // dgvBudgetList
             // 
             this.dgvBudgetList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvBudgetList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvBudgetList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvBudgetList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvBudgetList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
             this.dgvBudgetList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvBudgetList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvBudgetList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBudgetList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBudgetList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvBudgetList.ColumnHeadersHeight = 38;
             this.dgvBudgetList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colBudgetName,
@@ -176,29 +171,29 @@
             this.colDateCreated,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBudgetList.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBudgetList.DefaultCellStyle = dataGridViewCellStyle16;
             this.dgvBudgetList.EnableHeadersVisualStyles = false;
-            this.dgvBudgetList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(231)))), ((int)(((byte)(201)))));
+            this.dgvBudgetList.GridColor = System.Drawing.Color.DarkGray;
             this.dgvBudgetList.Location = new System.Drawing.Point(0, 62);
             this.dgvBudgetList.Name = "dgvBudgetList";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBudgetList.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBudgetList.RowHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dgvBudgetList.RowHeadersVisible = false;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dgvBudgetList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBudgetList.Size = new System.Drawing.Size(854, 336);
             this.dgvBudgetList.TabIndex = 2;
@@ -209,7 +204,7 @@
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dgvBudgetList.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.dgvBudgetList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(231)))), ((int)(((byte)(201)))));
+            this.dgvBudgetList.ThemeStyle.GridColor = System.Drawing.Color.DarkGray;
             this.dgvBudgetList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
             this.dgvBudgetList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvBudgetList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -227,32 +222,32 @@
             // 
             // colBudgetName
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colBudgetName.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colBudgetName.DefaultCellStyle = dataGridViewCellStyle12;
             this.colBudgetName.FillWeight = 121.8274F;
             this.colBudgetName.HeaderText = "Budget Name";
             this.colBudgetName.Name = "colBudgetName";
             // 
             // colAmount
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle13;
             this.colAmount.FillWeight = 95.63452F;
             this.colAmount.HeaderText = "Amount";
             this.colAmount.Name = "colAmount";
             // 
             // colPeriod
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colPeriod.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colPeriod.DefaultCellStyle = dataGridViewCellStyle14;
             this.colPeriod.FillWeight = 95.63452F;
             this.colPeriod.HeaderText = "Period";
             this.colPeriod.Name = "colPeriod";
             // 
             // colDateCreated
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDateCreated.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDateCreated.DefaultCellStyle = dataGridViewCellStyle15;
             this.colDateCreated.FillWeight = 95.63452F;
             this.colDateCreated.HeaderText = "Date Created";
             this.colDateCreated.Name = "colDateCreated";
@@ -262,9 +257,9 @@
             this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colEdit.FillWeight = 95.63452F;
             this.colEdit.HeaderText = "Edit";
+            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.colEdit.Name = "colEdit";
-            this.colEdit.Text = "";
-            this.colEdit.UseColumnTextForButtonValue = true;
+            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colEdit.Width = 65;
             // 
             // colDelete
@@ -272,19 +267,19 @@
             this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colDelete.FillWeight = 95.63452F;
             this.colDelete.HeaderText = "Delete";
+            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.colDelete.Name = "colDelete";
-            this.colDelete.Text = "";
-            this.colDelete.UseColumnTextForButtonValue = true;
+            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colDelete.Width = 65;
             // 
             // lblBudgetList
             // 
             this.lblBudgetList.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBudgetList.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBudgetList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblBudgetList.Location = new System.Drawing.Point(398, 20);
             this.lblBudgetList.Name = "lblBudgetList";
-            this.lblBudgetList.Size = new System.Drawing.Size(95, 22);
+            this.lblBudgetList.Size = new System.Drawing.Size(95, 21);
             this.lblBudgetList.TabIndex = 1;
             this.lblBudgetList.Text = "Budget List";
             // 
@@ -300,7 +295,7 @@
             this.pnlSetBudget.Controls.Add(this.lblBudgetName);
             this.pnlSetBudget.Controls.Add(this.lblSetBudget);
             this.pnlSetBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlSetBudget.Location = new System.Drawing.Point(145, 342);
+            this.pnlSetBudget.Location = new System.Drawing.Point(122, 333);
             this.pnlSetBudget.Name = "pnlSetBudget";
             this.pnlSetBudget.ShadowDecoration.Parent = this.pnlSetBudget;
             this.pnlSetBudget.Size = new System.Drawing.Size(404, 398);
@@ -326,7 +321,7 @@
             // 
             this.lblBudgetPeriod.AutoSize = false;
             this.lblBudgetPeriod.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetPeriod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBudgetPeriod.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBudgetPeriod.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblBudgetPeriod.Location = new System.Drawing.Point(36, 223);
             this.lblBudgetPeriod.Name = "lblBudgetPeriod";
@@ -416,7 +411,7 @@
             // 
             this.lblBudgetAmount.AutoSize = false;
             this.lblBudgetAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBudgetAmount.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBudgetAmount.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblBudgetAmount.Location = new System.Drawing.Point(37, 140);
             this.lblBudgetAmount.Name = "lblBudgetAmount";
@@ -428,7 +423,7 @@
             // 
             this.lblBudgetName.AutoSize = false;
             this.lblBudgetName.BackColor = System.Drawing.Color.Transparent;
-            this.lblBudgetName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBudgetName.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBudgetName.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblBudgetName.Location = new System.Drawing.Point(38, 58);
             this.lblBudgetName.Name = "lblBudgetName";
@@ -439,45 +434,59 @@
             // lblSetBudget
             // 
             this.lblSetBudget.BackColor = System.Drawing.Color.Transparent;
-            this.lblSetBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSetBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSetBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblSetBudget.Location = new System.Drawing.Point(146, 16);
             this.lblSetBudget.Name = "lblSetBudget";
-            this.lblSetBudget.Size = new System.Drawing.Size(94, 22);
+            this.lblSetBudget.Size = new System.Drawing.Size(93, 21);
             this.lblSetBudget.TabIndex = 1;
             this.lblSetBudget.Text = "Set Budget";
             // 
             // pnlTotalBudget
             // 
+            this.pnlTotalBudget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlTotalBudget.BorderRadius = 15;
             this.pnlTotalBudget.Controls.Add(this.picBudgetIcon);
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudget_Amount);
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudget);
             this.pnlTotalBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
-            this.pnlTotalBudget.Location = new System.Drawing.Point(590, 145);
+            this.pnlTotalBudget.Location = new System.Drawing.Point(550, 142);
             this.pnlTotalBudget.Name = "pnlTotalBudget";
             this.pnlTotalBudget.ShadowDecoration.Parent = this.pnlTotalBudget;
-            this.pnlTotalBudget.Size = new System.Drawing.Size(529, 155);
+            this.pnlTotalBudget.Size = new System.Drawing.Size(414, 155);
             this.pnlTotalBudget.TabIndex = 1;
+            // 
+            // picBudgetIcon
+            // 
+            this.picBudgetIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picBudgetIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardBudget;
+            this.picBudgetIcon.Location = new System.Drawing.Point(40, 26);
+            this.picBudgetIcon.Name = "picBudgetIcon";
+            this.picBudgetIcon.ShadowDecoration.Parent = this.picBudgetIcon;
+            this.picBudgetIcon.Size = new System.Drawing.Size(103, 90);
+            this.picBudgetIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBudgetIcon.TabIndex = 0;
+            this.picBudgetIcon.TabStop = false;
             // 
             // lblTotalBudget_Amount
             // 
             this.lblTotalBudget_Amount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudget_Amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalBudget_Amount.Location = new System.Drawing.Point(201, 59);
+            this.lblTotalBudget_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalBudget_Amount.Location = new System.Drawing.Point(167, 59);
             this.lblTotalBudget_Amount.Name = "lblTotalBudget_Amount";
-            this.lblTotalBudget_Amount.Size = new System.Drawing.Size(134, 57);
+            this.lblTotalBudget_Amount.Size = new System.Drawing.Size(143, 60);
             this.lblTotalBudget_Amount.TabIndex = 1;
             this.lblTotalBudget_Amount.Text = "₱0.00";
             // 
             // lblTotalBudget
             // 
             this.lblTotalBudget.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalBudget.Location = new System.Drawing.Point(201, 26);
+            this.lblTotalBudget.Location = new System.Drawing.Point(167, 26);
             this.lblTotalBudget.Name = "lblTotalBudget";
-            this.lblTotalBudget.Size = new System.Drawing.Size(94, 22);
+            this.lblTotalBudget.Size = new System.Drawing.Size(93, 21);
             this.lblTotalBudget.TabIndex = 0;
             this.lblTotalBudget.Text = "Total Budget";
             // 
@@ -506,7 +515,7 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(1260, 746);
+            this.pnlCalcu.Location = new System.Drawing.Point(1204, 765);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
             this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
@@ -846,37 +855,19 @@
             this.guna2HtmlLabel12.Text = "Calculator";
             this.guna2HtmlLabel12.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtSearchBudget
+            // pnlBudgetHeader
             // 
-            this.txtSearchBudget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.txtSearchBudget.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
-            this.txtSearchBudget.BorderRadius = 8;
-            this.txtSearchBudget.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchBudget.DefaultText = "";
-            this.txtSearchBudget.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchBudget.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchBudget.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBudget.DisabledState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBudget.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBudget.FocusedState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
-            this.txtSearchBudget.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
-            this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchBudget.Location = new System.Drawing.Point(618, 16);
-            this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtSearchBudget.Name = "txtSearchBudget";
-            this.txtSearchBudget.PasswordChar = '\0';
-            this.txtSearchBudget.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.txtSearchBudget.PlaceholderText = "Search budget name...";
-            this.txtSearchBudget.SelectedText = "";
-            this.txtSearchBudget.ShadowDecoration.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.Size = new System.Drawing.Size(220, 35);
-            this.txtSearchBudget.TabIndex = 16;
-            this.txtSearchBudget.TextOffset = new System.Drawing.Point(8, 0);
+            this.pnlBudgetHeader.AutoSize = true;
+            this.pnlBudgetHeader.Controls.Add(this.guna2Button1);
+            this.pnlBudgetHeader.Controls.Add(this.picNotificationBadge);
+            this.pnlBudgetHeader.Controls.Add(this.btnNotificaton);
+            this.pnlBudgetHeader.Controls.Add(this.guna2HtmlLabel3);
+            this.pnlBudgetHeader.Controls.Add(this.guna2HtmlLabel2);
+            this.pnlBudgetHeader.Location = new System.Drawing.Point(43, 10);
+            this.pnlBudgetHeader.Name = "pnlBudgetHeader";
+            this.pnlBudgetHeader.ShadowDecoration.Parent = this.pnlBudgetHeader;
+            this.pnlBudgetHeader.Size = new System.Drawing.Size(1547, 110);
+            this.pnlBudgetHeader.TabIndex = 21;
             // 
             // guna2Button1
             // 
@@ -887,22 +878,22 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(1526, 19);
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(1497, 18);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(32, 28);
-            this.guna2Button1.TabIndex = 2;
+            this.guna2Button1.Size = new System.Drawing.Size(42, 48);
+            this.guna2Button1.TabIndex = 20;
             // 
             // picNotificationBadge
             // 
             this.picNotificationBadge.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.picNotificationBadge.Location = new System.Drawing.Point(1502, 20);
+            this.picNotificationBadge.Location = new System.Drawing.Point(1471, 21);
             this.picNotificationBadge.Name = "picNotificationBadge";
             this.picNotificationBadge.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.picNotificationBadge.ShadowDecoration.Parent = this.picNotificationBadge;
             this.picNotificationBadge.Size = new System.Drawing.Size(10, 10);
-            this.picNotificationBadge.TabIndex = 1;
+            this.picNotificationBadge.TabIndex = 19;
             this.picNotificationBadge.TabStop = false;
             // 
             // btnNotificaton
@@ -914,12 +905,34 @@
             this.btnNotificaton.ForeColor = System.Drawing.Color.White;
             this.btnNotificaton.HoverState.Parent = this.btnNotificaton;
             this.btnNotificaton.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
-            this.btnNotificaton.ImageSize = new System.Drawing.Size(22, 22);
-            this.btnNotificaton.Location = new System.Drawing.Point(1484, 22);
+            this.btnNotificaton.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnNotificaton.Location = new System.Drawing.Point(1441, 21);
             this.btnNotificaton.Name = "btnNotificaton";
             this.btnNotificaton.ShadowDecoration.Parent = this.btnNotificaton;
-            this.btnNotificaton.Size = new System.Drawing.Size(26, 28);
-            this.btnNotificaton.TabIndex = 1;
+            this.btnNotificaton.Size = new System.Drawing.Size(35, 44);
+            this.btnNotificaton.TabIndex = 18;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 64);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(259, 25);
+            this.guna2HtmlLabel3.TabIndex = 17;
+            this.guna2HtmlLabel3.Text = "Set and manage your budgets";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(14, 23);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 37);
+            this.guna2HtmlLabel2.TabIndex = 15;
+            this.guna2HtmlLabel2.Text = "Budget";
             // 
             // btnCalculator
             // 
@@ -931,39 +944,26 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.White;
             this.btnCalculator.HoverState.Parent = this.btnCalculator;
             this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1570, 878);
+            this.btnCalculator.Location = new System.Drawing.Point(1530, 905);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
             this.btnCalculator.Size = new System.Drawing.Size(60, 60);
-            this.btnCalculator.TabIndex = 9;
-            // 
-            // picBudgetIcon
-            // 
-            this.picBudgetIcon.BackColor = System.Drawing.Color.Transparent;
-            this.picBudgetIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardBudget;
-            this.picBudgetIcon.Location = new System.Drawing.Point(80, 26);
-            this.picBudgetIcon.Name = "picBudgetIcon";
-            this.picBudgetIcon.ShadowDecoration.Parent = this.picBudgetIcon;
-            this.picBudgetIcon.Size = new System.Drawing.Size(103, 90);
-            this.picBudgetIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBudgetIcon.TabIndex = 0;
-            this.picBudgetIcon.TabStop = false;
+            this.btnCalculator.TabIndex = 22;
             // 
             // ucBudget
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
+            this.Controls.Add(this.btnCalculator);
+            this.Controls.Add(this.pnlBudgetHeader);
             this.Controls.Add(this.pnlCalcu);
             this.Controls.Add(this.pnlBudgetList);
-            this.Controls.Add(this.pnlBudgetHeader);
-            this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.pnlTotalBudget);
             this.Controls.Add(this.pnlSetBudget);
             this.Name = "ucBudget";
-            this.Size = new System.Drawing.Size(1681, 1011);
-            this.pnlBudgetHeader.ResumeLayout(false);
-            this.pnlBudgetHeader.PerformLayout();
+            this.Size = new System.Drawing.Size(1652, 1041);
             this.pnlBudgetList.ResumeLayout(false);
             this.pnlBudgetList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBudgetList)).EndInit();
@@ -971,32 +971,21 @@
             this.pnlSetBudget.PerformLayout();
             this.pnlTotalBudget.ResumeLayout(false);
             this.pnlTotalBudget.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).EndInit();
             this.pnlCalcu.ResumeLayout(false);
             this.pnlCalcuHeader.ResumeLayout(false);
             this.pnlCalcuHeader.PerformLayout();
+            this.pnlBudgetHeader.ResumeLayout(false);
+            this.pnlBudgetHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Panel pnlBudgetHeader;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
-        private Guna.UI2.WinForms.Guna2Button btnNotificaton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblBudgetitle;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblBudgetDescription;
         private Guna.UI2.WinForms.Guna2Panel pnlBudgetList;
         private Guna.UI2.WinForms.Guna2DataGridView dgvBudgetList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colBudgetName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPeriod;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDateCreated;
-        private System.Windows.Forms.DataGridViewButtonColumn colEdit;
-        private System.Windows.Forms.DataGridViewButtonColumn colDelete;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBudgetList;
         private Guna.UI2.WinForms.Guna2Panel pnlSetBudget;
         private Guna.UI2.WinForms.Guna2Button btnSaveBudget;
@@ -1006,7 +995,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBudgetAmount;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBudgetName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSetBudget;
-        private Guna.UI2.WinForms.Guna2Button btnCalculator;
         private Guna.UI2.WinForms.Guna2Panel pnlTotalBudget;
         private Guna.UI2.WinForms.Guna2PictureBox picBudgetIcon;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalBudget_Amount;
@@ -1036,5 +1024,18 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2TextBox txtBudgetName;
         private Guna.UI2.WinForms.Guna2TextBox txtSearchBudget;
+        private Guna.UI2.WinForms.Guna2Panel pnlBudgetHeader;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colBudgetName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPeriod;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDateCreated;
+        private System.Windows.Forms.DataGridViewImageColumn colEdit;
+        private System.Windows.Forms.DataGridViewImageColumn colDelete;
+        private Guna.UI2.WinForms.Guna2Button btnNotificaton;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnCalculator;
     }
 }

@@ -60,7 +60,7 @@
             this.pnlSidebarIncome.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarIncome.Name = "pnlSidebarIncome";
             this.pnlSidebarIncome.ShadowDecoration.Parent = this.pnlSidebarIncome;
-            this.pnlSidebarIncome.Size = new System.Drawing.Size(252, 915);
+            this.pnlSidebarIncome.Size = new System.Drawing.Size(252, 1041);
             this.pnlSidebarIncome.TabIndex = 21;
             // 
             // btnLogOut
@@ -177,7 +177,6 @@
             this.btnIncome.TabIndex = 4;
             this.btnIncome.Text = "Income";
             this.btnIncome.TextOffset = new System.Drawing.Point(15, 0);
-            this.btnIncome.Click += new System.EventHandler(this.btnIncome_Click);
             // 
             // btnBudget
             // 
@@ -239,25 +238,28 @@
             // 
             // pnlMainContentIncome
             // 
+            this.pnlMainContentIncome.AutoScroll = true;
+            this.pnlMainContentIncome.AutoSize = true;
             this.pnlMainContentIncome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.pnlMainContentIncome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainContentIncome.Location = new System.Drawing.Point(252, 0);
             this.pnlMainContentIncome.Name = "pnlMainContentIncome";
             this.pnlMainContentIncome.Padding = new System.Windows.Forms.Padding(20);
             this.pnlMainContentIncome.ShadowDecoration.Parent = this.pnlMainContentIncome;
-            this.pnlMainContentIncome.Size = new System.Drawing.Size(1631, 915);
+            this.pnlMainContentIncome.Size = new System.Drawing.Size(1652, 1041);
             this.pnlMainContentIncome.TabIndex = 22;
             // 
             // frmIncome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1883, 915);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.pnlMainContentIncome);
             this.Controls.Add(this.pnlSidebarIncome);
             this.Name = "frmIncome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlSidebarIncome.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).EndInit();
             this.ResumeLayout(false);

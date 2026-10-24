@@ -165,22 +165,22 @@
             // lblChangePassDescription
             // 
             this.lblChangePassDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblChangePassDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChangePassDescription.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChangePassDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.lblChangePassDescription.Location = new System.Drawing.Point(25, 62);
             this.lblChangePassDescription.Name = "lblChangePassDescription";
-            this.lblChangePassDescription.Size = new System.Drawing.Size(176, 20);
+            this.lblChangePassDescription.Size = new System.Drawing.Size(174, 20);
             this.lblChangePassDescription.TabIndex = 20;
             this.lblChangePassDescription.Text = "Keep your account secure";
             // 
             // lblChangePasswordtitle
             // 
             this.lblChangePasswordtitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblChangePasswordtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChangePasswordtitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChangePasswordtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblChangePasswordtitle.Location = new System.Drawing.Point(25, 21);
             this.lblChangePasswordtitle.Name = "lblChangePasswordtitle";
-            this.lblChangePasswordtitle.Size = new System.Drawing.Size(255, 35);
+            this.lblChangePasswordtitle.Size = new System.Drawing.Size(262, 37);
             this.lblChangePasswordtitle.TabIndex = 19;
             this.lblChangePasswordtitle.Text = "Change Password";
             // 

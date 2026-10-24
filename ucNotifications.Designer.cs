@@ -31,11 +31,11 @@
             this.pnlNotifications = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlEnableNotifications = new Guna.UI2.WinForms.Guna2Panel();
             this.NotificationsToggleSwitch = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.picEnableNotifications = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblEnableNotifDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblEnableNotifications = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblNotificationsDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblNotificationstitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.picEnableNotifications = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlNotifications.SuspendLayout();
             this.pnlEnableNotifications.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picEnableNotifications)).BeginInit();
@@ -92,6 +92,18 @@
             this.NotificationsToggleSwitch.UncheckedState.InnerColor = System.Drawing.Color.White;
             this.NotificationsToggleSwitch.UncheckedState.Parent = this.NotificationsToggleSwitch;
             // 
+            // picEnableNotifications
+            // 
+            this.picEnableNotifications.BackColor = System.Drawing.Color.Transparent;
+            this.picEnableNotifications.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
+            this.picEnableNotifications.Location = new System.Drawing.Point(19, 5);
+            this.picEnableNotifications.Name = "picEnableNotifications";
+            this.picEnableNotifications.ShadowDecoration.Parent = this.picEnableNotifications;
+            this.picEnableNotifications.Size = new System.Drawing.Size(70, 96);
+            this.picEnableNotifications.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picEnableNotifications.TabIndex = 22;
+            this.picEnableNotifications.TabStop = false;
+            // 
             // lblEnableNotifDescription
             // 
             this.lblEnableNotifDescription.BackColor = System.Drawing.Color.Transparent;
@@ -117,7 +129,7 @@
             // lblNotificationsDescription
             // 
             this.lblNotificationsDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotificationsDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotificationsDescription.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotificationsDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.lblNotificationsDescription.Location = new System.Drawing.Point(25, 62);
             this.lblNotificationsDescription.Name = "lblNotificationsDescription";
@@ -128,25 +140,13 @@
             // lblNotificationstitle
             // 
             this.lblNotificationstitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotificationstitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotificationstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblNotificationstitle.Location = new System.Drawing.Point(25, 21);
             this.lblNotificationstitle.Name = "lblNotificationstitle";
-            this.lblNotificationstitle.Size = new System.Drawing.Size(176, 35);
+            this.lblNotificationstitle.Size = new System.Drawing.Size(189, 37);
             this.lblNotificationstitle.TabIndex = 19;
             this.lblNotificationstitle.Text = "Notifications";
-            // 
-            // picEnableNotifications
-            // 
-            this.picEnableNotifications.BackColor = System.Drawing.Color.Transparent;
-            this.picEnableNotifications.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
-            this.picEnableNotifications.Location = new System.Drawing.Point(19, 10);
-            this.picEnableNotifications.Name = "picEnableNotifications";
-            this.picEnableNotifications.ShadowDecoration.Parent = this.picEnableNotifications;
-            this.picEnableNotifications.Size = new System.Drawing.Size(70, 96);
-            this.picEnableNotifications.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picEnableNotifications.TabIndex = 22;
-            this.picEnableNotifications.TabStop = false;
             // 
             // ucNotifications
             // 

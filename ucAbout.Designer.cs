@@ -95,22 +95,22 @@
             // lblNotificationsDescription
             // 
             this.lblNotificationsDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotificationsDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotificationsDescription.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotificationsDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.lblNotificationsDescription.Location = new System.Drawing.Point(25, 62);
             this.lblNotificationsDescription.Name = "lblNotificationsDescription";
-            this.lblNotificationsDescription.Size = new System.Drawing.Size(215, 20);
+            this.lblNotificationsDescription.Size = new System.Drawing.Size(217, 20);
             this.lblNotificationsDescription.TabIndex = 20;
             this.lblNotificationsDescription.Text = "Learn more about Budget Buddy";
             // 
             // lblNotificationstitle
             // 
             this.lblNotificationstitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotificationstitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotificationstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblNotificationstitle.Location = new System.Drawing.Point(25, 21);
             this.lblNotificationstitle.Name = "lblNotificationstitle";
-            this.lblNotificationstitle.Size = new System.Drawing.Size(83, 35);
+            this.lblNotificationstitle.Size = new System.Drawing.Size(90, 37);
             this.lblNotificationstitle.TabIndex = 19;
             this.lblNotificationstitle.Text = "About";
             // 

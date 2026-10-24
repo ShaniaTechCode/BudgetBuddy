@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pnlSidebarDashboard = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlMainContent = new Guna.UI2.WinForms.Guna2Panel();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnAnalytics = new Guna.UI2.WinForms.Guna2Button();
@@ -40,6 +39,7 @@
             this.btnBudget = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.sidebarLogo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlMainContent = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSidebarDashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).BeginInit();
             this.SuspendLayout();
@@ -61,17 +61,8 @@
             this.pnlSidebarDashboard.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarDashboard.Name = "pnlSidebarDashboard";
             this.pnlSidebarDashboard.ShadowDecoration.Parent = this.pnlSidebarDashboard;
-            this.pnlSidebarDashboard.Size = new System.Drawing.Size(252, 915);
+            this.pnlSidebarDashboard.Size = new System.Drawing.Size(252, 1041);
             this.pnlSidebarDashboard.TabIndex = 5;
-            // 
-            // pnlMainContent
-            // 
-            this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMainContent.Location = new System.Drawing.Point(252, 0);
-            this.pnlMainContent.Name = "pnlMainContent";
-            this.pnlMainContent.ShadowDecoration.Parent = this.pnlMainContent;
-            this.pnlMainContent.Size = new System.Drawing.Size(1631, 915);
-            this.pnlMainContent.TabIndex = 6;
             // 
             // btnLogOut
             // 
@@ -118,6 +109,7 @@
             this.btnSettings.TabIndex = 8;
             this.btnSettings.Text = "Settings";
             this.btnSettings.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // btnAnalytics
             // 
@@ -141,6 +133,7 @@
             this.btnAnalytics.TabIndex = 6;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
             // 
             // btnExpenses
             // 
@@ -164,6 +157,7 @@
             this.btnExpenses.TabIndex = 5;
             this.btnExpenses.Text = "Expenses";
             this.btnExpenses.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnExpenses.Click += new System.EventHandler(this.btnExpenses_Click);
             // 
             // btnIncome
             // 
@@ -187,6 +181,7 @@
             this.btnIncome.TabIndex = 4;
             this.btnIncome.Text = "Income";
             this.btnIncome.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnIncome.Click += new System.EventHandler(this.btnIncome_Click);
             // 
             // btnBudget
             // 
@@ -210,6 +205,7 @@
             this.btnBudget.TabIndex = 3;
             this.btnBudget.Text = "Budget";
             this.btnBudget.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnBudget.Click += new System.EventHandler(this.btnBudget_Click);
             // 
             // btnDashboard
             // 
@@ -247,17 +243,27 @@
             this.sidebarLogo.TabIndex = 1;
             this.sidebarLogo.TabStop = false;
             // 
+            // pnlMainContent
+            // 
+            this.pnlMainContent.AutoScroll = true;
+            this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMainContent.Location = new System.Drawing.Point(252, 0);
+            this.pnlMainContent.Name = "pnlMainContent";
+            this.pnlMainContent.ShadowDecoration.Parent = this.pnlMainContent;
+            this.pnlMainContent.Size = new System.Drawing.Size(1652, 1041);
+            this.pnlMainContent.TabIndex = 6;
+            // 
             // frmDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1883, 915);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.pnlMainContent);
             this.Controls.Add(this.pnlSidebarDashboard);
             this.Name = "frmDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.frmDashboard_Load);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlSidebarDashboard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).EndInit();
             this.ResumeLayout(false);

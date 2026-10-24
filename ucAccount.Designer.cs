@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.pnlAccountInformation = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.lblAccountDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblAccounttitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtBoxUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblUsername = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtBoxEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnLogIn = new Guna.UI2.WinForms.Guna2Button();
             this.lblPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.txtBoxUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtBoxEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtBoxFullName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlAccountInformation.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +70,20 @@
             this.pnlAccountInformation.Size = new System.Drawing.Size(799, 547);
             this.pnlAccountInformation.TabIndex = 19;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.White;
+            this.guna2PictureBox1.BorderRadius = 100;
+            this.guna2PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.guna2PictureBox1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(60, 114);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(220, 220);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 24;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // guna2Button2
             // 
             this.guna2Button2.BorderRadius = 15;
@@ -85,91 +99,6 @@
             this.guna2Button2.Size = new System.Drawing.Size(195, 45);
             this.guna2Button2.TabIndex = 23;
             this.guna2Button2.Text = "EDIT";
-            // 
-            // lblAccountDescription
-            // 
-            this.lblAccountDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblAccountDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccountDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.lblAccountDescription.Location = new System.Drawing.Point(25, 62);
-            this.lblAccountDescription.Name = "lblAccountDescription";
-            this.lblAccountDescription.Size = new System.Drawing.Size(222, 20);
-            this.lblAccountDescription.TabIndex = 20;
-            this.lblAccountDescription.Text = "Update your personal information";
-            // 
-            // lblAccounttitle
-            // 
-            this.lblAccounttitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblAccounttitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccounttitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblAccounttitle.Location = new System.Drawing.Point(25, 21);
-            this.lblAccounttitle.Name = "lblAccounttitle";
-            this.lblAccounttitle.Size = new System.Drawing.Size(281, 35);
-            this.lblAccounttitle.TabIndex = 19;
-            this.lblAccounttitle.Text = "Account Information";
-            // 
-            // lblUsername
-            // 
-            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUsername.Location = new System.Drawing.Point(334, 291);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(80, 20);
-            this.lblUsername.TabIndex = 14;
-            this.lblUsername.Text = "Username";
-            // 
-            // btnLogIn
-            // 
-            this.btnLogIn.BorderRadius = 15;
-            this.btnLogIn.CheckedState.Parent = this.btnLogIn;
-            this.btnLogIn.CustomImages.Parent = this.btnLogIn;
-            this.btnLogIn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogIn.ForeColor = System.Drawing.Color.White;
-            this.btnLogIn.HoverState.Parent = this.btnLogIn;
-            this.btnLogIn.Location = new System.Drawing.Point(552, 384);
-            this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.ShadowDecoration.Parent = this.btnLogIn;
-            this.btnLogIn.Size = new System.Drawing.Size(195, 45);
-            this.btnLogIn.TabIndex = 7;
-            this.btnLogIn.Text = "SAVE CHANGES";
-            // 
-            // lblPass
-            // 
-            this.lblPass.BackColor = System.Drawing.Color.Transparent;
-            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPass.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblPass.Location = new System.Drawing.Point(334, 203);
-            this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(183, 20);
-            this.lblPass.TabIndex = 4;
-            this.lblPass.Text = "Email or Phone Number";
-            // 
-            // lblEmail_PhoneNumber
-            // 
-            this.lblEmail_PhoneNumber.BackColor = System.Drawing.Color.Transparent;
-            this.lblEmail_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail_PhoneNumber.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblEmail_PhoneNumber.Location = new System.Drawing.Point(334, 114);
-            this.lblEmail_PhoneNumber.Name = "lblEmail_PhoneNumber";
-            this.lblEmail_PhoneNumber.Size = new System.Drawing.Size(79, 20);
-            this.lblEmail_PhoneNumber.TabIndex = 2;
-            this.lblEmail_PhoneNumber.Text = "Full Name";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.White;
-            this.guna2PictureBox1.BorderRadius = 100;
-            this.guna2PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.guna2PictureBox1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(60, 114);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(220, 220);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 24;
-            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2Button1
             // 
@@ -189,6 +118,28 @@
             this.guna2Button1.TabIndex = 22;
             this.guna2Button1.Text = "CHANGE PHOTO";
             this.guna2Button1.TextOffset = new System.Drawing.Point(3, 0);
+            // 
+            // lblAccountDescription
+            // 
+            this.lblAccountDescription.BackColor = System.Drawing.Color.Transparent;
+            this.lblAccountDescription.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccountDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.lblAccountDescription.Location = new System.Drawing.Point(25, 62);
+            this.lblAccountDescription.Name = "lblAccountDescription";
+            this.lblAccountDescription.Size = new System.Drawing.Size(220, 20);
+            this.lblAccountDescription.TabIndex = 20;
+            this.lblAccountDescription.Text = "Update your personal information";
+            // 
+            // lblAccounttitle
+            // 
+            this.lblAccounttitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblAccounttitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccounttitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.lblAccounttitle.Location = new System.Drawing.Point(25, 21);
+            this.lblAccounttitle.Name = "lblAccounttitle";
+            this.lblAccounttitle.Size = new System.Drawing.Size(308, 37);
+            this.lblAccounttitle.TabIndex = 19;
+            this.lblAccounttitle.Text = "Account Information";
             // 
             // txtBoxUsername
             // 
@@ -222,6 +173,17 @@
             this.txtBoxUsername.TabIndex = 15;
             this.txtBoxUsername.TextOffset = new System.Drawing.Point(8, 0);
             // 
+            // lblUsername
+            // 
+            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblUsername.Location = new System.Drawing.Point(334, 291);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(80, 20);
+            this.lblUsername.TabIndex = 14;
+            this.lblUsername.Text = "Username";
+            // 
             // txtBoxEmail_PhoneNumber
             // 
             this.txtBoxEmail_PhoneNumber.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
@@ -254,6 +216,33 @@
             this.txtBoxEmail_PhoneNumber.TabIndex = 13;
             this.txtBoxEmail_PhoneNumber.TextOffset = new System.Drawing.Point(8, 0);
             // 
+            // btnLogIn
+            // 
+            this.btnLogIn.BorderRadius = 15;
+            this.btnLogIn.CheckedState.Parent = this.btnLogIn;
+            this.btnLogIn.CustomImages.Parent = this.btnLogIn;
+            this.btnLogIn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogIn.ForeColor = System.Drawing.Color.White;
+            this.btnLogIn.HoverState.Parent = this.btnLogIn;
+            this.btnLogIn.Location = new System.Drawing.Point(552, 384);
+            this.btnLogIn.Name = "btnLogIn";
+            this.btnLogIn.ShadowDecoration.Parent = this.btnLogIn;
+            this.btnLogIn.Size = new System.Drawing.Size(195, 45);
+            this.btnLogIn.TabIndex = 7;
+            this.btnLogIn.Text = "SAVE CHANGES";
+            // 
+            // lblPass
+            // 
+            this.lblPass.BackColor = System.Drawing.Color.Transparent;
+            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblPass.Location = new System.Drawing.Point(334, 203);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(183, 20);
+            this.lblPass.TabIndex = 4;
+            this.lblPass.Text = "Email or Phone Number";
+            // 
             // txtBoxFullName
             // 
             this.txtBoxFullName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
@@ -285,6 +274,17 @@
             this.txtBoxFullName.Size = new System.Drawing.Size(413, 45);
             this.txtBoxFullName.TabIndex = 3;
             this.txtBoxFullName.TextOffset = new System.Drawing.Point(8, 0);
+            // 
+            // lblEmail_PhoneNumber
+            // 
+            this.lblEmail_PhoneNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lblEmail_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail_PhoneNumber.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblEmail_PhoneNumber.Location = new System.Drawing.Point(334, 114);
+            this.lblEmail_PhoneNumber.Name = "lblEmail_PhoneNumber";
+            this.lblEmail_PhoneNumber.Size = new System.Drawing.Size(79, 20);
+            this.lblEmail_PhoneNumber.TabIndex = 2;
+            this.lblEmail_PhoneNumber.Text = "Full Name";
             // 
             // ucAccount
             // 

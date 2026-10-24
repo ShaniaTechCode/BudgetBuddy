@@ -15,15 +15,6 @@ namespace BudgetBuddy
         public ucBudget()
         {
             InitializeComponent();
-
-
-            // Sample output
-            dgvBudgetList.Rows.Add(
-                "Food Budget",
-                "2,000.00",
-                "Monthly",
-                "Sept 27, 2026"
-                );
         }
     }
 }

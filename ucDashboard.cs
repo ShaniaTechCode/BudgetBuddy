@@ -16,25 +16,5 @@ namespace BudgetBuddy
         {
             InitializeComponent();
         }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pnlRecentTransactions_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lblRecentTransactions_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

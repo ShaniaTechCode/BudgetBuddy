@@ -35,24 +35,26 @@
             // 
             // picLogo
             // 
+            this.picLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picLogo.Image = global::BudgetBuddy.Properties.Resources.LOGO;
-            this.picLogo.Location = new System.Drawing.Point(90, 37);
+            this.picLogo.Location = new System.Drawing.Point(62, 20);
             this.picLogo.Name = "picLogo";
             this.picLogo.ShadowDecoration.Parent = this.picLogo;
-            this.picLogo.Size = new System.Drawing.Size(514, 407);
+            this.picLogo.Size = new System.Drawing.Size(455, 359);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 1;
+            this.picLogo.TabIndex = 11;
             this.picLogo.TabStop = false;
             // 
             // lblTagline
             // 
+            this.lblTagline.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblTagline.BackColor = System.Drawing.Color.Transparent;
             this.lblTagline.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTagline.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblTagline.Location = new System.Drawing.Point(141, 464);
+            this.lblTagline.Location = new System.Drawing.Point(101, 397);
             this.lblTagline.Name = "lblTagline";
             this.lblTagline.Size = new System.Drawing.Size(367, 33);
-            this.lblTagline.TabIndex = 4;
+            this.lblTagline.TabIndex = 12;
             this.lblTagline.Text = "Spend Smart, Budget Better";
             // 
             // ucBranding
@@ -63,7 +65,7 @@
             this.Controls.Add(this.lblTagline);
             this.Controls.Add(this.picLogo);
             this.Name = "ucBranding";
-            this.Size = new System.Drawing.Size(690, 519);
+            this.Size = new System.Drawing.Size(583, 489);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

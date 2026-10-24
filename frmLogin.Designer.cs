@@ -50,6 +50,7 @@
             // 
             // pnlLogInForm
             // 
+            this.pnlLogInForm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlLogInForm.BorderColor = System.Drawing.Color.SeaGreen;
             this.pnlLogInForm.BorderRadius = 20;
             this.pnlLogInForm.BorderThickness = 2;
@@ -67,10 +68,10 @@
             this.pnlLogInForm.Controls.Add(this.lblLoginToContinue);
             this.pnlLogInForm.Controls.Add(this.lblWelcomeBack);
             this.pnlLogInForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(241)))));
-            this.pnlLogInForm.Location = new System.Drawing.Point(959, 201);
+            this.pnlLogInForm.Location = new System.Drawing.Point(937, 222);
             this.pnlLogInForm.Name = "pnlLogInForm";
             this.pnlLogInForm.ShadowDecoration.Parent = this.pnlLogInForm;
-            this.pnlLogInForm.Size = new System.Drawing.Size(499, 500);
+            this.pnlLogInForm.Size = new System.Drawing.Size(471, 509);
             this.pnlLogInForm.TabIndex = 12;
             // 
             // lblCreateAccount
@@ -252,12 +253,13 @@
             this.lblLoginToContinue.TabIndex = 1;
             this.lblLoginToContinue.Text = "Log in to continue to your account.";
             this.lblLoginToContinue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLoginToContinue.Click += new System.EventHandler(this.lblLoginToContinue_Click);
             // 
             // lblWelcomeBack
             // 
             this.lblWelcomeBack.AutoSize = false;
             this.lblWelcomeBack.BackColor = System.Drawing.Color.Transparent;
-            this.lblWelcomeBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcomeBack.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcomeBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblWelcomeBack.Location = new System.Drawing.Point(67, 20);
             this.lblWelcomeBack.Name = "lblWelcomeBack";
@@ -272,38 +274,40 @@
             this.ucSideDesignLeft1.Dock = System.Windows.Forms.DockStyle.Left;
             this.ucSideDesignLeft1.Location = new System.Drawing.Point(0, 0);
             this.ucSideDesignLeft1.Name = "ucSideDesignLeft1";
-            this.ucSideDesignLeft1.Size = new System.Drawing.Size(208, 915);
+            this.ucSideDesignLeft1.Size = new System.Drawing.Size(205, 1041);
             this.ucSideDesignLeft1.TabIndex = 13;
             // 
             // ucSideDesignRight1
             // 
             this.ucSideDesignRight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ucSideDesignRight1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucSideDesignRight1.Location = new System.Drawing.Point(1626, 603);
+            this.ucSideDesignRight1.Location = new System.Drawing.Point(1663, 729);
             this.ucSideDesignRight1.Name = "ucSideDesignRight1";
-            this.ucSideDesignRight1.Size = new System.Drawing.Size(257, 312);
+            this.ucSideDesignRight1.Size = new System.Drawing.Size(241, 312);
             this.ucSideDesignRight1.TabIndex = 16;
             // 
             // ucBranding1
             // 
+            this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucBranding1.Location = new System.Drawing.Point(258, 166);
+            this.ucBranding1.Location = new System.Drawing.Point(363, 251);
             this.ucBranding1.Name = "ucBranding1";
-            this.ucBranding1.Size = new System.Drawing.Size(645, 519);
+            this.ucBranding1.Size = new System.Drawing.Size(554, 442);
             this.ucBranding1.TabIndex = 17;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1883, 915);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.ucBranding1);
-            this.Controls.Add(this.ucSideDesignRight1);
             this.Controls.Add(this.ucSideDesignLeft1);
             this.Controls.Add(this.pnlLogInForm);
+            this.Controls.Add(this.ucSideDesignRight1);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.pnlLogInForm.ResumeLayout(false);
             this.pnlLogInForm.PerformLayout();

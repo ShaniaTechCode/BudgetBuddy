@@ -173,6 +173,12 @@
     <Compile Include="ucPassword.Designer.cs">
       <DependentUpon>ucPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSettings.Designer.cs">
+      <DependentUpon>ucSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucSettingsHeader.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -253,6 +259,9 @@
     <EmbeddedResource Include="ucPassword.resx">
       <DependentUpon>ucPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucSettings.resx">
+      <DependentUpon>ucSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucSettingsHeader.resx">
       <DependentUpon>ucSettingsHeader.cs</DependentUpon>
     </EmbeddedResource>
@@ -322,6 +331,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\brandingLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

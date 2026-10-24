@@ -161,10 +161,10 @@
             this.pnlDashboardHeader.Controls.Add(this.guna2PictureBox1);
             this.pnlDashboardHeader.Controls.Add(this.lblWelcome);
             this.pnlDashboardHeader.Controls.Add(this.lblDashboardTitle);
-            this.pnlDashboardHeader.Location = new System.Drawing.Point(53, 17);
+            this.pnlDashboardHeader.Location = new System.Drawing.Point(39, 10);
             this.pnlDashboardHeader.Name = "pnlDashboardHeader";
             this.pnlDashboardHeader.ShadowDecoration.Parent = this.pnlDashboardHeader;
-            this.pnlDashboardHeader.Size = new System.Drawing.Size(1571, 186);
+            this.pnlDashboardHeader.Size = new System.Drawing.Size(1547, 196);
             this.pnlDashboardHeader.TabIndex = 1;
             // 
             // guna2Button1
@@ -176,17 +176,17 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(1526, 28);
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(1497, 18);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(32, 28);
+            this.guna2Button1.Size = new System.Drawing.Size(42, 48);
             this.guna2Button1.TabIndex = 2;
             // 
             // picNotificationBadge
             // 
             this.picNotificationBadge.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.picNotificationBadge.Location = new System.Drawing.Point(1502, 25);
+            this.picNotificationBadge.Location = new System.Drawing.Point(1471, 21);
             this.picNotificationBadge.Name = "picNotificationBadge";
             this.picNotificationBadge.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.picNotificationBadge.ShadowDecoration.Parent = this.picNotificationBadge;
@@ -203,21 +203,21 @@
             this.btnNotificaton.ForeColor = System.Drawing.Color.White;
             this.btnNotificaton.HoverState.Parent = this.btnNotificaton;
             this.btnNotificaton.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
-            this.btnNotificaton.ImageSize = new System.Drawing.Size(22, 22);
-            this.btnNotificaton.Location = new System.Drawing.Point(1484, 28);
+            this.btnNotificaton.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnNotificaton.Location = new System.Drawing.Point(1441, 21);
             this.btnNotificaton.Name = "btnNotificaton";
             this.btnNotificaton.ShadowDecoration.Parent = this.btnNotificaton;
-            this.btnNotificaton.Size = new System.Drawing.Size(26, 28);
+            this.btnNotificaton.Size = new System.Drawing.Size(35, 44);
             this.btnNotificaton.TabIndex = 1;
             // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::BudgetBuddy.Properties.Resources.owlLogo;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(192, -54);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(252, -54);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(212, 237);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(251, 247);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 3;
             this.guna2PictureBox2.TabStop = false;
@@ -226,7 +226,7 @@
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::BudgetBuddy.Properties.Resources.wave;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(158, 63);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(194, 67);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
             this.guna2PictureBox1.Size = new System.Drawing.Size(30, 20);
@@ -237,22 +237,22 @@
             // lblWelcome
             // 
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
-            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.lblWelcome.Location = new System.Drawing.Point(14, 64);
+            this.lblWelcome.Location = new System.Drawing.Point(12, 63);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(146, 20);
+            this.lblWelcome.Size = new System.Drawing.Size(179, 25);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = "Welcome back, User!";
             // 
             // lblDashboardTitle
             // 
             this.lblDashboardTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblDashboardTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardTitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDashboardTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblDashboardTitle.Location = new System.Drawing.Point(11, 21);
             this.lblDashboardTitle.Name = "lblDashboardTitle";
-            this.lblDashboardTitle.Size = new System.Drawing.Size(154, 35);
+            this.lblDashboardTitle.Size = new System.Drawing.Size(160, 37);
             this.lblDashboardTitle.TabIndex = 0;
             this.lblDashboardTitle.Text = "Dashboard";
             // 
@@ -263,7 +263,7 @@
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudgetAmount);
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudget);
             this.pnlTotalBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
-            this.pnlTotalBudget.Location = new System.Drawing.Point(53, 232);
+            this.pnlTotalBudget.Location = new System.Drawing.Point(39, 232);
             this.pnlTotalBudget.Name = "pnlTotalBudget";
             this.pnlTotalBudget.ShadowDecoration.Parent = this.pnlTotalBudget;
             this.pnlTotalBudget.Size = new System.Drawing.Size(346, 145);
@@ -284,21 +284,21 @@
             // lblTotalBudgetAmount
             // 
             this.lblTotalBudgetAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudgetAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold);
+            this.lblTotalBudgetAmount.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalBudgetAmount.Location = new System.Drawing.Point(100, 47);
             this.lblTotalBudgetAmount.Name = "lblTotalBudgetAmount";
-            this.lblTotalBudgetAmount.Size = new System.Drawing.Size(102, 42);
+            this.lblTotalBudgetAmount.Size = new System.Drawing.Size(107, 45);
             this.lblTotalBudgetAmount.TabIndex = 1;
             this.lblTotalBudgetAmount.Text = "₱0.00";
             // 
             // lblTotalBudget
             // 
             this.lblTotalBudget.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblTotalBudget.Location = new System.Drawing.Point(100, 16);
             this.lblTotalBudget.Name = "lblTotalBudget";
-            this.lblTotalBudget.Size = new System.Drawing.Size(94, 22);
+            this.lblTotalBudget.Size = new System.Drawing.Size(93, 21);
             this.lblTotalBudget.TabIndex = 0;
             this.lblTotalBudget.Text = "Total Budget";
             // 
@@ -309,7 +309,7 @@
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncomeAmount);
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncome);
             this.pnlTotalIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
-            this.pnlTotalIncome.Location = new System.Drawing.Point(465, 232);
+            this.pnlTotalIncome.Location = new System.Drawing.Point(448, 232);
             this.pnlTotalIncome.Name = "pnlTotalIncome";
             this.pnlTotalIncome.ShadowDecoration.Parent = this.pnlTotalIncome;
             this.pnlTotalIncome.Size = new System.Drawing.Size(346, 145);
@@ -330,21 +330,21 @@
             // lblTotalIncomeAmount
             // 
             this.lblTotalIncomeAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalIncomeAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold);
+            this.lblTotalIncomeAmount.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalIncomeAmount.Location = new System.Drawing.Point(95, 47);
             this.lblTotalIncomeAmount.Name = "lblTotalIncomeAmount";
-            this.lblTotalIncomeAmount.Size = new System.Drawing.Size(102, 42);
+            this.lblTotalIncomeAmount.Size = new System.Drawing.Size(107, 45);
             this.lblTotalIncomeAmount.TabIndex = 1;
             this.lblTotalIncomeAmount.Text = "₱0.00";
             // 
             // lblTotalIncome
             // 
             this.lblTotalIncome.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalIncome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalIncome.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalIncome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblTotalIncome.Location = new System.Drawing.Point(95, 16);
             this.lblTotalIncome.Name = "lblTotalIncome";
-            this.lblTotalIncome.Size = new System.Drawing.Size(95, 22);
+            this.lblTotalIncome.Size = new System.Drawing.Size(97, 21);
             this.lblTotalIncome.TabIndex = 0;
             this.lblTotalIncome.Text = "Total Income";
             // 
@@ -355,7 +355,7 @@
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpensesAmount);
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpenses);
             this.pnlTotalExpenses.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
-            this.pnlTotalExpenses.Location = new System.Drawing.Point(876, 232);
+            this.pnlTotalExpenses.Location = new System.Drawing.Point(849, 232);
             this.pnlTotalExpenses.Name = "pnlTotalExpenses";
             this.pnlTotalExpenses.ShadowDecoration.Parent = this.pnlTotalExpenses;
             this.pnlTotalExpenses.Size = new System.Drawing.Size(346, 145);
@@ -376,21 +376,21 @@
             // lblTotalExpensesAmount
             // 
             this.lblTotalExpensesAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalExpensesAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold);
+            this.lblTotalExpensesAmount.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalExpensesAmount.Location = new System.Drawing.Point(93, 47);
             this.lblTotalExpensesAmount.Name = "lblTotalExpensesAmount";
-            this.lblTotalExpensesAmount.Size = new System.Drawing.Size(102, 42);
+            this.lblTotalExpensesAmount.Size = new System.Drawing.Size(107, 45);
             this.lblTotalExpensesAmount.TabIndex = 1;
             this.lblTotalExpensesAmount.Text = "₱0.00";
             // 
             // lblTotalExpenses
             // 
             this.lblTotalExpenses.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalExpenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblTotalExpenses.Location = new System.Drawing.Point(94, 16);
             this.lblTotalExpenses.Name = "lblTotalExpenses";
-            this.lblTotalExpenses.Size = new System.Drawing.Size(112, 22);
+            this.lblTotalExpenses.Size = new System.Drawing.Size(109, 21);
             this.lblTotalExpenses.TabIndex = 0;
             this.lblTotalExpenses.Text = "Total Expenses";
             // 
@@ -403,20 +403,19 @@
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel29);
             this.guna2Panel1.Controls.Add(this.chart2);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(53, 421);
+            this.guna2Panel1.Location = new System.Drawing.Point(54, 417);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(760, 464);
+            this.guna2Panel1.Size = new System.Drawing.Size(660, 464);
             this.guna2Panel1.TabIndex = 7;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // lblTotalText
             // 
             this.lblTotalText.AutoSize = false;
             this.lblTotalText.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalText.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalText.Location = new System.Drawing.Point(223, 213);
+            this.lblTotalText.Location = new System.Drawing.Point(144, 212);
             this.lblTotalText.Name = "lblTotalText";
             this.lblTotalText.Size = new System.Drawing.Size(69, 37);
             this.lblTotalText.TabIndex = 17;
@@ -427,10 +426,10 @@
             // 
             this.lblTotalAmount.AutoSize = false;
             this.lblTotalAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
-            this.lblTotalAmount.Location = new System.Drawing.Point(210, 178);
+            this.lblTotalAmount.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalAmount.Location = new System.Drawing.Point(127, 176);
             this.lblTotalAmount.Name = "lblTotalAmount";
-            this.lblTotalAmount.Size = new System.Drawing.Size(111, 37);
+            this.lblTotalAmount.Size = new System.Drawing.Size(111, 74);
             this.lblTotalAmount.TabIndex = 16;
             this.lblTotalAmount.Text = "₱9,000.00 ";
             this.lblTotalAmount.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -438,22 +437,22 @@
             // guna2HtmlLabel30
             // 
             this.guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel30.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2HtmlLabel30.Location = new System.Drawing.Point(14, 14);
             this.guna2HtmlLabel30.Name = "guna2HtmlLabel30";
-            this.guna2HtmlLabel30.Size = new System.Drawing.Size(220, 31);
+            this.guna2HtmlLabel30.Size = new System.Drawing.Size(222, 31);
             this.guna2HtmlLabel30.TabIndex = 0;
             this.guna2HtmlLabel30.Text = "Expense Overview";
             // 
             // guna2HtmlLabel29
             // 
             this.guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel29.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.guna2HtmlLabel29.Location = new System.Drawing.Point(14, 51);
             this.guna2HtmlLabel29.Name = "guna2HtmlLabel29";
-            this.guna2HtmlLabel29.Size = new System.Drawing.Size(97, 26);
+            this.guna2HtmlLabel29.Size = new System.Drawing.Size(96, 25);
             this.guna2HtmlLabel29.TabIndex = 1;
             this.guna2HtmlLabel29.Text = "This Month";
             this.guna2HtmlLabel29.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
@@ -479,7 +478,7 @@
             legend1.Position.X = 52F;
             legend1.Position.Y = 30F;
             this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(130, 81);
+            this.chart2.Location = new System.Drawing.Point(47, 87);
             this.chart2.Name = "chart2";
             series1.BorderColor = System.Drawing.Color.Transparent;
             series1.ChartArea = "ChartArea1";
@@ -506,7 +505,7 @@
             series1.Points.Add(dataPoint6);
             series1.YValuesPerPoint = 4;
             this.chart2.Series.Add(series1);
-            this.chart2.Size = new System.Drawing.Size(542, 356);
+            this.chart2.Size = new System.Drawing.Size(544, 356);
             this.chart2.TabIndex = 3;
             this.chart2.Text = "chart2";
             // 
@@ -529,12 +528,11 @@
             this.pnlRecentTransactions.Controls.Add(this.btnViewAll);
             this.pnlRecentTransactions.Controls.Add(this.lblRecentTransactions);
             this.pnlRecentTransactions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlRecentTransactions.Location = new System.Drawing.Point(854, 421);
+            this.pnlRecentTransactions.Location = new System.Drawing.Point(775, 417);
             this.pnlRecentTransactions.Name = "pnlRecentTransactions";
             this.pnlRecentTransactions.ShadowDecoration.Parent = this.pnlRecentTransactions;
-            this.pnlRecentTransactions.Size = new System.Drawing.Size(389, 266);
+            this.pnlRecentTransactions.Size = new System.Drawing.Size(409, 266);
             this.pnlRecentTransactions.TabIndex = 9;
-            this.pnlRecentTransactions.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlRecentTransactions_Paint);
             // 
             // pnlCalculator
             // 
@@ -547,11 +545,11 @@
             // lblAmount3
             // 
             this.lblAmount3.BackColor = System.Drawing.Color.Transparent;
-            this.lblAmount3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.lblAmount3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblAmount3.Location = new System.Drawing.Point(264, 205);
+            this.lblAmount3.Location = new System.Drawing.Point(287, 205);
             this.lblAmount3.Name = "lblAmount3";
-            this.lblAmount3.Size = new System.Drawing.Size(89, 18);
+            this.lblAmount3.Size = new System.Drawing.Size(91, 18);
             this.lblAmount3.TabIndex = 19;
             this.lblAmount3.Text = "+ ₱25,000.00";
             // 
@@ -586,16 +584,15 @@
             this.guna2Panel5.Location = new System.Drawing.Point(13, 192);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(350, 1);
+            this.guna2Panel5.Size = new System.Drawing.Size(360, 1);
             this.guna2Panel5.TabIndex = 16;
-            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
             // lblAmount2
             // 
             this.lblAmount2.BackColor = System.Drawing.Color.Transparent;
-            this.lblAmount2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.lblAmount2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(92)))), ((int)(((byte)(92)))));
-            this.lblAmount2.Location = new System.Drawing.Point(264, 141);
+            this.lblAmount2.Location = new System.Drawing.Point(290, 141);
             this.lblAmount2.Name = "lblAmount2";
             this.lblAmount2.Size = new System.Drawing.Size(78, 18);
             this.lblAmount2.TabIndex = 15;
@@ -605,7 +602,7 @@
             // 
             this.lblTransaction2.AutoSize = false;
             this.lblTransaction2.BackColor = System.Drawing.Color.Transparent;
-            this.lblTransaction2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblTransaction2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTransaction2.Location = new System.Drawing.Point(59, 141);
             this.lblTransaction2.Name = "lblTransaction2";
             this.lblTransaction2.Size = new System.Drawing.Size(128, 45);
@@ -632,15 +629,15 @@
             this.guna2Panel4.Location = new System.Drawing.Point(13, 126);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(350, 1);
+            this.guna2Panel4.Size = new System.Drawing.Size(360, 1);
             this.guna2Panel4.TabIndex = 12;
             // 
             // lblAmount1
             // 
             this.lblAmount1.BackColor = System.Drawing.Color.Transparent;
-            this.lblAmount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.lblAmount1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(92)))), ((int)(((byte)(92)))));
-            this.lblAmount1.Location = new System.Drawing.Point(264, 75);
+            this.lblAmount1.Location = new System.Drawing.Point(290, 75);
             this.lblAmount1.Name = "lblAmount1";
             this.lblAmount1.Size = new System.Drawing.Size(66, 18);
             this.lblAmount1.TabIndex = 11;
@@ -650,7 +647,7 @@
             // 
             this.lblTransaction1.AutoSize = false;
             this.lblTransaction1.BackColor = System.Drawing.Color.Transparent;
-            this.lblTransaction1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblTransaction1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTransaction1.Location = new System.Drawing.Point(59, 75);
             this.lblTransaction1.Name = "lblTransaction1";
             this.lblTransaction1.Size = new System.Drawing.Size(128, 45);
@@ -677,7 +674,7 @@
             this.guna2Panel3.Location = new System.Drawing.Point(13, 59);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(350, 1);
+            this.guna2Panel3.Size = new System.Drawing.Size(360, 1);
             this.guna2Panel3.TabIndex = 9;
             // 
             // btnViewAll
@@ -687,10 +684,10 @@
             this.btnViewAll.CheckedState.Parent = this.btnViewAll;
             this.btnViewAll.CustomImages.Parent = this.btnViewAll;
             this.btnViewAll.FillColor = System.Drawing.Color.Transparent;
-            this.btnViewAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewAll.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.btnViewAll.HoverState.Parent = this.btnViewAll;
-            this.btnViewAll.Location = new System.Drawing.Point(308, 23);
+            this.btnViewAll.Location = new System.Drawing.Point(306, 23);
             this.btnViewAll.Name = "btnViewAll";
             this.btnViewAll.ShadowDecoration.Parent = this.btnViewAll;
             this.btnViewAll.Size = new System.Drawing.Size(57, 22);
@@ -700,31 +697,32 @@
             // lblRecentTransactions
             // 
             this.lblRecentTransactions.BackColor = System.Drawing.Color.Transparent;
-            this.lblRecentTransactions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecentTransactions.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecentTransactions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblRecentTransactions.Location = new System.Drawing.Point(13, 23);
             this.lblRecentTransactions.Name = "lblRecentTransactions";
-            this.lblRecentTransactions.Size = new System.Drawing.Size(169, 22);
+            this.lblRecentTransactions.Size = new System.Drawing.Size(169, 21);
             this.lblRecentTransactions.TabIndex = 1;
             this.lblRecentTransactions.Text = "Recent Transactions";
-            this.lblRecentTransactions.Click += new System.EventHandler(this.lblRecentTransactions_Click);
             // 
             // pnlCalendar
             // 
-            this.pnlCalendar.BackColor = System.Drawing.SystemColors.Window;
+            this.pnlCalendar.BackColor = System.Drawing.Color.Transparent;
+            this.pnlCalendar.BorderRadius = 15;
             this.pnlCalendar.Controls.Add(this.pnlUpcoming);
             this.pnlCalendar.Controls.Add(this.guna2HtmlLabel4);
             this.pnlCalendar.Controls.Add(this.guna2PictureBox3);
             this.pnlCalendar.Controls.Add(this.monthCalendar1);
             this.pnlCalendar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlCalendar.Location = new System.Drawing.Point(1289, 421);
+            this.pnlCalendar.Location = new System.Drawing.Point(1238, 417);
             this.pnlCalendar.Name = "pnlCalendar";
             this.pnlCalendar.ShadowDecoration.Parent = this.pnlCalendar;
-            this.pnlCalendar.Size = new System.Drawing.Size(324, 427);
+            this.pnlCalendar.Size = new System.Drawing.Size(349, 421);
             this.pnlCalendar.TabIndex = 10;
             // 
             // pnlUpcoming
             // 
+            this.pnlUpcoming.BackColor = System.Drawing.Color.White;
             this.pnlUpcoming.BorderRadius = 15;
             this.pnlUpcoming.Controls.Add(this.guna2HtmlLabel10);
             this.pnlUpcoming.Controls.Add(this.guna2CirclePictureBox3);
@@ -735,7 +733,7 @@
             this.pnlUpcoming.Controls.Add(this.guna2Button2);
             this.pnlUpcoming.Controls.Add(this.guna2PictureBox4);
             this.pnlUpcoming.Controls.Add(this.guna2HtmlLabel6);
-            this.pnlUpcoming.Location = new System.Drawing.Point(47, 242);
+            this.pnlUpcoming.Location = new System.Drawing.Point(60, 240);
             this.pnlUpcoming.Name = "pnlUpcoming";
             this.pnlUpcoming.ShadowDecoration.Parent = this.pnlUpcoming;
             this.pnlUpcoming.Size = new System.Drawing.Size(227, 155);
@@ -745,7 +743,7 @@
             // 
             this.guna2HtmlLabel10.AutoSize = false;
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(23, 111);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(128, 42);
@@ -767,7 +765,7 @@
             // 
             this.guna2HtmlLabel9.AutoSize = false;
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(23, 78);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(128, 45);
@@ -789,7 +787,7 @@
             // 
             this.guna2HtmlLabel8.AutoSize = false;
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(23, 43);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(128, 45);
@@ -814,7 +812,7 @@
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
             this.guna2Button2.CustomImages.Parent = this.guna2Button2;
             this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
             this.guna2Button2.Location = new System.Drawing.Point(165, 9);
@@ -839,22 +837,22 @@
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(44, 9);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(83, 22);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(83, 21);
             this.guna2HtmlLabel6.TabIndex = 0;
             this.guna2HtmlLabel6.Text = "Upcoming";
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(127, 18);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(129, 18);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(109, 31);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(108, 31);
             this.guna2HtmlLabel4.TabIndex = 2;
             this.guna2HtmlLabel4.Text = "Calendar";
             // 
@@ -872,7 +870,8 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(46, 66);
+            this.monthCalendar1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthCalendar1.Location = new System.Drawing.Point(60, 66);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
             // 
@@ -883,7 +882,7 @@
             this.pnlRemainingBalance.Controls.Add(this.lblRemainingBalanceAmount);
             this.pnlRemainingBalance.Controls.Add(this.lblRemainingBalance);
             this.pnlRemainingBalance.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(225)))), ((int)(((byte)(194)))));
-            this.pnlRemainingBalance.Location = new System.Drawing.Point(1278, 232);
+            this.pnlRemainingBalance.Location = new System.Drawing.Point(1241, 232);
             this.pnlRemainingBalance.Name = "pnlRemainingBalance";
             this.pnlRemainingBalance.ShadowDecoration.Parent = this.pnlRemainingBalance;
             this.pnlRemainingBalance.Size = new System.Drawing.Size(346, 145);
@@ -904,21 +903,21 @@
             // lblRemainingBalanceAmount
             // 
             this.lblRemainingBalanceAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblRemainingBalanceAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold);
+            this.lblRemainingBalanceAmount.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRemainingBalanceAmount.Location = new System.Drawing.Point(90, 47);
             this.lblRemainingBalanceAmount.Name = "lblRemainingBalanceAmount";
-            this.lblRemainingBalanceAmount.Size = new System.Drawing.Size(102, 42);
+            this.lblRemainingBalanceAmount.Size = new System.Drawing.Size(107, 45);
             this.lblRemainingBalanceAmount.TabIndex = 1;
             this.lblRemainingBalanceAmount.Text = "₱0.00";
             // 
             // lblRemainingBalance
             // 
             this.lblRemainingBalance.BackColor = System.Drawing.Color.Transparent;
-            this.lblRemainingBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemainingBalance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRemainingBalance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.lblRemainingBalance.Location = new System.Drawing.Point(91, 16);
             this.lblRemainingBalance.Name = "lblRemainingBalance";
-            this.lblRemainingBalance.Size = new System.Drawing.Size(141, 22);
+            this.lblRemainingBalance.Size = new System.Drawing.Size(136, 21);
             this.lblRemainingBalance.TabIndex = 0;
             this.lblRemainingBalance.Text = "Remaining Balance";
             // 
@@ -947,7 +946,7 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(916, 709);
+            this.pnlCalcu.Location = new System.Drawing.Point(900, 735);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
             this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
@@ -1297,7 +1296,7 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.White;
             this.btnCalculator.HoverState.Parent = this.btnCalculator;
             this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1564, 879);
+            this.btnCalculator.Location = new System.Drawing.Point(1537, 908);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
             this.btnCalculator.Size = new System.Drawing.Size(60, 60);
@@ -1305,8 +1304,9 @@
             // 
             // ucDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
             this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.pnlCalcu);
@@ -1318,9 +1318,10 @@
             this.Controls.Add(this.pnlTotalIncome);
             this.Controls.Add(this.pnlTotalBudget);
             this.Controls.Add(this.pnlDashboardHeader);
+            this.Location = new System.Drawing.Point(252, 0);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "ucDashboard";
-            this.Size = new System.Drawing.Size(1681, 980);
+            this.Size = new System.Drawing.Size(1652, 1041);
             this.pnlDashboardHeader.ResumeLayout(false);
             this.pnlDashboardHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).EndInit();
@@ -1366,9 +1367,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel pnlDashboardHeader;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
-        private Guna.UI2.WinForms.Guna2Button btnNotificaton;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblWelcome;
@@ -1449,5 +1447,8 @@
         private Guna.UI2.WinForms.Guna2Panel pnlCalcuHeader;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2Button btnCalculator;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
+        private Guna.UI2.WinForms.Guna2Button btnNotificaton;
     }
 }

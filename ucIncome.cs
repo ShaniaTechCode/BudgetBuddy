@@ -15,13 +15,6 @@ namespace BudgetBuddy
         public ucIncome()
         {
             InitializeComponent();
-
-            // Sample output
-            dgvIncomeList.Rows.Add(
-                "Allowance",
-                "1,000.00",
-                "Sept 27, 2026"
-                );
         }
     }
 }

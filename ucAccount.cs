@@ -19,9 +19,6 @@ namespace BudgetBuddy
 
         private void ucAccount_Load(object sender, EventArgs e)
         {
-            txtBoxFullName.Text = "Yshi Valdez";
-            txtBoxEmail_PhoneNumber.Text = "yshi@gmail.com";
-            txtBoxUsername.Text = "yshiiv";
         }
     }
 }

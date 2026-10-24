@@ -60,7 +60,7 @@
             this.pnlSidebarExpenses.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarExpenses.Name = "pnlSidebarExpenses";
             this.pnlSidebarExpenses.ShadowDecoration.Parent = this.pnlSidebarExpenses;
-            this.pnlSidebarExpenses.Size = new System.Drawing.Size(252, 915);
+            this.pnlSidebarExpenses.Size = new System.Drawing.Size(252, 1041);
             this.pnlSidebarExpenses.TabIndex = 21;
             // 
             // btnLogOut
@@ -153,7 +153,6 @@
             this.btnExpenses.TabIndex = 5;
             this.btnExpenses.Text = "Expenses";
             this.btnExpenses.TextOffset = new System.Drawing.Point(15, 0);
-            this.btnExpenses.Click += new System.EventHandler(this.btnExpenses_Click);
             // 
             // btnIncome
             // 
@@ -238,25 +237,28 @@
             // 
             // pnlMainContentExpenses
             // 
+            this.pnlMainContentExpenses.AutoScroll = true;
+            this.pnlMainContentExpenses.AutoScrollMinSize = new System.Drawing.Size(2000, 1041);
             this.pnlMainContentExpenses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.pnlMainContentExpenses.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainContentExpenses.Location = new System.Drawing.Point(252, 0);
             this.pnlMainContentExpenses.Name = "pnlMainContentExpenses";
             this.pnlMainContentExpenses.Padding = new System.Windows.Forms.Padding(20);
             this.pnlMainContentExpenses.ShadowDecoration.Parent = this.pnlMainContentExpenses;
-            this.pnlMainContentExpenses.Size = new System.Drawing.Size(1631, 915);
+            this.pnlMainContentExpenses.Size = new System.Drawing.Size(1652, 1041);
             this.pnlMainContentExpenses.TabIndex = 22;
             // 
             // frmExpenses
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1883, 915);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.pnlMainContentExpenses);
             this.Controls.Add(this.pnlSidebarExpenses);
             this.Name = "frmExpenses";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlSidebarExpenses.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).EndInit();
             this.ResumeLayout(false);

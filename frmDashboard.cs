@@ -18,52 +18,86 @@ namespace BudgetBuddy
             InitializeComponent();
         }
 
-        private void frmDashboard_Load(object sender, EventArgs e)
+        // Loads a UserControl into the main content panel.
+        private void LoadView(UserControl uc)
         {
-
-        }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-           // Display the Dashboard UserControl in the main content panel
-           ucDashboard ctrl = new ucDashboard();
             pnlMainContent.Controls.Clear();
-            pnlMainContent.Controls.Add(ctrl);
-
-          // Set the active button
-            SetActive_Button(btnDashboard);
+            uc.Dock = DockStyle.Fill;
+            pnlMainContent.Controls.Add(uc);
+            uc.Visible = true;
+            uc.BringToFront();
         }
 
-        // Store the currently active button
+        // Stores the currently active sidebar button.
         private Guna.UI2.WinForms.Guna2Button activeButton = null;
 
-        // Highlight the selected button
-        private void SetActive_Button(Guna.UI2.WinForms.Guna2Button selectedButton)
+        // Updates the appearance of the selected navigation button.
+        private void SetActive_Button(
+            Guna.UI2.WinForms.Guna2Button selectedButton)
         {
-            // List of navigation buttons
             Guna.UI2.WinForms.Guna2Button[] buttons =
             {
-               btnDashboard,
-               btnBudget,
-               btnIncome,
-               btnExpenses,
-               btnAnalytics,
-               btnSettings,
+                btnDashboard,
+                btnBudget,
+                btnIncome,
+                btnExpenses,
+                btnAnalytics,
+                btnSettings
             };
-
-            // Reset all buttons to default style
+            // Resets all navigation buttons to their default style.
             foreach (var btn in buttons)
             {
                 btn.FillColor = Color.Transparent;
+                btn.ForeColor = Color.White;
                 btn.BorderRadius = 15;
             }
-            // Set the selected button as active
+            // Highlights the selected button.
             activeButton = selectedButton;
-
-            // Apply the active button style
             activeButton.FillColor = Color.FromArgb(56, 142, 80);
             activeButton.ForeColor = Color.White;
             activeButton.BorderRadius = 15;
+        }
+
+        // Displays the Dashboard view.
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucDashboard());
+            SetActive_Button(btnDashboard);
+        }
+
+        // Displays the Budget view.
+        private void btnBudget_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucBudget());
+            SetActive_Button(btnBudget);
+        }
+
+        // Displays the Income view.
+        private void btnIncome_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucIncome());
+            SetActive_Button(btnIncome);
+        }
+
+        // Displays the Expenses view.
+        private void btnExpenses_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucExpenses());
+            SetActive_Button(btnExpenses);
+        }
+
+        // Displays the Analytics view.
+        private void btnAnalytics_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucAnalytics());
+            SetActive_Button(btnAnalytics);
+        }
+
+        // Displays the Settings view.
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            LoadView(new ucSettings());
+            SetActive_Button(btnSettings);
         }
     }
 }

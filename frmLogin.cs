@@ -21,5 +21,10 @@ namespace BudgetBuddy
         {
 
         }
+
+        private void lblLoginToContinue_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
