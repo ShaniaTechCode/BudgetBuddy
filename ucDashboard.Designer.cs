@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucDashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "20,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "15,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "5,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint7 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "20,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint8 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "15,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint9 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint10 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint11 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint12 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "5,0,0,0");
             this.pnlDashboardHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.picNotificationBadge = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -460,51 +460,51 @@
             // chart2
             // 
             this.chart2.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.InnerPlotPosition.Auto = false;
-            chartArea1.InnerPlotPosition.Height = 70F;
-            chartArea1.InnerPlotPosition.Width = 50F;
-            chartArea1.Name = "ChartArea1";
-            chartArea1.Position.Auto = false;
-            chartArea1.Position.Height = 100F;
-            chartArea1.Position.Width = 100F;
-            this.chart2.ChartAreas.Add(chartArea1);
-            legend1.Alignment = System.Drawing.StringAlignment.Center;
-            legend1.BackColor = System.Drawing.Color.Transparent;
-            legend1.Name = "Legend1";
-            legend1.Position.Auto = false;
-            legend1.Position.Height = 45F;
-            legend1.Position.Width = 35F;
-            legend1.Position.X = 52F;
-            legend1.Position.Y = 30F;
-            this.chart2.Legends.Add(legend1);
+            chartArea2.BackColor = System.Drawing.Color.Transparent;
+            chartArea2.InnerPlotPosition.Auto = false;
+            chartArea2.InnerPlotPosition.Height = 70F;
+            chartArea2.InnerPlotPosition.Width = 50F;
+            chartArea2.Name = "ChartArea1";
+            chartArea2.Position.Auto = false;
+            chartArea2.Position.Height = 100F;
+            chartArea2.Position.Width = 100F;
+            this.chart2.ChartAreas.Add(chartArea2);
+            legend2.Alignment = System.Drawing.StringAlignment.Center;
+            legend2.BackColor = System.Drawing.Color.Transparent;
+            legend2.Name = "Legend1";
+            legend2.Position.Auto = false;
+            legend2.Position.Height = 45F;
+            legend2.Position.Width = 35F;
+            legend2.Position.X = 52F;
+            legend2.Position.Y = 30F;
+            this.chart2.Legends.Add(legend2);
             this.chart2.Location = new System.Drawing.Point(47, 87);
             this.chart2.Name = "chart2";
-            series1.BorderColor = System.Drawing.Color.Transparent;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series1.CustomProperties = "DoughnutRadius=40";
-            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series1.Legend = "Legend1";
-            series1.Name = "ExpenseCategories";
-            dataPoint1.LegendText = "Food";
-            dataPoint2.LegendText = "Transportation";
-            dataPoint3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            dataPoint3.LegendText = "Bills";
-            dataPoint4.Color = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(199)))), ((int)(((byte)(132)))));
-            dataPoint4.LegendText = "Health";
-            dataPoint5.Color = System.Drawing.Color.PaleVioletRed;
-            dataPoint5.LegendText = "Shopping";
-            dataPoint6.Color = System.Drawing.Color.DarkGray;
-            dataPoint6.LegendText = "Others";
-            series1.Points.Add(dataPoint1);
-            series1.Points.Add(dataPoint2);
-            series1.Points.Add(dataPoint3);
-            series1.Points.Add(dataPoint4);
-            series1.Points.Add(dataPoint5);
-            series1.Points.Add(dataPoint6);
-            series1.YValuesPerPoint = 4;
-            this.chart2.Series.Add(series1);
+            series2.BorderColor = System.Drawing.Color.Transparent;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series2.CustomProperties = "DoughnutRadius=40";
+            series2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series2.Legend = "Legend1";
+            series2.Name = "ExpenseCategories";
+            dataPoint7.LegendText = "Food";
+            dataPoint8.LegendText = "Transportation";
+            dataPoint9.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            dataPoint9.LegendText = "Bills";
+            dataPoint10.Color = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(199)))), ((int)(((byte)(132)))));
+            dataPoint10.LegendText = "Health";
+            dataPoint11.Color = System.Drawing.Color.PaleVioletRed;
+            dataPoint11.LegendText = "Shopping";
+            dataPoint12.Color = System.Drawing.Color.DarkGray;
+            dataPoint12.LegendText = "Others";
+            series2.Points.Add(dataPoint7);
+            series2.Points.Add(dataPoint8);
+            series2.Points.Add(dataPoint9);
+            series2.Points.Add(dataPoint10);
+            series2.Points.Add(dataPoint11);
+            series2.Points.Add(dataPoint12);
+            series2.YValuesPerPoint = 4;
+            this.chart2.Series.Add(series2);
             this.chart2.Size = new System.Drawing.Size(544, 356);
             this.chart2.TabIndex = 3;
             this.chart2.Text = "chart2";
@@ -966,6 +966,7 @@
             this.btnEqual.Size = new System.Drawing.Size(55, 29);
             this.btnEqual.TabIndex = 20;
             this.btnEqual.Text = "=";
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // btnDecimal
             // 
@@ -1236,11 +1237,12 @@
             this.btnClear.Size = new System.Drawing.Size(55, 29);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "C";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtboxDisplay
             // 
             this.txtboxDisplay.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtboxDisplay.DefaultText = "";
+            this.txtboxDisplay.DefaultText = "0";
             this.txtboxDisplay.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtboxDisplay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtboxDisplay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1257,7 +1259,9 @@
             this.txtboxDisplay.Name = "txtboxDisplay";
             this.txtboxDisplay.PasswordChar = '\0';
             this.txtboxDisplay.PlaceholderText = "";
+            this.txtboxDisplay.ReadOnly = true;
             this.txtboxDisplay.SelectedText = "";
+            this.txtboxDisplay.SelectionStart = 1;
             this.txtboxDisplay.ShadowDecoration.Parent = this.txtboxDisplay;
             this.txtboxDisplay.Size = new System.Drawing.Size(237, 31);
             this.txtboxDisplay.TabIndex = 1;
@@ -1301,6 +1305,7 @@
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
             this.btnCalculator.Size = new System.Drawing.Size(60, 60);
             this.btnCalculator.TabIndex = 14;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
             // ucDashboard
             // 
@@ -1450,5 +1455,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
         private Guna.UI2.WinForms.Guna2Button btnNotificaton;
+
     }
+
 }
