@@ -30,13 +30,14 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblExpensesDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblExpensestitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalExpenses = new Guna.UI2.WinForms.Guna2Panel();
@@ -79,12 +80,6 @@
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
             this.dgvExpenseList = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.colExpenseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
-            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.txtSearchExpense = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbFilterCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.pnlExpenseList = new Guna.UI2.WinForms.Guna2Panel();
@@ -93,6 +88,16 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblExpenseStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.rbPlanned = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.rbCompleted = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.colExpenseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colExpenseStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
+            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.pnlTotalExpenses.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExpensesIcon)).BeginInit();
             this.pnlAddIncome.SuspendLayout();
@@ -175,6 +180,9 @@
             // pnlAddIncome
             // 
             this.pnlAddIncome.BorderRadius = 15;
+            this.pnlAddIncome.Controls.Add(this.rbCompleted);
+            this.pnlAddIncome.Controls.Add(this.rbPlanned);
+            this.pnlAddIncome.Controls.Add(this.lblExpenseStatus);
             this.pnlAddIncome.Controls.Add(this.dtpExpensesDate);
             this.pnlAddIncome.Controls.Add(this.lblCategory);
             this.pnlAddIncome.Controls.Add(this.cbCategory);
@@ -189,7 +197,7 @@
             this.pnlAddIncome.Location = new System.Drawing.Point(117, 342);
             this.pnlAddIncome.Name = "pnlAddIncome";
             this.pnlAddIncome.ShadowDecoration.Parent = this.pnlAddIncome;
-            this.pnlAddIncome.Size = new System.Drawing.Size(404, 512);
+            this.pnlAddIncome.Size = new System.Drawing.Size(404, 546);
             this.pnlAddIncome.TabIndex = 8;
             // 
             // dtpExpensesDate
@@ -202,7 +210,7 @@
             this.dtpExpensesDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpExpensesDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpExpensesDate.HoverState.Parent = this.dtpExpensesDate;
-            this.dtpExpensesDate.Location = new System.Drawing.Point(38, 364);
+            this.dtpExpensesDate.Location = new System.Drawing.Point(38, 354);
             this.dtpExpensesDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpExpensesDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpExpensesDate.Name = "dtpExpensesDate";
@@ -217,7 +225,7 @@
             this.lblCategory.BackColor = System.Drawing.Color.Transparent;
             this.lblCategory.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategory.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCategory.Location = new System.Drawing.Point(38, 248);
+            this.lblCategory.Location = new System.Drawing.Point(39, 164);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(88, 25);
             this.lblCategory.TabIndex = 24;
@@ -237,7 +245,7 @@
             this.cbCategory.HoverState.Parent = this.cbCategory;
             this.cbCategory.ItemHeight = 40;
             this.cbCategory.ItemsAppearance.Parent = this.cbCategory;
-            this.cbCategory.Location = new System.Drawing.Point(36, 279);
+            this.cbCategory.Location = new System.Drawing.Point(38, 193);
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.ShadowDecoration.Parent = this.cbCategory;
             this.cbCategory.Size = new System.Drawing.Size(298, 46);
@@ -252,7 +260,7 @@
             this.btnAddExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddExpense.ForeColor = System.Drawing.Color.White;
             this.btnAddExpense.HoverState.Parent = this.btnAddExpense;
-            this.btnAddExpense.Location = new System.Drawing.Point(36, 433);
+            this.btnAddExpense.Location = new System.Drawing.Point(36, 467);
             this.btnAddExpense.Name = "btnAddExpense";
             this.btnAddExpense.ShadowDecoration.Parent = this.btnAddExpense;
             this.btnAddExpense.Size = new System.Drawing.Size(294, 45);
@@ -277,7 +285,7 @@
             this.txtExpensesAmount.ForeColor = System.Drawing.Color.Black;
             this.txtExpensesAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtExpensesAmount.HoverState.Parent = this.txtExpensesAmount;
-            this.txtExpensesAmount.Location = new System.Drawing.Point(38, 194);
+            this.txtExpensesAmount.Location = new System.Drawing.Point(38, 278);
             this.txtExpensesAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtExpensesAmount.Name = "txtExpensesAmount";
             this.txtExpensesAmount.PasswordChar = '\0';
@@ -323,7 +331,7 @@
             this.lblIncomeDate.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomeDate.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomeDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomeDate.Location = new System.Drawing.Point(36, 338);
+            this.lblIncomeDate.Location = new System.Drawing.Point(36, 333);
             this.lblIncomeDate.Name = "lblIncomeDate";
             this.lblIncomeDate.Size = new System.Drawing.Size(49, 25);
             this.lblIncomeDate.TabIndex = 17;
@@ -335,7 +343,7 @@
             this.lblAmountExpenses.BackColor = System.Drawing.Color.Transparent;
             this.lblAmountExpenses.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmountExpenses.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAmountExpenses.Location = new System.Drawing.Point(38, 168);
+            this.lblAmountExpenses.Location = new System.Drawing.Point(38, 248);
             this.lblAmountExpenses.Name = "lblAmountExpenses";
             this.lblAmountExpenses.Size = new System.Drawing.Size(89, 25);
             this.lblAmountExpenses.TabIndex = 13;
@@ -769,33 +777,34 @@
             this.colCategory,
             this.colAmount,
             this.colDate,
+            this.colExpenseStatus,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvExpenseList.EnableHeadersVisualStyles = false;
             this.dgvExpenseList.GridColor = System.Drawing.Color.DarkGray;
             this.dgvExpenseList.Location = new System.Drawing.Point(0, 65);
             this.dgvExpenseList.Name = "dgvExpenseList";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvExpenseList.RowHeadersVisible = false;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvExpenseList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvExpenseList.Size = new System.Drawing.Size(803, 325);
+            this.dgvExpenseList.Size = new System.Drawing.Size(826, 325);
             this.dgvExpenseList.TabIndex = 2;
             this.dgvExpenseList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
@@ -820,57 +829,6 @@
             this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
             this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
-            // colExpenseName
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
-            this.colExpenseName.FillWeight = 121.8274F;
-            this.colExpenseName.HeaderText = "Expense Name";
-            this.colExpenseName.Name = "colExpenseName";
-            // 
-            // colCategory
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
-            this.colCategory.HeaderText = "Category";
-            this.colCategory.Name = "colCategory";
-            // 
-            // colAmount
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
-            this.colAmount.FillWeight = 95.63452F;
-            this.colAmount.HeaderText = "Amount";
-            this.colAmount.Name = "colAmount";
-            // 
-            // colDate
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
-            this.colDate.FillWeight = 95.63452F;
-            this.colDate.HeaderText = "Date ";
-            this.colDate.Name = "colDate";
-            // 
-            // colEdit
-            // 
-            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colEdit.FillWeight = 95.63452F;
-            this.colEdit.HeaderText = "Edit";
-            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colEdit.Name = "colEdit";
-            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colEdit.Width = 65;
-            // 
-            // colDelete
-            // 
-            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colDelete.FillWeight = 95.63452F;
-            this.colDelete.HeaderText = "Delete";
-            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colDelete.Name = "colDelete";
-            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colDelete.Width = 65;
-            // 
             // txtSearchExpense
             // 
             this.txtSearchExpense.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
@@ -891,7 +849,7 @@
             this.txtSearchExpense.HoverState.Parent = this.txtSearchExpense;
             this.txtSearchExpense.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
             this.txtSearchExpense.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchExpense.Location = new System.Drawing.Point(434, 20);
+            this.txtSearchExpense.Location = new System.Drawing.Point(451, 20);
             this.txtSearchExpense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchExpense.Name = "txtSearchExpense";
             this.txtSearchExpense.PasswordChar = '\0';
@@ -919,7 +877,7 @@
             this.cbFilterCategory.Items.AddRange(new object[] {
             "All Categories"});
             this.cbFilterCategory.ItemsAppearance.Parent = this.cbFilterCategory;
-            this.cbFilterCategory.Location = new System.Drawing.Point(663, 20);
+            this.cbFilterCategory.Location = new System.Drawing.Point(677, 20);
             this.cbFilterCategory.Name = "cbFilterCategory";
             this.cbFilterCategory.ShadowDecoration.Parent = this.cbFilterCategory;
             this.cbFilterCategory.Size = new System.Drawing.Size(140, 36);
@@ -936,7 +894,7 @@
             this.pnlExpenseList.Location = new System.Drawing.Point(550, 342);
             this.pnlExpenseList.Name = "pnlExpenseList";
             this.pnlExpenseList.ShadowDecoration.Parent = this.pnlExpenseList;
-            this.pnlExpenseList.Size = new System.Drawing.Size(804, 390);
+            this.pnlExpenseList.Size = new System.Drawing.Size(826, 390);
             this.pnlExpenseList.TabIndex = 19;
             // 
             // lblExpenseList
@@ -1006,6 +964,120 @@
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
             this.guna2Button4.Size = new System.Drawing.Size(35, 44);
             this.guna2Button4.TabIndex = 1;
+            // 
+            // lblExpenseStatus
+            // 
+            this.lblExpenseStatus.AutoSize = false;
+            this.lblExpenseStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpenseStatus.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpenseStatus.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblExpenseStatus.Location = new System.Drawing.Point(38, 408);
+            this.lblExpenseStatus.Name = "lblExpenseStatus";
+            this.lblExpenseStatus.Size = new System.Drawing.Size(123, 25);
+            this.lblExpenseStatus.TabIndex = 26;
+            this.lblExpenseStatus.Text = "Expense Status:";
+            // 
+            // rbPlanned
+            // 
+            this.rbPlanned.AutoSize = true;
+            this.rbPlanned.BackColor = System.Drawing.Color.Transparent;
+            this.rbPlanned.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbPlanned.CheckedState.BorderThickness = 2;
+            this.rbPlanned.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbPlanned.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbPlanned.CheckedState.InnerOffset = -4;
+            this.rbPlanned.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPlanned.Location = new System.Drawing.Point(71, 430);
+            this.rbPlanned.Name = "rbPlanned";
+            this.rbPlanned.Size = new System.Drawing.Size(83, 23);
+            this.rbPlanned.TabIndex = 27;
+            this.rbPlanned.TabStop = true;
+            this.rbPlanned.Text = "Planned";
+            this.rbPlanned.UncheckedState.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.rbPlanned.UncheckedState.BorderThickness = 2;
+            this.rbPlanned.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbPlanned.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbPlanned.UseVisualStyleBackColor = false;
+            // 
+            // rbCompleted
+            // 
+            this.rbCompleted.AutoSize = true;
+            this.rbCompleted.BackColor = System.Drawing.Color.Transparent;
+            this.rbCompleted.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbCompleted.CheckedState.BorderThickness = 2;
+            this.rbCompleted.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbCompleted.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbCompleted.CheckedState.InnerOffset = -4;
+            this.rbCompleted.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbCompleted.Location = new System.Drawing.Point(167, 430);
+            this.rbCompleted.Name = "rbCompleted";
+            this.rbCompleted.Size = new System.Drawing.Size(103, 23);
+            this.rbCompleted.TabIndex = 28;
+            this.rbCompleted.TabStop = true;
+            this.rbCompleted.Text = "Completed";
+            this.rbCompleted.UncheckedState.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.rbCompleted.UncheckedState.BorderThickness = 2;
+            this.rbCompleted.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbCompleted.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbCompleted.UseVisualStyleBackColor = false;
+            // 
+            // colExpenseName
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colExpenseName.FillWeight = 121.8274F;
+            this.colExpenseName.HeaderText = "Expense Name";
+            this.colExpenseName.Name = "colExpenseName";
+            // 
+            // colCategory
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
+            this.colCategory.HeaderText = "Category";
+            this.colCategory.Name = "colCategory";
+            // 
+            // colAmount
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            this.colAmount.FillWeight = 95.63452F;
+            this.colAmount.HeaderText = "Amount";
+            this.colAmount.Name = "colAmount";
+            // 
+            // colDate
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
+            this.colDate.FillWeight = 95.63452F;
+            this.colDate.HeaderText = "Date ";
+            this.colDate.Name = "colDate";
+            // 
+            // colExpenseStatus
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle7;
+            this.colExpenseStatus.HeaderText = "Status";
+            this.colExpenseStatus.Name = "colExpenseStatus";
+            // 
+            // colEdit
+            // 
+            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colEdit.FillWeight = 95.63452F;
+            this.colEdit.HeaderText = "Edit";
+            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colEdit.Name = "colEdit";
+            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colEdit.Width = 65;
+            // 
+            // colDelete
+            // 
+            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colDelete.FillWeight = 95.63452F;
+            this.colDelete.HeaderText = "Delete";
+            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colDelete.Name = "colDelete";
+            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colDelete.Width = 65;
             // 
             // ucExpenses
             // 
@@ -1091,10 +1163,14 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblExpenseStatus;
+        private Guna.UI2.WinForms.Guna2RadioButton rbCompleted;
+        private Guna.UI2.WinForms.Guna2RadioButton rbPlanned;
         private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colCategory;
         private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseStatus;
         private System.Windows.Forms.DataGridViewImageColumn colEdit;
         private System.Windows.Forms.DataGridViewImageColumn colDelete;
     }

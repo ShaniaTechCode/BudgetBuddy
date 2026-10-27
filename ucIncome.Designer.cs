@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblIncometitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalIncome = new Guna.UI2.WinForms.Guna2Panel();
             this.picIncomeIcon = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -46,18 +48,13 @@
             this.dtpIncomeDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.txtAmount = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtSourceOfIncome = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblIncomeDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblIncomePeriod = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblAmount = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblSourceOfIncome = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblAddIncome = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlIncomeList = new Guna.UI2.WinForms.Guna2Panel();
             this.txtSearchIncome = new Guna.UI2.WinForms.Guna2TextBox();
             this.dgvIncomeList = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.colSourceOfIncome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
-            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.lblIncomeList = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlCalcu = new Guna.UI2.WinForms.Guna2Panel();
             this.btnEqual = new Guna.UI2.WinForms.Guna2Button();
@@ -88,6 +85,18 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.cbIncomePeriod = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblIncomeDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblIncomeStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.rbExpected = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.rbReceived = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.colSourceOfIncome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colIncomePeriod = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colIncomeStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
+            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.pnlTotalIncome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIncomeIcon)).BeginInit();
             this.pnlAddIncome.SuspendLayout();
@@ -159,11 +168,16 @@
             // pnlAddIncome
             // 
             this.pnlAddIncome.BorderRadius = 15;
+            this.pnlAddIncome.Controls.Add(this.rbReceived);
+            this.pnlAddIncome.Controls.Add(this.rbExpected);
+            this.pnlAddIncome.Controls.Add(this.lblIncomeStatus);
+            this.pnlAddIncome.Controls.Add(this.lblIncomeDate);
+            this.pnlAddIncome.Controls.Add(this.cbIncomePeriod);
             this.pnlAddIncome.Controls.Add(this.btnAddIncome);
             this.pnlAddIncome.Controls.Add(this.dtpIncomeDate);
             this.pnlAddIncome.Controls.Add(this.txtAmount);
             this.pnlAddIncome.Controls.Add(this.txtSourceOfIncome);
-            this.pnlAddIncome.Controls.Add(this.lblIncomeDate);
+            this.pnlAddIncome.Controls.Add(this.lblIncomePeriod);
             this.pnlAddIncome.Controls.Add(this.lblAmount);
             this.pnlAddIncome.Controls.Add(this.lblSourceOfIncome);
             this.pnlAddIncome.Controls.Add(this.lblAddIncome);
@@ -171,7 +185,7 @@
             this.pnlAddIncome.Location = new System.Drawing.Point(122, 333);
             this.pnlAddIncome.Name = "pnlAddIncome";
             this.pnlAddIncome.ShadowDecoration.Parent = this.pnlAddIncome;
-            this.pnlAddIncome.Size = new System.Drawing.Size(404, 390);
+            this.pnlAddIncome.Size = new System.Drawing.Size(404, 503);
             this.pnlAddIncome.TabIndex = 7;
             // 
             // btnAddIncome
@@ -183,7 +197,7 @@
             this.btnAddIncome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddIncome.ForeColor = System.Drawing.Color.White;
             this.btnAddIncome.HoverState.Parent = this.btnAddIncome;
-            this.btnAddIncome.Location = new System.Drawing.Point(36, 318);
+            this.btnAddIncome.Location = new System.Drawing.Point(36, 432);
             this.btnAddIncome.Name = "btnAddIncome";
             this.btnAddIncome.ShadowDecoration.Parent = this.btnAddIncome;
             this.btnAddIncome.Size = new System.Drawing.Size(294, 45);
@@ -199,7 +213,7 @@
             this.dtpIncomeDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpIncomeDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpIncomeDate.HoverState.Parent = this.dtpIncomeDate;
-            this.dtpIncomeDate.Location = new System.Drawing.Point(36, 253);
+            this.dtpIncomeDate.Location = new System.Drawing.Point(36, 320);
             this.dtpIncomeDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpIncomeDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpIncomeDate.Name = "dtpIncomeDate";
@@ -266,17 +280,17 @@
             this.txtSourceOfIncome.Size = new System.Drawing.Size(296, 44);
             this.txtSourceOfIncome.TabIndex = 19;
             // 
-            // lblIncomeDate
+            // lblIncomePeriod
             // 
-            this.lblIncomeDate.AutoSize = false;
-            this.lblIncomeDate.BackColor = System.Drawing.Color.Transparent;
-            this.lblIncomeDate.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIncomeDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomeDate.Location = new System.Drawing.Point(36, 223);
-            this.lblIncomeDate.Name = "lblIncomeDate";
-            this.lblIncomeDate.Size = new System.Drawing.Size(123, 25);
-            this.lblIncomeDate.TabIndex = 17;
-            this.lblIncomeDate.Text = "Budget Period:";
+            this.lblIncomePeriod.AutoSize = false;
+            this.lblIncomePeriod.BackColor = System.Drawing.Color.Transparent;
+            this.lblIncomePeriod.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncomePeriod.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblIncomePeriod.Location = new System.Drawing.Point(36, 223);
+            this.lblIncomePeriod.Name = "lblIncomePeriod";
+            this.lblIncomePeriod.Size = new System.Drawing.Size(123, 25);
+            this.lblIncomePeriod.TabIndex = 17;
+            this.lblIncomePeriod.Text = "Income Period:";
             // 
             // lblAmount
             // 
@@ -323,7 +337,7 @@
             this.pnlIncomeList.Location = new System.Drawing.Point(567, 333);
             this.pnlIncomeList.Name = "pnlIncomeList";
             this.pnlIncomeList.ShadowDecoration.Parent = this.pnlIncomeList;
-            this.pnlIncomeList.Size = new System.Drawing.Size(789, 390);
+            this.pnlIncomeList.Size = new System.Drawing.Size(826, 390);
             this.pnlIncomeList.TabIndex = 18;
             // 
             // txtSearchIncome
@@ -346,7 +360,7 @@
             this.txtSearchIncome.HoverState.Parent = this.txtSearchIncome;
             this.txtSearchIncome.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
             this.txtSearchIncome.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchIncome.Location = new System.Drawing.Point(550, 16);
+            this.txtSearchIncome.Location = new System.Drawing.Point(590, 16);
             this.txtSearchIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchIncome.Name = "txtSearchIncome";
             this.txtSearchIncome.PasswordChar = '\0';
@@ -361,53 +375,55 @@
             // dgvIncomeList
             // 
             this.dgvIncomeList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvIncomeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvIncomeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgvIncomeList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvIncomeList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
             this.dgvIncomeList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvIncomeList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvIncomeList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvIncomeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvIncomeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dgvIncomeList.ColumnHeadersHeight = 38;
             this.dgvIncomeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colSourceOfIncome,
             this.colAmount,
+            this.colIncomePeriod,
             this.colDate,
+            this.colIncomeStatus,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvIncomeList.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvIncomeList.DefaultCellStyle = dataGridViewCellStyle28;
             this.dgvIncomeList.EnableHeadersVisualStyles = false;
             this.dgvIncomeList.GridColor = System.Drawing.Color.DarkGray;
             this.dgvIncomeList.Location = new System.Drawing.Point(0, 62);
             this.dgvIncomeList.Name = "dgvIncomeList";
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvIncomeList.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvIncomeList.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.dgvIncomeList.RowHeadersVisible = false;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvIncomeList.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvIncomeList.RowsDefaultCellStyle = dataGridViewCellStyle30;
             this.dgvIncomeList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvIncomeList.Size = new System.Drawing.Size(789, 328);
+            this.dgvIncomeList.Size = new System.Drawing.Size(826, 328);
             this.dgvIncomeList.TabIndex = 2;
             this.dgvIncomeList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
             this.dgvIncomeList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
@@ -431,50 +447,7 @@
             this.dgvIncomeList.ThemeStyle.RowsStyle.Height = 22;
             this.dgvIncomeList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
             this.dgvIncomeList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            // 
-            // colSourceOfIncome
-            // 
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colSourceOfIncome.DefaultCellStyle = dataGridViewCellStyle19;
-            this.colSourceOfIncome.FillWeight = 121.8274F;
-            this.colSourceOfIncome.HeaderText = "Source of Income";
-            this.colSourceOfIncome.Name = "colSourceOfIncome";
-            // 
-            // colAmount
-            // 
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle20;
-            this.colAmount.FillWeight = 95.63452F;
-            this.colAmount.HeaderText = "Amount";
-            this.colAmount.Name = "colAmount";
-            // 
-            // colDate
-            // 
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle21;
-            this.colDate.FillWeight = 95.63452F;
-            this.colDate.HeaderText = "Date ";
-            this.colDate.Name = "colDate";
-            // 
-            // colEdit
-            // 
-            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colEdit.FillWeight = 95.63452F;
-            this.colEdit.HeaderText = "Edit";
-            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colEdit.Name = "colEdit";
-            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colEdit.Width = 65;
-            // 
-            // colDelete
-            // 
-            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colDelete.FillWeight = 95.63452F;
-            this.colDelete.HeaderText = "Delete";
-            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colDelete.Name = "colDelete";
-            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colDelete.Width = 65;
+            this.dgvIncomeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvIncomeList_CellContentClick);
             // 
             // lblIncomeList
             // 
@@ -936,6 +909,153 @@
             this.guna2Button4.Size = new System.Drawing.Size(35, 44);
             this.guna2Button4.TabIndex = 1;
             // 
+            // cbIncomePeriod
+            // 
+            this.cbIncomePeriod.BackColor = System.Drawing.Color.Transparent;
+            this.cbIncomePeriod.BorderRadius = 10;
+            this.cbIncomePeriod.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbIncomePeriod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbIncomePeriod.FocusedColor = System.Drawing.Color.Empty;
+            this.cbIncomePeriod.FocusedState.Parent = this.cbIncomePeriod;
+            this.cbIncomePeriod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
+            this.cbIncomePeriod.ForeColor = System.Drawing.Color.Black;
+            this.cbIncomePeriod.FormattingEnabled = true;
+            this.cbIncomePeriod.HoverState.Parent = this.cbIncomePeriod;
+            this.cbIncomePeriod.ItemHeight = 30;
+            this.cbIncomePeriod.ItemsAppearance.Parent = this.cbIncomePeriod;
+            this.cbIncomePeriod.Location = new System.Drawing.Point(36, 250);
+            this.cbIncomePeriod.Name = "cbIncomePeriod";
+            this.cbIncomePeriod.ShadowDecoration.Parent = this.cbIncomePeriod;
+            this.cbIncomePeriod.Size = new System.Drawing.Size(298, 36);
+            this.cbIncomePeriod.TabIndex = 23;
+            this.cbIncomePeriod.SelectedIndexChanged += new System.EventHandler(this.cbBudgetPeriod_SelectedIndexChanged);
+            // 
+            // lblIncomeDate
+            // 
+            this.lblIncomeDate.AutoSize = false;
+            this.lblIncomeDate.BackColor = System.Drawing.Color.Transparent;
+            this.lblIncomeDate.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncomeDate.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblIncomeDate.Location = new System.Drawing.Point(36, 295);
+            this.lblIncomeDate.Name = "lblIncomeDate";
+            this.lblIncomeDate.Size = new System.Drawing.Size(123, 25);
+            this.lblIncomeDate.TabIndex = 24;
+            this.lblIncomeDate.Text = "Income Date:";
+            // 
+            // lblIncomeStatus
+            // 
+            this.lblIncomeStatus.AutoSize = false;
+            this.lblIncomeStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblIncomeStatus.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncomeStatus.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblIncomeStatus.Location = new System.Drawing.Point(38, 371);
+            this.lblIncomeStatus.Name = "lblIncomeStatus";
+            this.lblIncomeStatus.Size = new System.Drawing.Size(123, 25);
+            this.lblIncomeStatus.TabIndex = 25;
+            this.lblIncomeStatus.Text = "Income Status:";
+            // 
+            // rbExpected
+            // 
+            this.rbExpected.AutoSize = true;
+            this.rbExpected.BackColor = System.Drawing.Color.Transparent;
+            this.rbExpected.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbExpected.CheckedState.BorderThickness = 2;
+            this.rbExpected.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbExpected.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbExpected.CheckedState.InnerOffset = -4;
+            this.rbExpected.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbExpected.Location = new System.Drawing.Point(71, 394);
+            this.rbExpected.Name = "rbExpected";
+            this.rbExpected.Size = new System.Drawing.Size(90, 23);
+            this.rbExpected.TabIndex = 26;
+            this.rbExpected.TabStop = true;
+            this.rbExpected.Text = "Expected";
+            this.rbExpected.UncheckedState.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.rbExpected.UncheckedState.BorderThickness = 2;
+            this.rbExpected.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbExpected.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbExpected.UseVisualStyleBackColor = false;
+            // 
+            // rbReceived
+            // 
+            this.rbReceived.AutoSize = true;
+            this.rbReceived.BackColor = System.Drawing.Color.Transparent;
+            this.rbReceived.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbReceived.CheckedState.BorderThickness = 2;
+            this.rbReceived.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.rbReceived.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbReceived.CheckedState.InnerOffset = -4;
+            this.rbReceived.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbReceived.Location = new System.Drawing.Point(169, 394);
+            this.rbReceived.Name = "rbReceived";
+            this.rbReceived.Size = new System.Drawing.Size(89, 23);
+            this.rbReceived.TabIndex = 27;
+            this.rbReceived.TabStop = true;
+            this.rbReceived.Text = "Received";
+            this.rbReceived.UncheckedState.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.rbReceived.UncheckedState.BorderThickness = 2;
+            this.rbReceived.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbReceived.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbReceived.UseVisualStyleBackColor = false;
+            // 
+            // colSourceOfIncome
+            // 
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colSourceOfIncome.DefaultCellStyle = dataGridViewCellStyle23;
+            this.colSourceOfIncome.FillWeight = 121.8274F;
+            this.colSourceOfIncome.HeaderText = "Source of Income";
+            this.colSourceOfIncome.Name = "colSourceOfIncome";
+            // 
+            // colAmount
+            // 
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle24;
+            this.colAmount.FillWeight = 95.63452F;
+            this.colAmount.HeaderText = "Amount";
+            this.colAmount.Name = "colAmount";
+            // 
+            // colIncomePeriod
+            // 
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colIncomePeriod.DefaultCellStyle = dataGridViewCellStyle25;
+            this.colIncomePeriod.HeaderText = "Period";
+            this.colIncomePeriod.Name = "colIncomePeriod";
+            // 
+            // colDate
+            // 
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle26;
+            this.colDate.FillWeight = 95.63452F;
+            this.colDate.HeaderText = "Date ";
+            this.colDate.Name = "colDate";
+            // 
+            // colIncomeStatus
+            // 
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colIncomeStatus.DefaultCellStyle = dataGridViewCellStyle27;
+            this.colIncomeStatus.HeaderText = "Status";
+            this.colIncomeStatus.Name = "colIncomeStatus";
+            // 
+            // colEdit
+            // 
+            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colEdit.FillWeight = 95.63452F;
+            this.colEdit.HeaderText = "Edit";
+            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colEdit.Name = "colEdit";
+            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colEdit.Width = 65;
+            // 
+            // colDelete
+            // 
+            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colDelete.FillWeight = 95.63452F;
+            this.colDelete.HeaderText = "Delete";
+            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colDelete.Name = "colDelete";
+            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colDelete.Width = 65;
+            // 
             // ucIncome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -950,6 +1070,7 @@
             this.Controls.Add(this.pnlTotalIncome);
             this.Name = "ucIncome";
             this.Size = new System.Drawing.Size(1652, 1041);
+            this.Load += new System.EventHandler(this.ucIncome_Load);
             this.pnlTotalIncome.ResumeLayout(false);
             this.pnlTotalIncome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIncomeIcon)).EndInit();
@@ -976,7 +1097,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalIncome_Amount;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalIncome;
         private Guna.UI2.WinForms.Guna2Panel pnlAddIncome;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblIncomeDate;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblIncomePeriod;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAmount;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSourceOfIncome;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAddIncome;
@@ -1017,9 +1138,16 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2ComboBox cbIncomePeriod;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblIncomeDate;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblIncomeStatus;
+        private Guna.UI2.WinForms.Guna2RadioButton rbExpected;
+        private Guna.UI2.WinForms.Guna2RadioButton rbReceived;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSourceOfIncome;
         private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colIncomePeriod;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colIncomeStatus;
         private System.Windows.Forms.DataGridViewImageColumn colEdit;
         private System.Windows.Forms.DataGridViewImageColumn colDelete;
     }
