@@ -447,7 +447,6 @@
             this.dgvIncomeList.ThemeStyle.RowsStyle.Height = 22;
             this.dgvIncomeList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
             this.dgvIncomeList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvIncomeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvIncomeList_CellContentClick);
             // 
             // lblIncomeList
             // 
@@ -928,7 +927,6 @@
             this.cbIncomePeriod.ShadowDecoration.Parent = this.cbIncomePeriod;
             this.cbIncomePeriod.Size = new System.Drawing.Size(298, 36);
             this.cbIncomePeriod.TabIndex = 23;
-            this.cbIncomePeriod.SelectedIndexChanged += new System.EventHandler(this.cbBudgetPeriod_SelectedIndexChanged);
             // 
             // lblIncomeDate
             // 
@@ -1070,7 +1068,6 @@
             this.Controls.Add(this.pnlTotalIncome);
             this.Name = "ucIncome";
             this.Size = new System.Drawing.Size(1652, 1041);
-            this.Load += new System.EventHandler(this.ucIncome_Load);
             this.pnlTotalIncome.ResumeLayout(false);
             this.pnlTotalIncome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIncomeIcon)).EndInit();

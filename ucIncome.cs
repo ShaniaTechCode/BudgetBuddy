@@ -15,23 +15,6 @@ namespace BudgetBuddy
         public ucIncome()
         {
             InitializeComponent();
-
-            rbExpected.Size = new Size(100,100);
-        }
-
-        private void ucIncome_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbBudgetPeriod_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvIncomeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
