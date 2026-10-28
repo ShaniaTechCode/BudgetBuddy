@@ -111,9 +111,9 @@
             this.lblEnableNotifDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.lblEnableNotifDescription.Location = new System.Drawing.Point(104, 48);
             this.lblEnableNotifDescription.Name = "lblEnableNotifDescription";
-            this.lblEnableNotifDescription.Size = new System.Drawing.Size(292, 20);
+            this.lblEnableNotifDescription.Size = new System.Drawing.Size(293, 20);
             this.lblEnableNotifDescription.TabIndex = 21;
-            this.lblEnableNotifDescription.Text = "Receive alerts to help manage yout finances";
+            this.lblEnableNotifDescription.Text = "Receive alerts to help manage your finances\r\n";
             // 
             // lblEnableNotifications
             // 
