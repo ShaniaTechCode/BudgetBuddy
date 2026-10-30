@@ -16,6 +16,12 @@ namespace BudgetBuddy
         public frmDashboard()
         {
             InitializeComponent();
+
+            pnlMainContent.AutoScroll = true;
+            pnlMainContent.AutoScrollMinSize = new Size(0, 1200);
+            pnlMainContent.HorizontalScroll.Enabled = false;
+            pnlMainContent.HorizontalScroll.Visible = false;
+            pnlMainContent.HorizontalScroll.Maximum = 0;
         }
 
         // Loads a UserControl into the main content panel.

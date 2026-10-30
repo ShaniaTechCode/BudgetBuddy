@@ -233,19 +233,9 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logoutlogo {
+        internal static System.Drawing.Bitmap logoutLogo {
             get {
-                object obj = ResourceManager.GetObject("logoutlogo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logoutlogo1 {
-            get {
-                object obj = ResourceManager.GetObject("logoutlogo1", resourceCulture);
+                object obj = ResourceManager.GetObject("logoutLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

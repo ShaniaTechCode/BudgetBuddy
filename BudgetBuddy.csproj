@@ -292,24 +292,6 @@
     <None Include="Resources\incomeLogo1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\budgetLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\analyticsLogo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logoutlogo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logoutlogo2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\settingsLogo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\expensesLogo1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\summaryCardBudget1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -341,6 +323,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\editIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboardLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\budgetLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incomeLogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expensesLogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analyticsLogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsLogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

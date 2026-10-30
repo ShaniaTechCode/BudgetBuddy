@@ -15,6 +15,12 @@ namespace BudgetBuddy
         public frmExpenses()
         {
             InitializeComponent();
+
+            pnlMainContentExpenses.AutoScroll = true;
+            pnlMainContentExpenses.AutoScrollMinSize = new Size(0, 1200);
+            pnlMainContentExpenses.HorizontalScroll.Enabled = false;
+            pnlMainContentExpenses.HorizontalScroll.Visible = false;
+            pnlMainContentExpenses.HorizontalScroll.Maximum = 0;
         }
     }
 }
