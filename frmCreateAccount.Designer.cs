@@ -52,9 +52,9 @@
             this.txtBoxEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtBoxPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtBoxFullName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ucBranding1 = new BudgetBuddy.ucBranding();
             this.ucSideDesignRight1 = new BudgetBuddy.ucSideDesignRight();
             this.ucSideDesignLeft1 = new BudgetBuddy.ucSideDesignLeft();
-            this.ucBranding1 = new BudgetBuddy.ucBranding();
             this.pnlSignUpForm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -260,10 +260,10 @@
             // checkBoxAgree
             // 
             this.checkBoxAgree.BackColor = System.Drawing.Color.Transparent;
-            this.checkBoxAgree.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.checkBoxAgree.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.checkBoxAgree.CheckedState.BorderRadius = 2;
             this.checkBoxAgree.CheckedState.BorderThickness = 0;
-            this.checkBoxAgree.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.checkBoxAgree.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.checkBoxAgree.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxAgree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.checkBoxAgree.Location = new System.Drawing.Point(25, 494);
@@ -469,6 +469,15 @@
             this.txtBoxFullName.TabIndex = 3;
             this.txtBoxFullName.TextOffset = new System.Drawing.Point(8, 0);
             // 
+            // ucBranding1
+            // 
+            this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
+            this.ucBranding1.Location = new System.Drawing.Point(363, 251);
+            this.ucBranding1.Name = "ucBranding1";
+            this.ucBranding1.Size = new System.Drawing.Size(554, 442);
+            this.ucBranding1.TabIndex = 22;
+            // 
             // ucSideDesignRight1
             // 
             this.ucSideDesignRight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -486,15 +495,6 @@
             this.ucSideDesignLeft1.Name = "ucSideDesignLeft1";
             this.ucSideDesignLeft1.Size = new System.Drawing.Size(207, 1041);
             this.ucSideDesignLeft1.TabIndex = 19;
-            // 
-            // ucBranding1
-            // 
-            this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucBranding1.Location = new System.Drawing.Point(363, 251);
-            this.ucBranding1.Name = "ucBranding1";
-            this.ucBranding1.Size = new System.Drawing.Size(554, 442);
-            this.ucBranding1.TabIndex = 22;
             // 
             // frmCreateAccount
             // 

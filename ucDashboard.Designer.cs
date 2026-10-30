@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucDashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint31 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "20,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint32 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "15,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint33 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint34 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint35 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint36 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "5,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "20,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "15,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "10,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "5,0,0,0");
             this.pnlDashboardHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.picNotificationBadge = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -161,7 +161,7 @@
             this.pnlDashboardHeader.Controls.Add(this.guna2PictureBox1);
             this.pnlDashboardHeader.Controls.Add(this.lblWelcome);
             this.pnlDashboardHeader.Controls.Add(this.lblDashboardTitle);
-            this.pnlDashboardHeader.Location = new System.Drawing.Point(39, 10);
+            this.pnlDashboardHeader.Location = new System.Drawing.Point(6, 3);
             this.pnlDashboardHeader.Name = "pnlDashboardHeader";
             this.pnlDashboardHeader.ShadowDecoration.Parent = this.pnlDashboardHeader;
             this.pnlDashboardHeader.Size = new System.Drawing.Size(1170, 196);
@@ -263,10 +263,10 @@
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudgetAmount);
             this.pnlTotalBudget.Controls.Add(this.lblTotalBudget);
             this.pnlTotalBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalBudget.Location = new System.Drawing.Point(39, 232);
+            this.pnlTotalBudget.Location = new System.Drawing.Point(20, 236);
             this.pnlTotalBudget.Name = "pnlTotalBudget";
             this.pnlTotalBudget.ShadowDecoration.Parent = this.pnlTotalBudget;
-            this.pnlTotalBudget.Size = new System.Drawing.Size(346, 145);
+            this.pnlTotalBudget.Size = new System.Drawing.Size(303, 145);
             this.pnlTotalBudget.TabIndex = 2;
             // 
             // picBudgetIcon
@@ -309,10 +309,10 @@
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncomeAmount);
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncome);
             this.pnlTotalIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalIncome.Location = new System.Drawing.Point(432, 232);
+            this.pnlTotalIncome.Location = new System.Drawing.Point(390, 236);
             this.pnlTotalIncome.Name = "pnlTotalIncome";
             this.pnlTotalIncome.ShadowDecoration.Parent = this.pnlTotalIncome;
-            this.pnlTotalIncome.Size = new System.Drawing.Size(346, 145);
+            this.pnlTotalIncome.Size = new System.Drawing.Size(303, 145);
             this.pnlTotalIncome.TabIndex = 3;
             // 
             // picTotalIncome
@@ -355,10 +355,10 @@
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpensesAmount);
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpenses);
             this.pnlTotalExpenses.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalExpenses.Location = new System.Drawing.Point(39, 399);
+            this.pnlTotalExpenses.Location = new System.Drawing.Point(20, 413);
             this.pnlTotalExpenses.Name = "pnlTotalExpenses";
             this.pnlTotalExpenses.ShadowDecoration.Parent = this.pnlTotalExpenses;
-            this.pnlTotalExpenses.Size = new System.Drawing.Size(346, 145);
+            this.pnlTotalExpenses.Size = new System.Drawing.Size(303, 145);
             this.pnlTotalExpenses.TabIndex = 4;
             // 
             // picTotalExpenses
@@ -403,10 +403,10 @@
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel29);
             this.guna2Panel1.Controls.Add(this.chart2);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(39, 562);
+            this.guna2Panel1.Location = new System.Drawing.Point(21, 583);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(739, 464);
+            this.guna2Panel1.Size = new System.Drawing.Size(672, 464);
             this.guna2Panel1.TabIndex = 7;
             // 
             // lblTotalText
@@ -415,7 +415,7 @@
             this.lblTotalText.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalText.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalText.Location = new System.Drawing.Point(195, 212);
+            this.lblTotalText.Location = new System.Drawing.Point(180, 213);
             this.lblTotalText.Name = "lblTotalText";
             this.lblTotalText.Size = new System.Drawing.Size(69, 37);
             this.lblTotalText.TabIndex = 17;
@@ -427,7 +427,7 @@
             this.lblTotalAmount.AutoSize = false;
             this.lblTotalAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalAmount.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalAmount.Location = new System.Drawing.Point(174, 187);
+            this.lblTotalAmount.Location = new System.Drawing.Point(159, 186);
             this.lblTotalAmount.Name = "lblTotalAmount";
             this.lblTotalAmount.Size = new System.Drawing.Size(116, 36);
             this.lblTotalAmount.TabIndex = 16;
@@ -460,52 +460,52 @@
             // chart2
             // 
             this.chart2.BackColor = System.Drawing.Color.Transparent;
-            chartArea6.BackColor = System.Drawing.Color.Transparent;
-            chartArea6.InnerPlotPosition.Auto = false;
-            chartArea6.InnerPlotPosition.Height = 70F;
-            chartArea6.InnerPlotPosition.Width = 50F;
-            chartArea6.Name = "ChartArea1";
-            chartArea6.Position.Auto = false;
-            chartArea6.Position.Height = 100F;
-            chartArea6.Position.Width = 100F;
-            this.chart2.ChartAreas.Add(chartArea6);
-            legend6.Alignment = System.Drawing.StringAlignment.Center;
-            legend6.BackColor = System.Drawing.Color.Transparent;
-            legend6.Name = "Legend1";
-            legend6.Position.Auto = false;
-            legend6.Position.Height = 45F;
-            legend6.Position.Width = 35F;
-            legend6.Position.X = 52F;
-            legend6.Position.Y = 30F;
-            this.chart2.Legends.Add(legend6);
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.InnerPlotPosition.Auto = false;
+            chartArea1.InnerPlotPosition.Height = 70F;
+            chartArea1.InnerPlotPosition.Width = 50F;
+            chartArea1.Name = "ChartArea1";
+            chartArea1.Position.Auto = false;
+            chartArea1.Position.Height = 100F;
+            chartArea1.Position.Width = 100F;
+            this.chart2.ChartAreas.Add(chartArea1);
+            legend1.Alignment = System.Drawing.StringAlignment.Center;
+            legend1.BackColor = System.Drawing.Color.Transparent;
+            legend1.Name = "Legend1";
+            legend1.Position.Auto = false;
+            legend1.Position.Height = 45F;
+            legend1.Position.Width = 35F;
+            legend1.Position.X = 52F;
+            legend1.Position.Y = 30F;
+            this.chart2.Legends.Add(legend1);
             this.chart2.Location = new System.Drawing.Point(100, 82);
             this.chart2.Name = "chart2";
-            series6.BorderColor = System.Drawing.Color.Transparent;
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series6.CustomProperties = "DoughnutRadius=40";
-            series6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series6.Legend = "Legend1";
-            series6.Name = "ExpenseCategories";
-            dataPoint31.LegendText = "Food";
-            dataPoint32.LegendText = "Transportation";
-            dataPoint33.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            dataPoint33.LegendText = "Bills";
-            dataPoint34.Color = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(199)))), ((int)(((byte)(132)))));
-            dataPoint34.LegendText = "Health";
-            dataPoint35.Color = System.Drawing.Color.PaleVioletRed;
-            dataPoint35.LegendText = "Shopping";
-            dataPoint36.Color = System.Drawing.Color.DarkGray;
-            dataPoint36.LegendText = "Others";
-            series6.Points.Add(dataPoint31);
-            series6.Points.Add(dataPoint32);
-            series6.Points.Add(dataPoint33);
-            series6.Points.Add(dataPoint34);
-            series6.Points.Add(dataPoint35);
-            series6.Points.Add(dataPoint36);
-            series6.YValuesPerPoint = 4;
-            this.chart2.Series.Add(series6);
-            this.chart2.Size = new System.Drawing.Size(539, 379);
+            series1.BorderColor = System.Drawing.Color.Transparent;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series1.CustomProperties = "DoughnutRadius=40";
+            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.Legend = "Legend1";
+            series1.Name = "ExpenseCategories";
+            dataPoint1.LegendText = "Food";
+            dataPoint2.LegendText = "Transportation";
+            dataPoint3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            dataPoint3.LegendText = "Bills";
+            dataPoint4.Color = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(199)))), ((int)(((byte)(132)))));
+            dataPoint4.LegendText = "Health";
+            dataPoint5.Color = System.Drawing.Color.PaleVioletRed;
+            dataPoint5.LegendText = "Shopping";
+            dataPoint6.Color = System.Drawing.Color.DarkGray;
+            dataPoint6.LegendText = "Others";
+            series1.Points.Add(dataPoint1);
+            series1.Points.Add(dataPoint2);
+            series1.Points.Add(dataPoint3);
+            series1.Points.Add(dataPoint4);
+            series1.Points.Add(dataPoint5);
+            series1.Points.Add(dataPoint6);
+            series1.YValuesPerPoint = 4;
+            this.chart2.Series.Add(series1);
+            this.chart2.Size = new System.Drawing.Size(475, 379);
             this.chart2.TabIndex = 3;
             this.chart2.Text = "chart2";
             // 
@@ -528,7 +528,7 @@
             this.pnlRecentTransactions.Controls.Add(this.btnViewAll);
             this.pnlRecentTransactions.Controls.Add(this.lblRecentTransactions);
             this.pnlRecentTransactions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlRecentTransactions.Location = new System.Drawing.Point(800, 666);
+            this.pnlRecentTransactions.Location = new System.Drawing.Point(767, 680);
             this.pnlRecentTransactions.Name = "pnlRecentTransactions";
             this.pnlRecentTransactions.ShadowDecoration.Parent = this.pnlRecentTransactions;
             this.pnlRecentTransactions.Size = new System.Drawing.Size(409, 266);
@@ -714,7 +714,7 @@
             this.pnlCalendar.Controls.Add(this.guna2PictureBox3);
             this.pnlCalendar.Controls.Add(this.monthCalendar1);
             this.pnlCalendar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlCalendar.Location = new System.Drawing.Point(800, 232);
+            this.pnlCalendar.Location = new System.Drawing.Point(767, 236);
             this.pnlCalendar.Name = "pnlCalendar";
             this.pnlCalendar.ShadowDecoration.Parent = this.pnlCalendar;
             this.pnlCalendar.Size = new System.Drawing.Size(409, 421);
@@ -871,7 +871,7 @@
             // monthCalendar1
             // 
             this.monthCalendar1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.monthCalendar1.Location = new System.Drawing.Point(91, 66);
+            this.monthCalendar1.Location = new System.Drawing.Point(89, 66);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
             // 
@@ -882,10 +882,10 @@
             this.pnlRemainingBalance.Controls.Add(this.lblRemainingBalanceAmount);
             this.pnlRemainingBalance.Controls.Add(this.lblRemainingBalance);
             this.pnlRemainingBalance.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlRemainingBalance.Location = new System.Drawing.Point(432, 399);
+            this.pnlRemainingBalance.Location = new System.Drawing.Point(390, 413);
             this.pnlRemainingBalance.Name = "pnlRemainingBalance";
             this.pnlRemainingBalance.ShadowDecoration.Parent = this.pnlRemainingBalance;
-            this.pnlRemainingBalance.Size = new System.Drawing.Size(346, 145);
+            this.pnlRemainingBalance.Size = new System.Drawing.Size(303, 145);
             this.pnlRemainingBalance.TabIndex = 11;
             // 
             // picRemainingBalance
@@ -946,7 +946,7 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(806, 941);
+            this.pnlCalcu.Location = new System.Drawing.Point(770, 969);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
             this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
@@ -1300,7 +1300,7 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.White;
             this.btnCalculator.HoverState.Parent = this.btnCalculator;
             this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1138, 966);
+            this.btnCalculator.Location = new System.Drawing.Point(1116, 987);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
             this.btnCalculator.Size = new System.Drawing.Size(60, 60);

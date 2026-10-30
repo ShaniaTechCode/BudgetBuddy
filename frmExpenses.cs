@@ -16,8 +16,9 @@ namespace BudgetBuddy
         {
             InitializeComponent();
 
+            // Adjust the main content panel scrolling behavior.
             pnlMainContentExpenses.AutoScroll = true;
-            pnlMainContentExpenses.AutoScrollMinSize = new Size(0, 1200);
+            pnlMainContentExpenses.AutoScrollMinSize = new Size(0, 1700);
             pnlMainContentExpenses.HorizontalScroll.Enabled = false;
             pnlMainContentExpenses.HorizontalScroll.Visible = false;
             pnlMainContentExpenses.HorizontalScroll.Maximum = 0;

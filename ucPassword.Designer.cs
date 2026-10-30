@@ -35,7 +35,7 @@
             this.lblChangePassDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblChangePasswordtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblConfirmPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnLogIn = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_SaveChanges = new Guna.UI2.WinForms.Guna2Button();
             this.lblPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblCurrentPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlChangePassword.SuspendLayout();
@@ -52,7 +52,7 @@
             this.pnlChangePassword.Controls.Add(this.lblChangePassDescription);
             this.pnlChangePassword.Controls.Add(this.lblChangePasswordtitle);
             this.pnlChangePassword.Controls.Add(this.lblConfirmPass);
-            this.pnlChangePassword.Controls.Add(this.btnLogIn);
+            this.pnlChangePassword.Controls.Add(this.btn_SaveChanges);
             this.pnlChangePassword.Controls.Add(this.lblPass);
             this.pnlChangePassword.Controls.Add(this.lblCurrentPass);
             this.pnlChangePassword.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -195,21 +195,25 @@
             this.lblConfirmPass.TabIndex = 14;
             this.lblConfirmPass.Text = "Confirm Password";
             // 
-            // btnLogIn
+            // btn_SaveChanges
             // 
-            this.btnLogIn.BorderRadius = 15;
-            this.btnLogIn.CheckedState.Parent = this.btnLogIn;
-            this.btnLogIn.CustomImages.Parent = this.btnLogIn;
-            this.btnLogIn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
-            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogIn.ForeColor = System.Drawing.Color.White;
-            this.btnLogIn.HoverState.Parent = this.btnLogIn;
-            this.btnLogIn.Location = new System.Drawing.Point(313, 378);
-            this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.ShadowDecoration.Parent = this.btnLogIn;
-            this.btnLogIn.Size = new System.Drawing.Size(195, 45);
-            this.btnLogIn.TabIndex = 7;
-            this.btnLogIn.Text = "SAVE CHANGES";
+            this.btn_SaveChanges.BorderRadius = 15;
+            this.btn_SaveChanges.CheckedState.Parent = this.btn_SaveChanges;
+            this.btn_SaveChanges.CustomImages.Parent = this.btn_SaveChanges;
+            this.btn_SaveChanges.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.btn_SaveChanges.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_SaveChanges.ForeColor = System.Drawing.Color.White;
+            this.btn_SaveChanges.HoverState.Parent = this.btn_SaveChanges;
+            this.btn_SaveChanges.Image = global::BudgetBuddy.Properties.Resources.saveIcon;
+            this.btn_SaveChanges.ImageOffset = new System.Drawing.Point(0, -5);
+            this.btn_SaveChanges.ImageSize = new System.Drawing.Size(35, 35);
+            this.btn_SaveChanges.Location = new System.Drawing.Point(297, 380);
+            this.btn_SaveChanges.Name = "btn_SaveChanges";
+            this.btn_SaveChanges.ShadowDecoration.Parent = this.btn_SaveChanges;
+            this.btn_SaveChanges.Size = new System.Drawing.Size(205, 45);
+            this.btn_SaveChanges.TabIndex = 7;
+            this.btn_SaveChanges.Text = "SAVE CHANGES";
+            this.btn_SaveChanges.TextOffset = new System.Drawing.Point(-1, 0);
             // 
             // lblPass
             // 
@@ -253,7 +257,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblChangePassDescription;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblChangePasswordtitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblConfirmPass;
-        private Guna.UI2.WinForms.Guna2Button btnLogIn;
+        private Guna.UI2.WinForms.Guna2Button btn_SaveChanges;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPass;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblCurrentPass;
         private Guna.UI2.WinForms.Guna2TextBox txtBoxNewPass;

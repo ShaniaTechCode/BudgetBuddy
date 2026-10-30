@@ -82,6 +82,7 @@ namespace BudgetBuddy
         {
             pnlCalcu.Visible = !pnlCalcu.Visible;
         }
+
         private void OpBtn_click(char op)
         {
             if (operation == null)

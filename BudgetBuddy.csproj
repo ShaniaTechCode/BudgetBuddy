@@ -310,9 +310,6 @@
     <None Include="Resources\about.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\changePhoto.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\about1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -344,6 +341,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logoutLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changephotoIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
