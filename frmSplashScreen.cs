@@ -52,5 +52,10 @@ namespace BudgetBuddy
         {
 
         }
+
+        private void ucSideDesignLeft1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
