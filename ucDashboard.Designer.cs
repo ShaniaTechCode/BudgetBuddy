@@ -982,6 +982,7 @@
             this.btnDecimal.Size = new System.Drawing.Size(55, 29);
             this.btnDecimal.TabIndex = 19;
             this.btnDecimal.Text = ".";
+            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
             // btn0
             // 
