@@ -133,6 +133,16 @@ namespace BudgetBuddy
             }
         }
 
+        private void pnlDashboardHeader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ucDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
         //responsible for the operation button click events
         private void OpBtn_click(char op)
         {

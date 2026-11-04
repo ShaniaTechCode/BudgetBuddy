@@ -45,8 +45,8 @@
             this.btnGetStarted.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetStarted.ForeColor = System.Drawing.Color.White;
             this.btnGetStarted.HoverState.Parent = this.btnGetStarted;
-            this.btnGetStarted.Location = new System.Drawing.Point(779, 777);
-            this.btnGetStarted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGetStarted.Location = new System.Drawing.Point(833, 786);
+            this.btnGetStarted.Margin = new System.Windows.Forms.Padding(4);
             this.btnGetStarted.Name = "btnGetStarted";
             this.btnGetStarted.ShadowDecoration.Parent = this.btnGetStarted;
             this.btnGetStarted.Size = new System.Drawing.Size(269, 66);
@@ -67,10 +67,10 @@
             // 
             this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucBranding1.Location = new System.Drawing.Point(583, 225);
+            this.ucBranding1.Location = new System.Drawing.Point(656, 225);
             this.ucBranding1.Margin = new System.Windows.Forms.Padding(5);
             this.ucBranding1.Name = "ucBranding1";
-            this.ucBranding1.Size = new System.Drawing.Size(729, 552);
+            this.ucBranding1.Size = new System.Drawing.Size(693, 552);
             this.ucBranding1.TabIndex = 10;
             // 
             // ucSideDesignLeft1
@@ -105,7 +105,7 @@
             this.Controls.Add(this.btnGetStarted);
             this.Controls.Add(this.ucSideDesignLeft1);
             this.Controls.Add(this.ucSideDesignRight1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
