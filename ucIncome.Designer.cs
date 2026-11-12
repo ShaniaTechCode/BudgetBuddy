@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblIncometitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalIncome = new Guna.UI2.WinForms.Guna2Panel();
             this.picIncomeIcon = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -113,10 +113,9 @@
             this.lblIncometitle.BackColor = System.Drawing.Color.Transparent;
             this.lblIncometitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncometitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblIncometitle.Location = new System.Drawing.Point(19, 30);
-            this.lblIncometitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncometitle.Location = new System.Drawing.Point(14, 24);
             this.lblIncometitle.Name = "lblIncometitle";
-            this.lblIncometitle.Size = new System.Drawing.Size(139, 45);
+            this.lblIncometitle.Size = new System.Drawing.Size(114, 37);
             this.lblIncometitle.TabIndex = 14;
             this.lblIncometitle.Text = "Income";
             // 
@@ -127,22 +126,20 @@
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncome_Amount);
             this.pnlTotalIncome.Controls.Add(this.lblTotalIncome);
             this.pnlTotalIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalIncome.Location = new System.Drawing.Point(27, 180);
-            this.pnlTotalIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlTotalIncome.Location = new System.Drawing.Point(20, 146);
             this.pnlTotalIncome.Name = "pnlTotalIncome";
             this.pnlTotalIncome.ShadowDecoration.Parent = this.pnlTotalIncome;
-            this.pnlTotalIncome.Size = new System.Drawing.Size(552, 191);
+            this.pnlTotalIncome.Size = new System.Drawing.Size(414, 155);
             this.pnlTotalIncome.TabIndex = 4;
             // 
             // picIncomeIcon
             // 
             this.picIncomeIcon.BackColor = System.Drawing.Color.Transparent;
             this.picIncomeIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardIncome;
-            this.picIncomeIcon.Location = new System.Drawing.Point(53, 32);
-            this.picIncomeIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picIncomeIcon.Location = new System.Drawing.Point(40, 26);
             this.picIncomeIcon.Name = "picIncomeIcon";
             this.picIncomeIcon.ShadowDecoration.Parent = this.picIncomeIcon;
-            this.picIncomeIcon.Size = new System.Drawing.Size(137, 111);
+            this.picIncomeIcon.Size = new System.Drawing.Size(103, 90);
             this.picIncomeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picIncomeIcon.TabIndex = 0;
             this.picIncomeIcon.TabStop = false;
@@ -151,10 +148,9 @@
             // 
             this.lblTotalIncome_Amount.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalIncome_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalIncome_Amount.Location = new System.Drawing.Point(223, 73);
-            this.lblTotalIncome_Amount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTotalIncome_Amount.Location = new System.Drawing.Point(167, 59);
             this.lblTotalIncome_Amount.Name = "lblTotalIncome_Amount";
-            this.lblTotalIncome_Amount.Size = new System.Drawing.Size(175, 74);
+            this.lblTotalIncome_Amount.Size = new System.Drawing.Size(143, 60);
             this.lblTotalIncome_Amount.TabIndex = 1;
             this.lblTotalIncome_Amount.Text = "₱0.00";
             // 
@@ -163,10 +159,9 @@
             this.lblTotalIncome.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalIncome.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalIncome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalIncome.Location = new System.Drawing.Point(223, 32);
-            this.lblTotalIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTotalIncome.Location = new System.Drawing.Point(167, 26);
             this.lblTotalIncome.Name = "lblTotalIncome";
-            this.lblTotalIncome.Size = new System.Drawing.Size(121, 26);
+            this.lblTotalIncome.Size = new System.Drawing.Size(97, 21);
             this.lblTotalIncome.TabIndex = 0;
             this.lblTotalIncome.Text = "Total Income";
             // 
@@ -187,11 +182,10 @@
             this.pnlAddIncome.Controls.Add(this.lblSourceOfIncome);
             this.pnlAddIncome.Controls.Add(this.lblAddIncome);
             this.pnlAddIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlAddIncome.Location = new System.Drawing.Point(1029, 421);
-            this.pnlAddIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlAddIncome.Location = new System.Drawing.Point(772, 342);
             this.pnlAddIncome.Name = "pnlAddIncome";
             this.pnlAddIncome.ShadowDecoration.Parent = this.pnlAddIncome;
-            this.pnlAddIncome.Size = new System.Drawing.Size(539, 619);
+            this.pnlAddIncome.Size = new System.Drawing.Size(404, 503);
             this.pnlAddIncome.TabIndex = 7;
             // 
             // rbReceived
@@ -204,10 +198,9 @@
             this.rbReceived.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbReceived.CheckedState.InnerOffset = -4;
             this.rbReceived.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbReceived.Location = new System.Drawing.Point(225, 485);
-            this.rbReceived.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbReceived.Location = new System.Drawing.Point(169, 394);
             this.rbReceived.Name = "rbReceived";
-            this.rbReceived.Size = new System.Drawing.Size(111, 28);
+            this.rbReceived.Size = new System.Drawing.Size(89, 23);
             this.rbReceived.TabIndex = 27;
             this.rbReceived.TabStop = true;
             this.rbReceived.Text = "Received";
@@ -227,10 +220,9 @@
             this.rbExpected.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbExpected.CheckedState.InnerOffset = -4;
             this.rbExpected.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbExpected.Location = new System.Drawing.Point(95, 485);
-            this.rbExpected.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbExpected.Location = new System.Drawing.Point(71, 394);
             this.rbExpected.Name = "rbExpected";
-            this.rbExpected.Size = new System.Drawing.Size(112, 28);
+            this.rbExpected.Size = new System.Drawing.Size(90, 23);
             this.rbExpected.TabIndex = 26;
             this.rbExpected.TabStop = true;
             this.rbExpected.Text = "Expected";
@@ -246,10 +238,9 @@
             this.lblIncomeStatus.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomeStatus.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomeStatus.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomeStatus.Location = new System.Drawing.Point(51, 457);
-            this.lblIncomeStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncomeStatus.Location = new System.Drawing.Point(38, 371);
             this.lblIncomeStatus.Name = "lblIncomeStatus";
-            this.lblIncomeStatus.Size = new System.Drawing.Size(164, 31);
+            this.lblIncomeStatus.Size = new System.Drawing.Size(123, 25);
             this.lblIncomeStatus.TabIndex = 25;
             this.lblIncomeStatus.Text = "Income Status:";
             // 
@@ -259,10 +250,9 @@
             this.lblIncomeDate.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomeDate.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomeDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomeDate.Location = new System.Drawing.Point(48, 363);
-            this.lblIncomeDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncomeDate.Location = new System.Drawing.Point(36, 295);
             this.lblIncomeDate.Name = "lblIncomeDate";
-            this.lblIncomeDate.Size = new System.Drawing.Size(164, 31);
+            this.lblIncomeDate.Size = new System.Drawing.Size(123, 25);
             this.lblIncomeDate.TabIndex = 24;
             this.lblIncomeDate.Text = "Income Date:";
             // 
@@ -280,11 +270,10 @@
             this.cbIncomePeriod.HoverState.Parent = this.cbIncomePeriod;
             this.cbIncomePeriod.ItemHeight = 30;
             this.cbIncomePeriod.ItemsAppearance.Parent = this.cbIncomePeriod;
-            this.cbIncomePeriod.Location = new System.Drawing.Point(48, 308);
-            this.cbIncomePeriod.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbIncomePeriod.Location = new System.Drawing.Point(36, 250);
             this.cbIncomePeriod.Name = "cbIncomePeriod";
             this.cbIncomePeriod.ShadowDecoration.Parent = this.cbIncomePeriod;
-            this.cbIncomePeriod.Size = new System.Drawing.Size(396, 36);
+            this.cbIncomePeriod.Size = new System.Drawing.Size(298, 36);
             this.cbIncomePeriod.TabIndex = 23;
             // 
             // btnAddIncome
@@ -296,11 +285,10 @@
             this.btnAddIncome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddIncome.ForeColor = System.Drawing.Color.White;
             this.btnAddIncome.HoverState.Parent = this.btnAddIncome;
-            this.btnAddIncome.Location = new System.Drawing.Point(48, 532);
-            this.btnAddIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddIncome.Location = new System.Drawing.Point(36, 432);
             this.btnAddIncome.Name = "btnAddIncome";
             this.btnAddIncome.ShadowDecoration.Parent = this.btnAddIncome;
-            this.btnAddIncome.Size = new System.Drawing.Size(392, 55);
+            this.btnAddIncome.Size = new System.Drawing.Size(294, 45);
             this.btnAddIncome.TabIndex = 22;
             this.btnAddIncome.Text = "+   ADD INCOME";
             // 
@@ -313,13 +301,12 @@
             this.dtpIncomeDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpIncomeDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpIncomeDate.HoverState.Parent = this.dtpIncomeDate;
-            this.dtpIncomeDate.Location = new System.Drawing.Point(48, 394);
-            this.dtpIncomeDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpIncomeDate.Location = new System.Drawing.Point(36, 320);
             this.dtpIncomeDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpIncomeDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpIncomeDate.Name = "dtpIncomeDate";
             this.dtpIncomeDate.ShadowDecoration.Parent = this.dtpIncomeDate;
-            this.dtpIncomeDate.Size = new System.Drawing.Size(395, 53);
+            this.dtpIncomeDate.Size = new System.Drawing.Size(296, 43);
             this.dtpIncomeDate.TabIndex = 21;
             this.dtpIncomeDate.Value = new System.DateTime(2026, 9, 28, 22, 8, 44, 572);
             // 
@@ -341,15 +328,15 @@
             this.txtAmount.ForeColor = System.Drawing.Color.Black;
             this.txtAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAmount.HoverState.Parent = this.txtAmount;
-            this.txtAmount.Location = new System.Drawing.Point(51, 209);
-            this.txtAmount.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAmount.Location = new System.Drawing.Point(38, 170);
+            this.txtAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAmount.Name = "txtAmount";
             this.txtAmount.PasswordChar = '\0';
             this.txtAmount.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtAmount.PlaceholderText = "Enter amount";
             this.txtAmount.SelectedText = "";
             this.txtAmount.ShadowDecoration.Parent = this.txtAmount;
-            this.txtAmount.Size = new System.Drawing.Size(395, 54);
+            this.txtAmount.Size = new System.Drawing.Size(296, 44);
             this.txtAmount.TabIndex = 20;
             // 
             // txtSourceOfIncome
@@ -370,15 +357,15 @@
             this.txtSourceOfIncome.ForeColor = System.Drawing.Color.Black;
             this.txtSourceOfIncome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSourceOfIncome.HoverState.Parent = this.txtSourceOfIncome;
-            this.txtSourceOfIncome.Location = new System.Drawing.Point(51, 110);
-            this.txtSourceOfIncome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSourceOfIncome.Location = new System.Drawing.Point(38, 89);
+            this.txtSourceOfIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSourceOfIncome.Name = "txtSourceOfIncome";
             this.txtSourceOfIncome.PasswordChar = '\0';
             this.txtSourceOfIncome.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtSourceOfIncome.PlaceholderText = "Enter source of income";
             this.txtSourceOfIncome.SelectedText = "";
             this.txtSourceOfIncome.ShadowDecoration.Parent = this.txtSourceOfIncome;
-            this.txtSourceOfIncome.Size = new System.Drawing.Size(395, 54);
+            this.txtSourceOfIncome.Size = new System.Drawing.Size(296, 44);
             this.txtSourceOfIncome.TabIndex = 19;
             // 
             // lblIncomePeriod
@@ -387,10 +374,9 @@
             this.lblIncomePeriod.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomePeriod.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomePeriod.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomePeriod.Location = new System.Drawing.Point(48, 274);
-            this.lblIncomePeriod.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncomePeriod.Location = new System.Drawing.Point(36, 223);
             this.lblIncomePeriod.Name = "lblIncomePeriod";
-            this.lblIncomePeriod.Size = new System.Drawing.Size(164, 31);
+            this.lblIncomePeriod.Size = new System.Drawing.Size(123, 25);
             this.lblIncomePeriod.TabIndex = 17;
             this.lblIncomePeriod.Text = "Income Period:";
             // 
@@ -400,10 +386,9 @@
             this.lblAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblAmount.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAmount.Location = new System.Drawing.Point(49, 172);
-            this.lblAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblAmount.Location = new System.Drawing.Point(37, 140);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(164, 31);
+            this.lblAmount.Size = new System.Drawing.Size(123, 25);
             this.lblAmount.TabIndex = 13;
             this.lblAmount.Text = "Amount:";
             // 
@@ -413,10 +398,9 @@
             this.lblSourceOfIncome.BackColor = System.Drawing.Color.Transparent;
             this.lblSourceOfIncome.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSourceOfIncome.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblSourceOfIncome.Location = new System.Drawing.Point(51, 71);
-            this.lblSourceOfIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblSourceOfIncome.Location = new System.Drawing.Point(38, 58);
             this.lblSourceOfIncome.Name = "lblSourceOfIncome";
-            this.lblSourceOfIncome.Size = new System.Drawing.Size(200, 31);
+            this.lblSourceOfIncome.Size = new System.Drawing.Size(150, 25);
             this.lblSourceOfIncome.TabIndex = 11;
             this.lblSourceOfIncome.Text = "Source of Income:";
             // 
@@ -425,10 +409,9 @@
             this.lblAddIncome.BackColor = System.Drawing.Color.Transparent;
             this.lblAddIncome.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddIncome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblAddIncome.Location = new System.Drawing.Point(195, 20);
-            this.lblAddIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblAddIncome.Location = new System.Drawing.Point(146, 16);
             this.lblAddIncome.Name = "lblAddIncome";
-            this.lblAddIncome.Size = new System.Drawing.Size(126, 26);
+            this.lblAddIncome.Size = new System.Drawing.Size(100, 21);
             this.lblAddIncome.TabIndex = 1;
             this.lblAddIncome.Text = "Add Income";
             // 
@@ -439,11 +422,10 @@
             this.pnlIncomeList.Controls.Add(this.dgvIncomeList);
             this.pnlIncomeList.Controls.Add(this.lblIncomeList);
             this.pnlIncomeList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlIncomeList.Location = new System.Drawing.Point(27, 421);
-            this.pnlIncomeList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlIncomeList.Location = new System.Drawing.Point(20, 342);
             this.pnlIncomeList.Name = "pnlIncomeList";
             this.pnlIncomeList.ShadowDecoration.Parent = this.pnlIncomeList;
-            this.pnlIncomeList.Size = new System.Drawing.Size(968, 480);
+            this.pnlIncomeList.Size = new System.Drawing.Size(726, 390);
             this.pnlIncomeList.TabIndex = 18;
             // 
             // txtSearchIncome
@@ -466,36 +448,36 @@
             this.txtSearchIncome.HoverState.Parent = this.txtSearchIncome;
             this.txtSearchIncome.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
             this.txtSearchIncome.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchIncome.Location = new System.Drawing.Point(653, 20);
-            this.txtSearchIncome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearchIncome.Location = new System.Drawing.Point(490, 16);
+            this.txtSearchIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchIncome.Name = "txtSearchIncome";
             this.txtSearchIncome.PasswordChar = '\0';
             this.txtSearchIncome.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtSearchIncome.PlaceholderText = "Search source of income...";
             this.txtSearchIncome.SelectedText = "";
             this.txtSearchIncome.ShadowDecoration.Parent = this.txtSearchIncome;
-            this.txtSearchIncome.Size = new System.Drawing.Size(293, 43);
+            this.txtSearchIncome.Size = new System.Drawing.Size(220, 35);
             this.txtSearchIncome.TabIndex = 17;
             this.txtSearchIncome.TextOffset = new System.Drawing.Point(8, 0);
             // 
             // dgvIncomeList
             // 
             this.dgvIncomeList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvIncomeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvIncomeList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgvIncomeList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvIncomeList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
             this.dgvIncomeList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvIncomeList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvIncomeList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvIncomeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvIncomeList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dgvIncomeList.ColumnHeadersHeight = 38;
             this.dgvIncomeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colSourceOfIncome,
@@ -505,33 +487,32 @@
             this.colIncomeStatus,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvIncomeList.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvIncomeList.DefaultCellStyle = dataGridViewCellStyle28;
             this.dgvIncomeList.EnableHeadersVisualStyles = false;
             this.dgvIncomeList.GridColor = System.Drawing.Color.DarkGray;
-            this.dgvIncomeList.Location = new System.Drawing.Point(0, 76);
-            this.dgvIncomeList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvIncomeList.Location = new System.Drawing.Point(0, 62);
             this.dgvIncomeList.Name = "dgvIncomeList";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvIncomeList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvIncomeList.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.dgvIncomeList.RowHeadersVisible = false;
             this.dgvIncomeList.RowHeadersWidth = 51;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvIncomeList.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvIncomeList.RowsDefaultCellStyle = dataGridViewCellStyle30;
             this.dgvIncomeList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvIncomeList.Size = new System.Drawing.Size(968, 404);
+            this.dgvIncomeList.Size = new System.Drawing.Size(726, 328);
             this.dgvIncomeList.TabIndex = 2;
             this.dgvIncomeList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
             this.dgvIncomeList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
@@ -558,8 +539,8 @@
             // 
             // colSourceOfIncome
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colSourceOfIncome.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colSourceOfIncome.DefaultCellStyle = dataGridViewCellStyle23;
             this.colSourceOfIncome.FillWeight = 121.8274F;
             this.colSourceOfIncome.HeaderText = "Source of Income";
             this.colSourceOfIncome.MinimumWidth = 6;
@@ -567,8 +548,8 @@
             // 
             // colAmount
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle24;
             this.colAmount.FillWeight = 95.63452F;
             this.colAmount.HeaderText = "Amount";
             this.colAmount.MinimumWidth = 6;
@@ -576,16 +557,16 @@
             // 
             // colIncomePeriod
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colIncomePeriod.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colIncomePeriod.DefaultCellStyle = dataGridViewCellStyle25;
             this.colIncomePeriod.HeaderText = "Period";
             this.colIncomePeriod.MinimumWidth = 6;
             this.colIncomePeriod.Name = "colIncomePeriod";
             // 
             // colDate
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle26;
             this.colDate.FillWeight = 95.63452F;
             this.colDate.HeaderText = "Date ";
             this.colDate.MinimumWidth = 6;
@@ -593,8 +574,8 @@
             // 
             // colIncomeStatus
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colIncomeStatus.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colIncomeStatus.DefaultCellStyle = dataGridViewCellStyle27;
             this.colIncomeStatus.HeaderText = "Status";
             this.colIncomeStatus.MinimumWidth = 6;
             this.colIncomeStatus.Name = "colIncomeStatus";
@@ -626,10 +607,9 @@
             this.lblIncomeList.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomeList.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomeList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblIncomeList.Location = new System.Drawing.Point(345, 25);
-            this.lblIncomeList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncomeList.Location = new System.Drawing.Point(259, 20);
             this.lblIncomeList.Name = "lblIncomeList";
-            this.lblIncomeList.Size = new System.Drawing.Size(121, 26);
+            this.lblIncomeList.Size = new System.Drawing.Size(97, 21);
             this.lblIncomeList.TabIndex = 1;
             this.lblIncomeList.Text = "Income List";
             // 
@@ -658,11 +638,10 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(989, 1072);
-            this.pnlCalcu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlCalcu.Location = new System.Drawing.Point(742, 871);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
-            this.pnlCalcu.Size = new System.Drawing.Size(335, 320);
+            this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
             this.pnlCalcu.TabIndex = 20;
             // 
             // btnEqual
@@ -673,13 +652,13 @@
             this.btnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEqual.ForeColor = System.Drawing.Color.Black;
             this.btnEqual.HoverState.Parent = this.btnEqual;
-            this.btnEqual.Location = new System.Drawing.Point(251, 271);
-            this.btnEqual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEqual.Location = new System.Drawing.Point(188, 220);
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.ShadowDecoration.Parent = this.btnEqual;
-            this.btnEqual.Size = new System.Drawing.Size(73, 36);
+            this.btnEqual.Size = new System.Drawing.Size(55, 29);
             this.btnEqual.TabIndex = 20;
             this.btnEqual.Text = "=";
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click_1);
             // 
             // btnDecimal
             // 
@@ -689,11 +668,10 @@
             this.btnDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecimal.ForeColor = System.Drawing.Color.Black;
             this.btnDecimal.HoverState.Parent = this.btnDecimal;
-            this.btnDecimal.Location = new System.Drawing.Point(169, 271);
-            this.btnDecimal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDecimal.Location = new System.Drawing.Point(127, 220);
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.ShadowDecoration.Parent = this.btnDecimal;
-            this.btnDecimal.Size = new System.Drawing.Size(73, 36);
+            this.btnDecimal.Size = new System.Drawing.Size(55, 29);
             this.btnDecimal.TabIndex = 19;
             this.btnDecimal.Text = ".";
             // 
@@ -705,11 +683,10 @@
             this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Black;
             this.btn0.HoverState.Parent = this.btn0;
-            this.btn0.Location = new System.Drawing.Point(8, 271);
-            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn0.Location = new System.Drawing.Point(6, 220);
             this.btn0.Name = "btn0";
             this.btn0.ShadowDecoration.Parent = this.btn0;
-            this.btn0.Size = new System.Drawing.Size(155, 36);
+            this.btn0.Size = new System.Drawing.Size(116, 29);
             this.btn0.TabIndex = 18;
             this.btn0.Text = "0";
             // 
@@ -721,11 +698,10 @@
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.Black;
             this.btnAdd.HoverState.Parent = this.btnAdd;
-            this.btnAdd.Location = new System.Drawing.Point(251, 228);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(188, 185);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.ShadowDecoration.Parent = this.btnAdd;
-            this.btnAdd.Size = new System.Drawing.Size(73, 36);
+            this.btnAdd.Size = new System.Drawing.Size(55, 29);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "+";
             // 
@@ -737,11 +713,10 @@
             this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinus.ForeColor = System.Drawing.Color.Black;
             this.btnMinus.HoverState.Parent = this.btnMinus;
-            this.btnMinus.Location = new System.Drawing.Point(251, 185);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinus.Location = new System.Drawing.Point(188, 150);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.ShadowDecoration.Parent = this.btnMinus;
-            this.btnMinus.Size = new System.Drawing.Size(73, 36);
+            this.btnMinus.Size = new System.Drawing.Size(55, 29);
             this.btnMinus.TabIndex = 16;
             this.btnMinus.Text = "-";
             // 
@@ -753,11 +728,10 @@
             this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiply.ForeColor = System.Drawing.Color.Black;
             this.btnMultiply.HoverState.Parent = this.btnMultiply;
-            this.btnMultiply.Location = new System.Drawing.Point(249, 142);
-            this.btnMultiply.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMultiply.Location = new System.Drawing.Point(187, 115);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.ShadowDecoration.Parent = this.btnMultiply;
-            this.btnMultiply.Size = new System.Drawing.Size(73, 36);
+            this.btnMultiply.Size = new System.Drawing.Size(55, 29);
             this.btnMultiply.TabIndex = 15;
             this.btnMultiply.Text = "×";
             // 
@@ -769,11 +743,10 @@
             this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Black;
             this.btn3.HoverState.Parent = this.btn3;
-            this.btn3.Location = new System.Drawing.Point(169, 228);
-            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn3.Location = new System.Drawing.Point(127, 185);
             this.btn3.Name = "btn3";
             this.btn3.ShadowDecoration.Parent = this.btn3;
-            this.btn3.Size = new System.Drawing.Size(73, 36);
+            this.btn3.Size = new System.Drawing.Size(55, 29);
             this.btn3.TabIndex = 14;
             this.btn3.Text = "3";
             // 
@@ -785,11 +758,10 @@
             this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Black;
             this.btn6.HoverState.Parent = this.btn6;
-            this.btn6.Location = new System.Drawing.Point(169, 186);
-            this.btn6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn6.Location = new System.Drawing.Point(127, 151);
             this.btn6.Name = "btn6";
             this.btn6.ShadowDecoration.Parent = this.btn6;
-            this.btn6.Size = new System.Drawing.Size(73, 36);
+            this.btn6.Size = new System.Drawing.Size(55, 29);
             this.btn6.TabIndex = 13;
             this.btn6.Text = "6";
             // 
@@ -801,11 +773,10 @@
             this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.Black;
             this.btn9.HoverState.Parent = this.btn9;
-            this.btn9.Location = new System.Drawing.Point(169, 143);
-            this.btn9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn9.Location = new System.Drawing.Point(127, 116);
             this.btn9.Name = "btn9";
             this.btn9.ShadowDecoration.Parent = this.btn9;
-            this.btn9.Size = new System.Drawing.Size(73, 36);
+            this.btn9.Size = new System.Drawing.Size(55, 29);
             this.btn9.TabIndex = 12;
             this.btn9.Text = "9";
             // 
@@ -817,11 +788,10 @@
             this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Black;
             this.btn2.HoverState.Parent = this.btn2;
-            this.btn2.Location = new System.Drawing.Point(89, 229);
-            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2.Location = new System.Drawing.Point(67, 186);
             this.btn2.Name = "btn2";
             this.btn2.ShadowDecoration.Parent = this.btn2;
-            this.btn2.Size = new System.Drawing.Size(73, 36);
+            this.btn2.Size = new System.Drawing.Size(55, 29);
             this.btn2.TabIndex = 11;
             this.btn2.Text = "2";
             // 
@@ -833,11 +803,10 @@
             this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Black;
             this.btn5.HoverState.Parent = this.btn5;
-            this.btn5.Location = new System.Drawing.Point(89, 186);
-            this.btn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn5.Location = new System.Drawing.Point(67, 151);
             this.btn5.Name = "btn5";
             this.btn5.ShadowDecoration.Parent = this.btn5;
-            this.btn5.Size = new System.Drawing.Size(73, 36);
+            this.btn5.Size = new System.Drawing.Size(55, 29);
             this.btn5.TabIndex = 10;
             this.btn5.Text = "5";
             // 
@@ -849,11 +818,10 @@
             this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Black;
             this.btn8.HoverState.Parent = this.btn8;
-            this.btn8.Location = new System.Drawing.Point(89, 143);
-            this.btn8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn8.Location = new System.Drawing.Point(67, 116);
             this.btn8.Name = "btn8";
             this.btn8.ShadowDecoration.Parent = this.btn8;
-            this.btn8.Size = new System.Drawing.Size(73, 36);
+            this.btn8.Size = new System.Drawing.Size(55, 29);
             this.btn8.TabIndex = 9;
             this.btn8.Text = "8";
             // 
@@ -865,11 +833,10 @@
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Black;
             this.btn1.HoverState.Parent = this.btn1;
-            this.btn1.Location = new System.Drawing.Point(8, 228);
-            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Location = new System.Drawing.Point(6, 185);
             this.btn1.Name = "btn1";
             this.btn1.ShadowDecoration.Parent = this.btn1;
-            this.btn1.Size = new System.Drawing.Size(73, 36);
+            this.btn1.Size = new System.Drawing.Size(55, 29);
             this.btn1.TabIndex = 8;
             this.btn1.Text = "1";
             // 
@@ -881,11 +848,10 @@
             this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Black;
             this.btn4.HoverState.Parent = this.btn4;
-            this.btn4.Location = new System.Drawing.Point(8, 185);
-            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn4.Location = new System.Drawing.Point(6, 150);
             this.btn4.Name = "btn4";
             this.btn4.ShadowDecoration.Parent = this.btn4;
-            this.btn4.Size = new System.Drawing.Size(73, 36);
+            this.btn4.Size = new System.Drawing.Size(55, 29);
             this.btn4.TabIndex = 7;
             this.btn4.Text = "4";
             // 
@@ -897,11 +863,10 @@
             this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Black;
             this.btn7.HoverState.Parent = this.btn7;
-            this.btn7.Location = new System.Drawing.Point(8, 142);
-            this.btn7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn7.Location = new System.Drawing.Point(6, 115);
             this.btn7.Name = "btn7";
             this.btn7.ShadowDecoration.Parent = this.btn7;
-            this.btn7.Size = new System.Drawing.Size(73, 36);
+            this.btn7.Size = new System.Drawing.Size(55, 29);
             this.btn7.TabIndex = 6;
             this.btn7.Text = "7";
             // 
@@ -913,11 +878,10 @@
             this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivide.ForeColor = System.Drawing.Color.Black;
             this.btnDivide.HoverState.Parent = this.btnDivide;
-            this.btnDivide.Location = new System.Drawing.Point(249, 98);
-            this.btnDivide.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDivide.Location = new System.Drawing.Point(187, 80);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.ShadowDecoration.Parent = this.btnDivide;
-            this.btnDivide.Size = new System.Drawing.Size(73, 36);
+            this.btnDivide.Size = new System.Drawing.Size(55, 29);
             this.btnDivide.TabIndex = 5;
             this.btnDivide.Text = "÷";
             // 
@@ -929,11 +893,10 @@
             this.btnPercent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPercent.ForeColor = System.Drawing.Color.Black;
             this.btnPercent.HoverState.Parent = this.btnPercent;
-            this.btnPercent.Location = new System.Drawing.Point(169, 98);
-            this.btnPercent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPercent.Location = new System.Drawing.Point(127, 80);
             this.btnPercent.Name = "btnPercent";
             this.btnPercent.ShadowDecoration.Parent = this.btnPercent;
-            this.btnPercent.Size = new System.Drawing.Size(73, 36);
+            this.btnPercent.Size = new System.Drawing.Size(55, 29);
             this.btnPercent.TabIndex = 4;
             this.btnPercent.Text = "%";
             // 
@@ -945,11 +908,10 @@
             this.btnClearEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearEntry.ForeColor = System.Drawing.Color.Black;
             this.btnClearEntry.HoverState.Parent = this.btnClearEntry;
-            this.btnClearEntry.Location = new System.Drawing.Point(88, 98);
-            this.btnClearEntry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClearEntry.Location = new System.Drawing.Point(66, 80);
             this.btnClearEntry.Name = "btnClearEntry";
             this.btnClearEntry.ShadowDecoration.Parent = this.btnClearEntry;
-            this.btnClearEntry.Size = new System.Drawing.Size(73, 36);
+            this.btnClearEntry.Size = new System.Drawing.Size(55, 29);
             this.btnClearEntry.TabIndex = 3;
             this.btnClearEntry.Text = "CE";
             // 
@@ -961,13 +923,13 @@
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.Black;
             this.btnClear.HoverState.Parent = this.btnClear;
-            this.btnClear.Location = new System.Drawing.Point(7, 98);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Location = new System.Drawing.Point(5, 80);
             this.btnClear.Name = "btnClear";
             this.btnClear.ShadowDecoration.Parent = this.btnClear;
-            this.btnClear.Size = new System.Drawing.Size(73, 36);
+            this.btnClear.Size = new System.Drawing.Size(55, 29);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "C";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click_1);
             // 
             // txtboxDisplay
             // 
@@ -984,14 +946,14 @@
             this.txtboxDisplay.ForeColor = System.Drawing.Color.Black;
             this.txtboxDisplay.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxDisplay.HoverState.Parent = this.txtboxDisplay;
-            this.txtboxDisplay.Location = new System.Drawing.Point(8, 53);
-            this.txtboxDisplay.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.txtboxDisplay.Location = new System.Drawing.Point(6, 43);
+            this.txtboxDisplay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtboxDisplay.Name = "txtboxDisplay";
             this.txtboxDisplay.PasswordChar = '\0';
             this.txtboxDisplay.PlaceholderText = "";
             this.txtboxDisplay.SelectedText = "";
             this.txtboxDisplay.ShadowDecoration.Parent = this.txtboxDisplay;
-            this.txtboxDisplay.Size = new System.Drawing.Size(316, 38);
+            this.txtboxDisplay.Size = new System.Drawing.Size(237, 31);
             this.txtboxDisplay.TabIndex = 1;
             this.txtboxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -1001,10 +963,9 @@
             this.pnlCalcuHeader.BorderRadius = 30;
             this.pnlCalcuHeader.Controls.Add(this.guna2HtmlLabel12);
             this.pnlCalcuHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlCalcuHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlCalcuHeader.Name = "pnlCalcuHeader";
             this.pnlCalcuHeader.ShadowDecoration.Parent = this.pnlCalcuHeader;
-            this.pnlCalcuHeader.Size = new System.Drawing.Size(336, 46);
+            this.pnlCalcuHeader.Size = new System.Drawing.Size(252, 37);
             this.pnlCalcuHeader.TabIndex = 0;
             // 
             // guna2HtmlLabel12
@@ -1012,10 +973,9 @@
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(112, 9);
-            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(84, 7);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(101, 27);
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(84, 22);
             this.guna2HtmlLabel12.TabIndex = 0;
             this.guna2HtmlLabel12.Text = "Calculator";
             this.guna2HtmlLabel12.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1030,22 +990,21 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.White;
             this.btnCalculator.HoverState.Parent = this.btnCalculator;
             this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1488, 1089);
-            this.btnCalculator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalculator.Location = new System.Drawing.Point(1116, 885);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
-            this.btnCalculator.Size = new System.Drawing.Size(75, 75);
+            this.btnCalculator.Size = new System.Drawing.Size(56, 61);
             this.btnCalculator.TabIndex = 19;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click_1);
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(19, 75);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(14, 61);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(321, 31);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(257, 25);
             this.guna2HtmlLabel2.TabIndex = 17;
             this.guna2HtmlLabel2.Text = "Add and manage your income";
             // 
@@ -1057,11 +1016,10 @@
             this.pnlIncomeHeader.Controls.Add(this.guna2Button1);
             this.pnlIncomeHeader.Controls.Add(this.guna2CirclePictureBox2);
             this.pnlIncomeHeader.Controls.Add(this.guna2Button4);
-            this.pnlIncomeHeader.Location = new System.Drawing.Point(8, 4);
-            this.pnlIncomeHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlIncomeHeader.Location = new System.Drawing.Point(6, 3);
             this.pnlIncomeHeader.Name = "pnlIncomeHeader";
             this.pnlIncomeHeader.ShadowDecoration.Parent = this.pnlIncomeHeader;
-            this.pnlIncomeHeader.Size = new System.Drawing.Size(1560, 135);
+            this.pnlIncomeHeader.Size = new System.Drawing.Size(1170, 110);
             this.pnlIncomeHeader.TabIndex = 22;
             // 
             // guna2Button1
@@ -1074,22 +1032,20 @@
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
             this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button1.Location = new System.Drawing.Point(1489, 21);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Location = new System.Drawing.Point(1117, 17);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(56, 59);
+            this.guna2Button1.Size = new System.Drawing.Size(42, 48);
             this.guna2Button1.TabIndex = 2;
             // 
             // guna2CirclePictureBox2
             // 
             this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1456, 22);
-            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1092, 18);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(13, 12);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(10, 10);
             this.guna2CirclePictureBox2.TabIndex = 1;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
@@ -1103,16 +1059,15 @@
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
             this.guna2Button4.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
             this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button4.Location = new System.Drawing.Point(1419, 22);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button4.Location = new System.Drawing.Point(1064, 18);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(47, 54);
+            this.guna2Button4.Size = new System.Drawing.Size(35, 44);
             this.guna2Button4.TabIndex = 1;
             // 
             // ucIncome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.Controls.Add(this.pnlIncomeHeader);
@@ -1121,9 +1076,8 @@
             this.Controls.Add(this.pnlIncomeList);
             this.Controls.Add(this.pnlAddIncome);
             this.Controls.Add(this.pnlTotalIncome);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucIncome";
-            this.Size = new System.Drawing.Size(2203, 1431);
+            this.Size = new System.Drawing.Size(1652, 1163);
             this.pnlTotalIncome.ResumeLayout(false);
             this.pnlTotalIncome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIncomeIcon)).EndInit();

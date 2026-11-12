@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblExpensesDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblExpensestitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalExpenses = new Guna.UI2.WinForms.Guna2Panel();
@@ -114,10 +114,9 @@
             this.lblExpensesDescription.BackColor = System.Drawing.Color.Transparent;
             this.lblExpensesDescription.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExpensesDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.lblExpensesDescription.Location = new System.Drawing.Point(19, 76);
-            this.lblExpensesDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblExpensesDescription.Location = new System.Drawing.Point(14, 62);
             this.lblExpensesDescription.Name = "lblExpensesDescription";
-            this.lblExpensesDescription.Size = new System.Drawing.Size(364, 31);
+            this.lblExpensesDescription.Size = new System.Drawing.Size(287, 25);
             this.lblExpensesDescription.TabIndex = 15;
             this.lblExpensesDescription.Text = "Track and manage your expenses";
             // 
@@ -126,10 +125,9 @@
             this.lblExpensestitle.BackColor = System.Drawing.Color.Transparent;
             this.lblExpensestitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExpensestitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblExpensestitle.Location = new System.Drawing.Point(19, 28);
-            this.lblExpensestitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblExpensestitle.Location = new System.Drawing.Point(14, 23);
             this.lblExpensestitle.Name = "lblExpensestitle";
-            this.lblExpensestitle.Size = new System.Drawing.Size(173, 45);
+            this.lblExpensestitle.Size = new System.Drawing.Size(140, 37);
             this.lblExpensestitle.TabIndex = 14;
             this.lblExpensestitle.Text = "Expenses";
             // 
@@ -140,22 +138,20 @@
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpenses_Amount);
             this.pnlTotalExpenses.Controls.Add(this.lblTotalExpenses);
             this.pnlTotalExpenses.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalExpenses.Location = new System.Drawing.Point(27, 180);
-            this.pnlTotalExpenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlTotalExpenses.Location = new System.Drawing.Point(20, 146);
             this.pnlTotalExpenses.Name = "pnlTotalExpenses";
             this.pnlTotalExpenses.ShadowDecoration.Parent = this.pnlTotalExpenses;
-            this.pnlTotalExpenses.Size = new System.Drawing.Size(552, 191);
+            this.pnlTotalExpenses.Size = new System.Drawing.Size(414, 155);
             this.pnlTotalExpenses.TabIndex = 5;
             // 
             // picExpensesIcon
             // 
             this.picExpensesIcon.BackColor = System.Drawing.Color.Transparent;
             this.picExpensesIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardExpenses;
-            this.picExpensesIcon.Location = new System.Drawing.Point(53, 32);
-            this.picExpensesIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picExpensesIcon.Location = new System.Drawing.Point(40, 26);
             this.picExpensesIcon.Name = "picExpensesIcon";
             this.picExpensesIcon.ShadowDecoration.Parent = this.picExpensesIcon;
-            this.picExpensesIcon.Size = new System.Drawing.Size(137, 111);
+            this.picExpensesIcon.Size = new System.Drawing.Size(103, 90);
             this.picExpensesIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picExpensesIcon.TabIndex = 0;
             this.picExpensesIcon.TabStop = false;
@@ -164,10 +160,9 @@
             // 
             this.lblTotalExpenses_Amount.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalExpenses_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalExpenses_Amount.Location = new System.Drawing.Point(223, 73);
-            this.lblTotalExpenses_Amount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTotalExpenses_Amount.Location = new System.Drawing.Point(167, 59);
             this.lblTotalExpenses_Amount.Name = "lblTotalExpenses_Amount";
-            this.lblTotalExpenses_Amount.Size = new System.Drawing.Size(175, 74);
+            this.lblTotalExpenses_Amount.Size = new System.Drawing.Size(143, 60);
             this.lblTotalExpenses_Amount.TabIndex = 1;
             this.lblTotalExpenses_Amount.Text = "₱0.00";
             // 
@@ -176,10 +171,9 @@
             this.lblTotalExpenses.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalExpenses.Location = new System.Drawing.Point(223, 32);
-            this.lblTotalExpenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTotalExpenses.Location = new System.Drawing.Point(167, 26);
             this.lblTotalExpenses.Name = "lblTotalExpenses";
-            this.lblTotalExpenses.Size = new System.Drawing.Size(138, 26);
+            this.lblTotalExpenses.Size = new System.Drawing.Size(109, 21);
             this.lblTotalExpenses.TabIndex = 0;
             this.lblTotalExpenses.Text = "Total Expenses";
             // 
@@ -200,11 +194,10 @@
             this.pnlAddIncome.Controls.Add(this.lblExpenseName);
             this.pnlAddIncome.Controls.Add(this.lblAddExpenses);
             this.pnlAddIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlAddIncome.Location = new System.Drawing.Point(1029, 421);
-            this.pnlAddIncome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlAddIncome.Location = new System.Drawing.Point(772, 342);
             this.pnlAddIncome.Name = "pnlAddIncome";
             this.pnlAddIncome.ShadowDecoration.Parent = this.pnlAddIncome;
-            this.pnlAddIncome.Size = new System.Drawing.Size(539, 672);
+            this.pnlAddIncome.Size = new System.Drawing.Size(404, 546);
             this.pnlAddIncome.TabIndex = 8;
             // 
             // rbCompleted
@@ -217,10 +210,9 @@
             this.rbCompleted.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbCompleted.CheckedState.InnerOffset = -4;
             this.rbCompleted.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbCompleted.Location = new System.Drawing.Point(223, 529);
-            this.rbCompleted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbCompleted.Location = new System.Drawing.Point(167, 430);
             this.rbCompleted.Name = "rbCompleted";
-            this.rbCompleted.Size = new System.Drawing.Size(127, 28);
+            this.rbCompleted.Size = new System.Drawing.Size(103, 23);
             this.rbCompleted.TabIndex = 28;
             this.rbCompleted.TabStop = true;
             this.rbCompleted.Text = "Completed";
@@ -240,10 +232,9 @@
             this.rbPlanned.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbPlanned.CheckedState.InnerOffset = -4;
             this.rbPlanned.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPlanned.Location = new System.Drawing.Point(95, 529);
-            this.rbPlanned.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbPlanned.Location = new System.Drawing.Point(71, 430);
             this.rbPlanned.Name = "rbPlanned";
-            this.rbPlanned.Size = new System.Drawing.Size(102, 28);
+            this.rbPlanned.Size = new System.Drawing.Size(83, 23);
             this.rbPlanned.TabIndex = 27;
             this.rbPlanned.TabStop = true;
             this.rbPlanned.Text = "Planned";
@@ -259,10 +250,9 @@
             this.lblExpenseStatus.BackColor = System.Drawing.Color.Transparent;
             this.lblExpenseStatus.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExpenseStatus.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblExpenseStatus.Location = new System.Drawing.Point(51, 502);
-            this.lblExpenseStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblExpenseStatus.Location = new System.Drawing.Point(38, 408);
             this.lblExpenseStatus.Name = "lblExpenseStatus";
-            this.lblExpenseStatus.Size = new System.Drawing.Size(164, 31);
+            this.lblExpenseStatus.Size = new System.Drawing.Size(123, 25);
             this.lblExpenseStatus.TabIndex = 26;
             this.lblExpenseStatus.Text = "Expense Status:";
             // 
@@ -276,13 +266,12 @@
             this.dtpExpensesDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpExpensesDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpExpensesDate.HoverState.Parent = this.dtpExpensesDate;
-            this.dtpExpensesDate.Location = new System.Drawing.Point(51, 436);
-            this.dtpExpensesDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpExpensesDate.Location = new System.Drawing.Point(38, 354);
             this.dtpExpensesDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpExpensesDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpExpensesDate.Name = "dtpExpensesDate";
             this.dtpExpensesDate.ShadowDecoration.Parent = this.dtpExpensesDate;
-            this.dtpExpensesDate.Size = new System.Drawing.Size(395, 53);
+            this.dtpExpensesDate.Size = new System.Drawing.Size(296, 43);
             this.dtpExpensesDate.TabIndex = 25;
             this.dtpExpensesDate.Value = new System.DateTime(2026, 10, 14, 14, 52, 55, 547);
             // 
@@ -292,10 +281,9 @@
             this.lblCategory.BackColor = System.Drawing.Color.Transparent;
             this.lblCategory.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategory.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCategory.Location = new System.Drawing.Point(52, 202);
-            this.lblCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblCategory.Location = new System.Drawing.Point(39, 164);
             this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(117, 31);
+            this.lblCategory.Size = new System.Drawing.Size(88, 25);
             this.lblCategory.TabIndex = 24;
             this.lblCategory.Text = "Category:";
             // 
@@ -313,11 +301,10 @@
             this.cbCategory.HoverState.Parent = this.cbCategory;
             this.cbCategory.ItemHeight = 40;
             this.cbCategory.ItemsAppearance.Parent = this.cbCategory;
-            this.cbCategory.Location = new System.Drawing.Point(51, 238);
-            this.cbCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbCategory.Location = new System.Drawing.Point(38, 193);
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.ShadowDecoration.Parent = this.cbCategory;
-            this.cbCategory.Size = new System.Drawing.Size(396, 46);
+            this.cbCategory.Size = new System.Drawing.Size(298, 46);
             this.cbCategory.TabIndex = 23;
             // 
             // btnAddExpense
@@ -329,11 +316,10 @@
             this.btnAddExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddExpense.ForeColor = System.Drawing.Color.White;
             this.btnAddExpense.HoverState.Parent = this.btnAddExpense;
-            this.btnAddExpense.Location = new System.Drawing.Point(48, 575);
-            this.btnAddExpense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddExpense.Location = new System.Drawing.Point(36, 467);
             this.btnAddExpense.Name = "btnAddExpense";
             this.btnAddExpense.ShadowDecoration.Parent = this.btnAddExpense;
-            this.btnAddExpense.Size = new System.Drawing.Size(392, 55);
+            this.btnAddExpense.Size = new System.Drawing.Size(294, 45);
             this.btnAddExpense.TabIndex = 22;
             this.btnAddExpense.Text = "+   ADD EXPENSE";
             // 
@@ -355,15 +341,15 @@
             this.txtExpensesAmount.ForeColor = System.Drawing.Color.Black;
             this.txtExpensesAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtExpensesAmount.HoverState.Parent = this.txtExpensesAmount;
-            this.txtExpensesAmount.Location = new System.Drawing.Point(51, 342);
-            this.txtExpensesAmount.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtExpensesAmount.Location = new System.Drawing.Point(38, 278);
+            this.txtExpensesAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtExpensesAmount.Name = "txtExpensesAmount";
             this.txtExpensesAmount.PasswordChar = '\0';
             this.txtExpensesAmount.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtExpensesAmount.PlaceholderText = "Enter amount";
             this.txtExpensesAmount.SelectedText = "";
             this.txtExpensesAmount.ShadowDecoration.Parent = this.txtExpensesAmount;
-            this.txtExpensesAmount.Size = new System.Drawing.Size(395, 54);
+            this.txtExpensesAmount.Size = new System.Drawing.Size(296, 44);
             this.txtExpensesAmount.TabIndex = 20;
             // 
             // txtExpenseName
@@ -384,15 +370,15 @@
             this.txtExpenseName.ForeColor = System.Drawing.Color.Black;
             this.txtExpenseName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtExpenseName.HoverState.Parent = this.txtExpenseName;
-            this.txtExpenseName.Location = new System.Drawing.Point(51, 137);
-            this.txtExpenseName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtExpenseName.Location = new System.Drawing.Point(38, 111);
+            this.txtExpenseName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtExpenseName.Name = "txtExpenseName";
             this.txtExpenseName.PasswordChar = '\0';
             this.txtExpenseName.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtExpenseName.PlaceholderText = "Enter expense name";
             this.txtExpenseName.SelectedText = "";
             this.txtExpenseName.ShadowDecoration.Parent = this.txtExpenseName;
-            this.txtExpenseName.Size = new System.Drawing.Size(395, 54);
+            this.txtExpenseName.Size = new System.Drawing.Size(296, 44);
             this.txtExpenseName.TabIndex = 19;
             // 
             // lblIncomeDate
@@ -401,10 +387,9 @@
             this.lblIncomeDate.BackColor = System.Drawing.Color.Transparent;
             this.lblIncomeDate.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncomeDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIncomeDate.Location = new System.Drawing.Point(48, 410);
-            this.lblIncomeDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIncomeDate.Location = new System.Drawing.Point(36, 333);
             this.lblIncomeDate.Name = "lblIncomeDate";
-            this.lblIncomeDate.Size = new System.Drawing.Size(65, 31);
+            this.lblIncomeDate.Size = new System.Drawing.Size(49, 25);
             this.lblIncomeDate.TabIndex = 17;
             this.lblIncomeDate.Text = "Date:";
             // 
@@ -414,10 +399,9 @@
             this.lblAmountExpenses.BackColor = System.Drawing.Color.Transparent;
             this.lblAmountExpenses.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmountExpenses.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAmountExpenses.Location = new System.Drawing.Point(51, 305);
-            this.lblAmountExpenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblAmountExpenses.Location = new System.Drawing.Point(38, 248);
             this.lblAmountExpenses.Name = "lblAmountExpenses";
-            this.lblAmountExpenses.Size = new System.Drawing.Size(119, 31);
+            this.lblAmountExpenses.Size = new System.Drawing.Size(89, 25);
             this.lblAmountExpenses.TabIndex = 13;
             this.lblAmountExpenses.Text = "Amount:";
             // 
@@ -427,10 +411,9 @@
             this.lblExpenseName.BackColor = System.Drawing.Color.Transparent;
             this.lblExpenseName.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExpenseName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblExpenseName.Location = new System.Drawing.Point(51, 97);
-            this.lblExpenseName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblExpenseName.Location = new System.Drawing.Point(38, 79);
             this.lblExpenseName.Name = "lblExpenseName";
-            this.lblExpenseName.Size = new System.Drawing.Size(200, 31);
+            this.lblExpenseName.Size = new System.Drawing.Size(150, 25);
             this.lblExpenseName.TabIndex = 11;
             this.lblExpenseName.Text = "Expense Name:";
             // 
@@ -439,10 +422,9 @@
             this.lblAddExpenses.BackColor = System.Drawing.Color.Transparent;
             this.lblAddExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblAddExpenses.Location = new System.Drawing.Point(172, 32);
-            this.lblAddExpenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblAddExpenses.Location = new System.Drawing.Point(129, 26);
             this.lblAddExpenses.Name = "lblAddExpenses";
-            this.lblAddExpenses.Size = new System.Drawing.Size(143, 26);
+            this.lblAddExpenses.Size = new System.Drawing.Size(116, 21);
             this.lblAddExpenses.TabIndex = 1;
             this.lblAddExpenses.Text = "Add Expenses";
             // 
@@ -471,11 +453,10 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(995, 1118);
-            this.pnlCalcu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlCalcu.Location = new System.Drawing.Point(746, 908);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
-            this.pnlCalcu.Size = new System.Drawing.Size(335, 320);
+            this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
             this.pnlCalcu.TabIndex = 21;
             // 
             // btnEqual
@@ -486,13 +467,13 @@
             this.btnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEqual.ForeColor = System.Drawing.Color.Black;
             this.btnEqual.HoverState.Parent = this.btnEqual;
-            this.btnEqual.Location = new System.Drawing.Point(251, 271);
-            this.btnEqual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEqual.Location = new System.Drawing.Point(188, 220);
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.ShadowDecoration.Parent = this.btnEqual;
-            this.btnEqual.Size = new System.Drawing.Size(73, 36);
+            this.btnEqual.Size = new System.Drawing.Size(55, 29);
             this.btnEqual.TabIndex = 20;
             this.btnEqual.Text = "=";
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click_1);
             // 
             // btnDecimal
             // 
@@ -502,11 +483,10 @@
             this.btnDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecimal.ForeColor = System.Drawing.Color.Black;
             this.btnDecimal.HoverState.Parent = this.btnDecimal;
-            this.btnDecimal.Location = new System.Drawing.Point(169, 271);
-            this.btnDecimal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDecimal.Location = new System.Drawing.Point(127, 220);
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.ShadowDecoration.Parent = this.btnDecimal;
-            this.btnDecimal.Size = new System.Drawing.Size(73, 36);
+            this.btnDecimal.Size = new System.Drawing.Size(55, 29);
             this.btnDecimal.TabIndex = 19;
             this.btnDecimal.Text = ".";
             // 
@@ -518,11 +498,10 @@
             this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Black;
             this.btn0.HoverState.Parent = this.btn0;
-            this.btn0.Location = new System.Drawing.Point(8, 271);
-            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn0.Location = new System.Drawing.Point(6, 220);
             this.btn0.Name = "btn0";
             this.btn0.ShadowDecoration.Parent = this.btn0;
-            this.btn0.Size = new System.Drawing.Size(155, 36);
+            this.btn0.Size = new System.Drawing.Size(116, 29);
             this.btn0.TabIndex = 18;
             this.btn0.Text = "0";
             // 
@@ -534,11 +513,10 @@
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.Black;
             this.btnAdd.HoverState.Parent = this.btnAdd;
-            this.btnAdd.Location = new System.Drawing.Point(251, 228);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(188, 185);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.ShadowDecoration.Parent = this.btnAdd;
-            this.btnAdd.Size = new System.Drawing.Size(73, 36);
+            this.btnAdd.Size = new System.Drawing.Size(55, 29);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "+";
             // 
@@ -550,11 +528,10 @@
             this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinus.ForeColor = System.Drawing.Color.Black;
             this.btnMinus.HoverState.Parent = this.btnMinus;
-            this.btnMinus.Location = new System.Drawing.Point(251, 185);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinus.Location = new System.Drawing.Point(188, 150);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.ShadowDecoration.Parent = this.btnMinus;
-            this.btnMinus.Size = new System.Drawing.Size(73, 36);
+            this.btnMinus.Size = new System.Drawing.Size(55, 29);
             this.btnMinus.TabIndex = 16;
             this.btnMinus.Text = "-";
             // 
@@ -566,11 +543,10 @@
             this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiply.ForeColor = System.Drawing.Color.Black;
             this.btnMultiply.HoverState.Parent = this.btnMultiply;
-            this.btnMultiply.Location = new System.Drawing.Point(249, 142);
-            this.btnMultiply.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMultiply.Location = new System.Drawing.Point(187, 115);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.ShadowDecoration.Parent = this.btnMultiply;
-            this.btnMultiply.Size = new System.Drawing.Size(73, 36);
+            this.btnMultiply.Size = new System.Drawing.Size(55, 29);
             this.btnMultiply.TabIndex = 15;
             this.btnMultiply.Text = "×";
             // 
@@ -582,11 +558,10 @@
             this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Black;
             this.btn3.HoverState.Parent = this.btn3;
-            this.btn3.Location = new System.Drawing.Point(169, 228);
-            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn3.Location = new System.Drawing.Point(127, 185);
             this.btn3.Name = "btn3";
             this.btn3.ShadowDecoration.Parent = this.btn3;
-            this.btn3.Size = new System.Drawing.Size(73, 36);
+            this.btn3.Size = new System.Drawing.Size(55, 29);
             this.btn3.TabIndex = 14;
             this.btn3.Text = "3";
             // 
@@ -598,11 +573,10 @@
             this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Black;
             this.btn6.HoverState.Parent = this.btn6;
-            this.btn6.Location = new System.Drawing.Point(169, 186);
-            this.btn6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn6.Location = new System.Drawing.Point(127, 151);
             this.btn6.Name = "btn6";
             this.btn6.ShadowDecoration.Parent = this.btn6;
-            this.btn6.Size = new System.Drawing.Size(73, 36);
+            this.btn6.Size = new System.Drawing.Size(55, 29);
             this.btn6.TabIndex = 13;
             this.btn6.Text = "6";
             // 
@@ -614,11 +588,10 @@
             this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.Black;
             this.btn9.HoverState.Parent = this.btn9;
-            this.btn9.Location = new System.Drawing.Point(169, 143);
-            this.btn9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn9.Location = new System.Drawing.Point(127, 116);
             this.btn9.Name = "btn9";
             this.btn9.ShadowDecoration.Parent = this.btn9;
-            this.btn9.Size = new System.Drawing.Size(73, 36);
+            this.btn9.Size = new System.Drawing.Size(55, 29);
             this.btn9.TabIndex = 12;
             this.btn9.Text = "9";
             // 
@@ -630,11 +603,10 @@
             this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Black;
             this.btn2.HoverState.Parent = this.btn2;
-            this.btn2.Location = new System.Drawing.Point(89, 229);
-            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2.Location = new System.Drawing.Point(67, 186);
             this.btn2.Name = "btn2";
             this.btn2.ShadowDecoration.Parent = this.btn2;
-            this.btn2.Size = new System.Drawing.Size(73, 36);
+            this.btn2.Size = new System.Drawing.Size(55, 29);
             this.btn2.TabIndex = 11;
             this.btn2.Text = "2";
             // 
@@ -646,11 +618,10 @@
             this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Black;
             this.btn5.HoverState.Parent = this.btn5;
-            this.btn5.Location = new System.Drawing.Point(89, 186);
-            this.btn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn5.Location = new System.Drawing.Point(67, 151);
             this.btn5.Name = "btn5";
             this.btn5.ShadowDecoration.Parent = this.btn5;
-            this.btn5.Size = new System.Drawing.Size(73, 36);
+            this.btn5.Size = new System.Drawing.Size(55, 29);
             this.btn5.TabIndex = 10;
             this.btn5.Text = "5";
             // 
@@ -662,11 +633,10 @@
             this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Black;
             this.btn8.HoverState.Parent = this.btn8;
-            this.btn8.Location = new System.Drawing.Point(89, 143);
-            this.btn8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn8.Location = new System.Drawing.Point(67, 116);
             this.btn8.Name = "btn8";
             this.btn8.ShadowDecoration.Parent = this.btn8;
-            this.btn8.Size = new System.Drawing.Size(73, 36);
+            this.btn8.Size = new System.Drawing.Size(55, 29);
             this.btn8.TabIndex = 9;
             this.btn8.Text = "8";
             // 
@@ -678,11 +648,10 @@
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Black;
             this.btn1.HoverState.Parent = this.btn1;
-            this.btn1.Location = new System.Drawing.Point(8, 228);
-            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Location = new System.Drawing.Point(6, 185);
             this.btn1.Name = "btn1";
             this.btn1.ShadowDecoration.Parent = this.btn1;
-            this.btn1.Size = new System.Drawing.Size(73, 36);
+            this.btn1.Size = new System.Drawing.Size(55, 29);
             this.btn1.TabIndex = 8;
             this.btn1.Text = "1";
             // 
@@ -694,11 +663,10 @@
             this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Black;
             this.btn4.HoverState.Parent = this.btn4;
-            this.btn4.Location = new System.Drawing.Point(8, 185);
-            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn4.Location = new System.Drawing.Point(6, 150);
             this.btn4.Name = "btn4";
             this.btn4.ShadowDecoration.Parent = this.btn4;
-            this.btn4.Size = new System.Drawing.Size(73, 36);
+            this.btn4.Size = new System.Drawing.Size(55, 29);
             this.btn4.TabIndex = 7;
             this.btn4.Text = "4";
             // 
@@ -710,11 +678,10 @@
             this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Black;
             this.btn7.HoverState.Parent = this.btn7;
-            this.btn7.Location = new System.Drawing.Point(8, 142);
-            this.btn7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn7.Location = new System.Drawing.Point(6, 115);
             this.btn7.Name = "btn7";
             this.btn7.ShadowDecoration.Parent = this.btn7;
-            this.btn7.Size = new System.Drawing.Size(73, 36);
+            this.btn7.Size = new System.Drawing.Size(55, 29);
             this.btn7.TabIndex = 6;
             this.btn7.Text = "7";
             // 
@@ -726,11 +693,10 @@
             this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivide.ForeColor = System.Drawing.Color.Black;
             this.btnDivide.HoverState.Parent = this.btnDivide;
-            this.btnDivide.Location = new System.Drawing.Point(249, 98);
-            this.btnDivide.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDivide.Location = new System.Drawing.Point(187, 80);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.ShadowDecoration.Parent = this.btnDivide;
-            this.btnDivide.Size = new System.Drawing.Size(73, 36);
+            this.btnDivide.Size = new System.Drawing.Size(55, 29);
             this.btnDivide.TabIndex = 5;
             this.btnDivide.Text = "÷";
             // 
@@ -742,11 +708,10 @@
             this.btnPercent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPercent.ForeColor = System.Drawing.Color.Black;
             this.btnPercent.HoverState.Parent = this.btnPercent;
-            this.btnPercent.Location = new System.Drawing.Point(169, 98);
-            this.btnPercent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPercent.Location = new System.Drawing.Point(127, 80);
             this.btnPercent.Name = "btnPercent";
             this.btnPercent.ShadowDecoration.Parent = this.btnPercent;
-            this.btnPercent.Size = new System.Drawing.Size(73, 36);
+            this.btnPercent.Size = new System.Drawing.Size(55, 29);
             this.btnPercent.TabIndex = 4;
             this.btnPercent.Text = "%";
             // 
@@ -758,11 +723,10 @@
             this.btnClearEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearEntry.ForeColor = System.Drawing.Color.Black;
             this.btnClearEntry.HoverState.Parent = this.btnClearEntry;
-            this.btnClearEntry.Location = new System.Drawing.Point(88, 98);
-            this.btnClearEntry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClearEntry.Location = new System.Drawing.Point(66, 80);
             this.btnClearEntry.Name = "btnClearEntry";
             this.btnClearEntry.ShadowDecoration.Parent = this.btnClearEntry;
-            this.btnClearEntry.Size = new System.Drawing.Size(73, 36);
+            this.btnClearEntry.Size = new System.Drawing.Size(55, 29);
             this.btnClearEntry.TabIndex = 3;
             this.btnClearEntry.Text = "CE";
             // 
@@ -774,13 +738,13 @@
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.Black;
             this.btnClear.HoverState.Parent = this.btnClear;
-            this.btnClear.Location = new System.Drawing.Point(7, 98);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Location = new System.Drawing.Point(5, 80);
             this.btnClear.Name = "btnClear";
             this.btnClear.ShadowDecoration.Parent = this.btnClear;
-            this.btnClear.Size = new System.Drawing.Size(73, 36);
+            this.btnClear.Size = new System.Drawing.Size(55, 29);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "C";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click_1);
             // 
             // txtboxDisplay
             // 
@@ -797,14 +761,14 @@
             this.txtboxDisplay.ForeColor = System.Drawing.Color.Black;
             this.txtboxDisplay.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxDisplay.HoverState.Parent = this.txtboxDisplay;
-            this.txtboxDisplay.Location = new System.Drawing.Point(8, 53);
-            this.txtboxDisplay.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.txtboxDisplay.Location = new System.Drawing.Point(6, 43);
+            this.txtboxDisplay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtboxDisplay.Name = "txtboxDisplay";
             this.txtboxDisplay.PasswordChar = '\0';
             this.txtboxDisplay.PlaceholderText = "";
             this.txtboxDisplay.SelectedText = "";
             this.txtboxDisplay.ShadowDecoration.Parent = this.txtboxDisplay;
-            this.txtboxDisplay.Size = new System.Drawing.Size(316, 38);
+            this.txtboxDisplay.Size = new System.Drawing.Size(237, 31);
             this.txtboxDisplay.TabIndex = 1;
             this.txtboxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -814,10 +778,9 @@
             this.pnlCalcuHeader.BorderRadius = 30;
             this.pnlCalcuHeader.Controls.Add(this.guna2HtmlLabel12);
             this.pnlCalcuHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlCalcuHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlCalcuHeader.Name = "pnlCalcuHeader";
             this.pnlCalcuHeader.ShadowDecoration.Parent = this.pnlCalcuHeader;
-            this.pnlCalcuHeader.Size = new System.Drawing.Size(336, 46);
+            this.pnlCalcuHeader.Size = new System.Drawing.Size(252, 37);
             this.pnlCalcuHeader.TabIndex = 0;
             // 
             // guna2HtmlLabel12
@@ -825,10 +788,9 @@
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(112, 9);
-            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(84, 7);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(101, 27);
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(84, 22);
             this.guna2HtmlLabel12.TabIndex = 0;
             this.guna2HtmlLabel12.Text = "Calculator";
             this.guna2HtmlLabel12.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -843,31 +805,31 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.White;
             this.btnCalculator.HoverState.Parent = this.btnCalculator;
             this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1488, 1135);
-            this.btnCalculator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalculator.Location = new System.Drawing.Point(1116, 922);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
-            this.btnCalculator.Size = new System.Drawing.Size(75, 75);
+            this.btnCalculator.Size = new System.Drawing.Size(56, 61);
             this.btnCalculator.TabIndex = 20;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click_1);
             // 
             // dgvExpenseList
             // 
             this.dgvExpenseList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvExpenseList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvExpenseList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgvExpenseList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvExpenseList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
             this.dgvExpenseList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvExpenseList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvExpenseList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvExpenseList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvExpenseList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dgvExpenseList.ColumnHeadersHeight = 38;
             this.dgvExpenseList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colExpenseName,
@@ -877,33 +839,32 @@
             this.colExpenseStatus,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle28;
             this.dgvExpenseList.EnableHeadersVisualStyles = false;
             this.dgvExpenseList.GridColor = System.Drawing.Color.DarkGray;
-            this.dgvExpenseList.Location = new System.Drawing.Point(0, 80);
-            this.dgvExpenseList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvExpenseList.Location = new System.Drawing.Point(0, 65);
             this.dgvExpenseList.Name = "dgvExpenseList";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.dgvExpenseList.RowHeadersVisible = false;
             this.dgvExpenseList.RowHeadersWidth = 51;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle30;
             this.dgvExpenseList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvExpenseList.Size = new System.Drawing.Size(969, 400);
+            this.dgvExpenseList.Size = new System.Drawing.Size(727, 325);
             this.dgvExpenseList.TabIndex = 2;
             this.dgvExpenseList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
@@ -930,8 +891,8 @@
             // 
             // colExpenseName
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle23;
             this.colExpenseName.FillWeight = 121.8274F;
             this.colExpenseName.HeaderText = "Expense Name";
             this.colExpenseName.MinimumWidth = 6;
@@ -939,16 +900,16 @@
             // 
             // colCategory
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colCategory.DefaultCellStyle = dataGridViewCellStyle24;
             this.colCategory.HeaderText = "Category";
             this.colCategory.MinimumWidth = 6;
             this.colCategory.Name = "colCategory";
             // 
             // colAmount
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle25;
             this.colAmount.FillWeight = 95.63452F;
             this.colAmount.HeaderText = "Amount";
             this.colAmount.MinimumWidth = 6;
@@ -956,8 +917,8 @@
             // 
             // colDate
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle26;
             this.colDate.FillWeight = 95.63452F;
             this.colDate.HeaderText = "Date ";
             this.colDate.MinimumWidth = 6;
@@ -965,8 +926,8 @@
             // 
             // colExpenseStatus
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle27;
             this.colExpenseStatus.HeaderText = "Status";
             this.colExpenseStatus.MinimumWidth = 6;
             this.colExpenseStatus.Name = "colExpenseStatus";
@@ -1013,15 +974,15 @@
             this.txtSearchExpense.HoverState.Parent = this.txtSearchExpense;
             this.txtSearchExpense.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
             this.txtSearchExpense.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchExpense.Location = new System.Drawing.Point(452, 20);
-            this.txtSearchExpense.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearchExpense.Location = new System.Drawing.Point(339, 16);
+            this.txtSearchExpense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchExpense.Name = "txtSearchExpense";
             this.txtSearchExpense.PasswordChar = '\0';
             this.txtSearchExpense.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.txtSearchExpense.PlaceholderText = "Search expense...";
             this.txtSearchExpense.SelectedText = "";
             this.txtSearchExpense.ShadowDecoration.Parent = this.txtSearchExpense;
-            this.txtSearchExpense.Size = new System.Drawing.Size(293, 43);
+            this.txtSearchExpense.Size = new System.Drawing.Size(220, 35);
             this.txtSearchExpense.TabIndex = 17;
             this.txtSearchExpense.TextOffset = new System.Drawing.Point(8, 0);
             // 
@@ -1041,11 +1002,10 @@
             this.cbFilterCategory.Items.AddRange(new object[] {
             "All Categories"});
             this.cbFilterCategory.ItemsAppearance.Parent = this.cbFilterCategory;
-            this.cbFilterCategory.Location = new System.Drawing.Point(755, 20);
-            this.cbFilterCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbFilterCategory.Location = new System.Drawing.Point(566, 16);
             this.cbFilterCategory.Name = "cbFilterCategory";
             this.cbFilterCategory.ShadowDecoration.Parent = this.cbFilterCategory;
-            this.cbFilterCategory.Size = new System.Drawing.Size(185, 36);
+            this.cbFilterCategory.Size = new System.Drawing.Size(140, 36);
             this.cbFilterCategory.TabIndex = 18;
             // 
             // pnlExpenseList
@@ -1056,11 +1016,10 @@
             this.pnlExpenseList.Controls.Add(this.dgvExpenseList);
             this.pnlExpenseList.Controls.Add(this.lblExpenseList);
             this.pnlExpenseList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlExpenseList.Location = new System.Drawing.Point(27, 421);
-            this.pnlExpenseList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlExpenseList.Location = new System.Drawing.Point(20, 342);
             this.pnlExpenseList.Name = "pnlExpenseList";
             this.pnlExpenseList.ShadowDecoration.Parent = this.pnlExpenseList;
-            this.pnlExpenseList.Size = new System.Drawing.Size(971, 480);
+            this.pnlExpenseList.Size = new System.Drawing.Size(728, 390);
             this.pnlExpenseList.TabIndex = 19;
             // 
             // lblExpenseList
@@ -1068,10 +1027,9 @@
             this.lblExpenseList.BackColor = System.Drawing.Color.Transparent;
             this.lblExpenseList.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExpenseList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblExpenseList.Location = new System.Drawing.Point(203, 25);
-            this.lblExpenseList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblExpenseList.Location = new System.Drawing.Point(152, 20);
             this.lblExpenseList.Name = "lblExpenseList";
-            this.lblExpenseList.Size = new System.Drawing.Size(128, 26);
+            this.lblExpenseList.Size = new System.Drawing.Size(105, 21);
             this.lblExpenseList.TabIndex = 1;
             this.lblExpenseList.Text = "Expense List";
             // 
@@ -1083,11 +1041,10 @@
             this.pnlIExpensesHeader.Controls.Add(this.guna2Button1);
             this.pnlIExpensesHeader.Controls.Add(this.guna2CirclePictureBox2);
             this.pnlIExpensesHeader.Controls.Add(this.guna2Button4);
-            this.pnlIExpensesHeader.Location = new System.Drawing.Point(8, 4);
-            this.pnlIExpensesHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlIExpensesHeader.Location = new System.Drawing.Point(6, 3);
             this.pnlIExpensesHeader.Name = "pnlIExpensesHeader";
             this.pnlIExpensesHeader.ShadowDecoration.Parent = this.pnlIExpensesHeader;
-            this.pnlIExpensesHeader.Size = new System.Drawing.Size(1560, 135);
+            this.pnlIExpensesHeader.Size = new System.Drawing.Size(1170, 110);
             this.pnlIExpensesHeader.TabIndex = 23;
             // 
             // guna2Button1
@@ -1100,22 +1057,20 @@
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::BudgetBuddy.Properties.Resources.userprofile;
             this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button1.Location = new System.Drawing.Point(1489, 21);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Location = new System.Drawing.Point(1117, 17);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(56, 59);
+            this.guna2Button1.Size = new System.Drawing.Size(42, 48);
             this.guna2Button1.TabIndex = 2;
             // 
             // guna2CirclePictureBox2
             // 
             this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1456, 22);
-            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1092, 18);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(13, 12);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(10, 10);
             this.guna2CirclePictureBox2.TabIndex = 1;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
@@ -1129,16 +1084,15 @@
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
             this.guna2Button4.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
             this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button4.Location = new System.Drawing.Point(1419, 22);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button4.Location = new System.Drawing.Point(1064, 18);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(47, 54);
+            this.guna2Button4.Size = new System.Drawing.Size(35, 44);
             this.guna2Button4.TabIndex = 1;
             // 
             // ucExpenses
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.Controls.Add(this.pnlIExpensesHeader);
@@ -1147,9 +1101,8 @@
             this.Controls.Add(this.pnlExpenseList);
             this.Controls.Add(this.pnlAddIncome);
             this.Controls.Add(this.pnlTotalExpenses);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucExpenses";
-            this.Size = new System.Drawing.Size(2539, 1456);
+            this.Size = new System.Drawing.Size(1904, 1183);
             this.pnlTotalExpenses.ResumeLayout(false);
             this.pnlTotalExpenses.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExpensesIcon)).EndInit();

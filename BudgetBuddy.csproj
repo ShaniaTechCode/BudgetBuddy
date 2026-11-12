@@ -351,5 +351,11 @@
   <ItemGroup>
     <None Include="Resources\saveIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sydney  Chua\source\repos\calculator\calculator.csproj">
+      <Project>{283f4ec4-83f7-4972-b374-2a2f3d763f4c}</Project>
+      <Name>calculator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

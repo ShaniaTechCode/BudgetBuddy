@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using calculator;
 
 namespace BudgetBuddy
 {
     public partial class ucDashboard : UserControl
     {
+        private CalculatorEngine calc = new CalculatorEngine();
         public ucDashboard()
         {
             InitializeComponent();
@@ -20,57 +22,17 @@ namespace BudgetBuddy
             Calculator();
         }
 
-
-        decimal num1 = 0, num2 = 0, num3 = 0;
-        string operation = null;
-        bool startNewNumber = false;
-
         //responsible for the equal button click event/ the calculation of the numbers
         private void btnEqual_Click(object sender, EventArgs e)
         {
+            try
             {
-                
-                if (operation == null || num1 == 0)
-                {
-                    MessageBox.Show("Please enter valid numbers and operator");
-                    return;
-                }
-                if (startNewNumber)
-                {
-                    MessageBox.Show("Please enter a second number.");
-                    return;
-                }
-
-                num2 = ParseNumber(txtboxDisplay.Text);
-
-                if (operation == "+")
-                {
-                    num3 = num1 + num2;
-                }
-                else if (operation == "-")
-                {
-                    num3 = num1 - num2;
-                }
-                else if (operation == "*")
-                {
-                    num3 = num1 * num2;
-                }
-                else if (operation == "/")
-                {
-                    if (num2 == 0)
-                    {
-                        MessageBox.Show("Cannot divide by zero.");
-                        return;
-                    }
-                    num3 = num1 / num2;
-                }
-                num1 = num3;
-                operation = null;
-                startNewNumber = true;
-
+                txtboxDisplay.Text = calc.Calculate();
             }
-
-            txtboxDisplay.Text = num3.ToString();
+            catch (CalculatorException ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         // responsible for the calculator button click event btn# represents the number buttons on the calculator and btnDecimal represents the decimal button on the calculator aswell as the operation buttons for addition, subtraction, multiplication, and division
@@ -89,28 +51,11 @@ namespace BudgetBuddy
             btnMultiply.Click += (s, e) => OpBtn_click('*');
             btnDivide.Click += (s, e) => OpBtn_click('/');
         }
-        //responsible for checking the numbers entered into the calculator and parsing/formatting them to display correctly
-        private decimal ParseNumber(string text)
-        {
-            if (text.Contains("."))
-            {
-                return decimal.Parse(text, CultureInfo.InvariantCulture);
-            }
-            else
-            {
-                return int.Parse(text, CultureInfo.InvariantCulture);
-            }
-        }
-
+        
         //responsible for the clear button click event
         private void btnClear_Click(object sender, EventArgs e)
         {
-            num1 = 0;
-            num2 = 0;
-            num3 = 0;
-            operation = null;
-            txtboxDisplay.Text = "0";
-            startNewNumber = false;
+            txtboxDisplay.Text = calc.Clear();
         }
 
         //for hiding or showing the calculator panel when the calculator button is clicked
@@ -122,15 +67,7 @@ namespace BudgetBuddy
         //responsible for the decimal button click event
         private void btnDecimal_Click(object sender, EventArgs e)
         {
-            if (startNewNumber)
-            {
-                txtboxDisplay.Text = "0.";
-                startNewNumber = false;
-            }
-            else if (!txtboxDisplay.Text.Contains("."))
-            {
-                txtboxDisplay.Text += ".";
-            }
+            txtboxDisplay.Text = calc.InputDecimal();
         }
 
         private void pnlDashboardHeader_Paint(object sender, PaintEventArgs e)
@@ -146,55 +83,19 @@ namespace BudgetBuddy
         //responsible for the operation button click events
         private void OpBtn_click(char op)
         {
-            if (operation == null)
+            try
             {
-                num1 = ParseNumber(txtboxDisplay.Text);
+                txtboxDisplay.Text = calc.InputOperator(op);
             }
-            else if (!startNewNumber)
+            catch (CalculatorException ex)
             {
-                num2 = ParseNumber(txtboxDisplay.Text);
-                if (operation == "+")
-                {
-                    num1 += num2;
-                }
-                else if (operation == "-")
-                {
-                    num1 -= num2;
-                }
-                else if (operation == "*")
-                {
-                    num1 *= num2;
-                }
-                else if (operation == "/")
-                {
-                    if (num2 == 0)
-                    {
-                        MessageBox.Show("Cannot divide by zero.");
-                        return;
-                    }
-                    num1 /= num2;
-                }
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            operation = op.ToString();
-            txtboxDisplay.Text = operation;
-            startNewNumber = true;
         }
 
-        
         private void Nbtn_click(object sender, EventArgs e)
         {
-            string btnText = ((Control)sender).Text;
-
-            if (txtboxDisplay.Text == "0" || startNewNumber)
-            {
-                txtboxDisplay.Text = btnText;
-                startNewNumber = false;
-            }
-            else
-            {
-                txtboxDisplay.Text += btnText;
-            }
+            txtboxDisplay.Text = calc.InputDigit(((Control)sender).Text);
         }
     }
 }
