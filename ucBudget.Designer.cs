@@ -133,7 +133,7 @@
             this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
             this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchBudget.Location = new System.Drawing.Point(490, 16);
+            this.txtSearchBudget.Location = new System.Drawing.Point(489, 16);
             this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchBudget.Name = "txtSearchBudget";
             this.txtSearchBudget.PasswordChar = '\0';
