@@ -323,16 +323,6 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SHAPE {
-            get {
-                object obj = ResourceManager.GetObject("SHAPE", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap shoppingIcon {
             get {
                 object obj = ResourceManager.GetObject("shoppingIcon", resourceCulture);
@@ -346,6 +336,16 @@ namespace BudgetBuddy.Properties {
         internal static System.Drawing.Bitmap sidebarLogo {
             get {
                 object obj = ResourceManager.GetObject("sidebarLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sideDesign {
+            get {
+                object obj = ResourceManager.GetObject("sideDesign", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

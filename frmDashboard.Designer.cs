@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pnlSidebarDashboard = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlMainContent = new Guna.UI2.WinForms.Guna2Panel();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnAnalytics = new Guna.UI2.WinForms.Guna2Button();
@@ -40,6 +39,7 @@
             this.btnBudget = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.sidebarLogo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlMainContent = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSidebarDashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sidebarLogo)).BeginInit();
             this.SuspendLayout();
@@ -57,21 +57,12 @@
             this.pnlSidebarDashboard.Controls.Add(this.btnDashboard);
             this.pnlSidebarDashboard.Controls.Add(this.sidebarLogo);
             this.pnlSidebarDashboard.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarDashboard.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarDashboard.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarDashboard.Name = "pnlSidebarDashboard";
             this.pnlSidebarDashboard.ShadowDecoration.Parent = this.pnlSidebarDashboard;
             this.pnlSidebarDashboard.Size = new System.Drawing.Size(252, 1041);
             this.pnlSidebarDashboard.TabIndex = 5;
-            // 
-            // pnlMainContent
-            // 
-            this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMainContent.Location = new System.Drawing.Point(252, 0);
-            this.pnlMainContent.Name = "pnlMainContent";
-            this.pnlMainContent.ShadowDecoration.Parent = this.pnlMainContent;
-            this.pnlMainContent.Size = new System.Drawing.Size(1652, 1041);
-            this.pnlMainContent.TabIndex = 6;
             // 
             // btnLogOut
             // 
@@ -251,6 +242,15 @@
             this.sidebarLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.sidebarLogo.TabIndex = 1;
             this.sidebarLogo.TabStop = false;
+            // 
+            // pnlMainContent
+            // 
+            this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMainContent.Location = new System.Drawing.Point(252, 0);
+            this.pnlMainContent.Name = "pnlMainContent";
+            this.pnlMainContent.ShadowDecoration.Parent = this.pnlMainContent;
+            this.pnlMainContent.Size = new System.Drawing.Size(1652, 1041);
+            this.pnlMainContent.TabIndex = 6;
             // 
             // frmDashboard
             // 

@@ -45,6 +45,7 @@
             // 
             // pnlMainContentExpenses
             // 
+            this.pnlMainContentExpenses.AutoScroll = true;
             this.pnlMainContentExpenses.AutoScrollMinSize = new System.Drawing.Size(2000, 1041);
             this.pnlMainContentExpenses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
             this.pnlMainContentExpenses.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -68,7 +69,7 @@
             this.pnlSidebarExpenses.Controls.Add(this.btnDashboard);
             this.pnlSidebarExpenses.Controls.Add(this.sidebarLogo);
             this.pnlSidebarExpenses.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarExpenses.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarExpenses.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarExpenses.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarExpenses.Name = "pnlSidebarExpenses";
             this.pnlSidebarExpenses.ShadowDecoration.Parent = this.pnlSidebarExpenses;

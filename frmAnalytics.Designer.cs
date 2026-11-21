@@ -67,7 +67,7 @@
             this.pnlSidebarAnalytics.Controls.Add(this.btnDashboard);
             this.pnlSidebarAnalytics.Controls.Add(this.sidebarLogo);
             this.pnlSidebarAnalytics.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarAnalytics.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarAnalytics.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarAnalytics.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarAnalytics.Name = "pnlSidebarAnalytics";
             this.pnlSidebarAnalytics.ShadowDecoration.Parent = this.pnlSidebarAnalytics;

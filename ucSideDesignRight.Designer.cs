@@ -28,36 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaShape3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaShape3)).BeginInit();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // gunaShape3
+            // guna2PictureBox1
             // 
-            this.gunaShape3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShape3.Image = global::BudgetBuddy.Properties.Resources.SHAPE;
-            this.gunaShape3.Location = new System.Drawing.Point(159, 84);
-            this.gunaShape3.Name = "gunaShape3";
-            this.gunaShape3.ShadowDecoration.Parent = this.gunaShape3;
-            this.gunaShape3.Size = new System.Drawing.Size(98, 238);
-            this.gunaShape3.TabIndex = 8;
-            this.gunaShape3.TabStop = false;
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::BudgetBuddy.Properties.Resources.sideDesign;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(151, 147);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(246, 230);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // ucSideDesignRight
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.Controls.Add(this.gunaShape3);
+            this.Controls.Add(this.guna2PictureBox1);
             this.Name = "ucSideDesignRight";
             this.Size = new System.Drawing.Size(257, 312);
-            ((System.ComponentModel.ISupportInitialize)(this.gunaShape3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2PictureBox gunaShape3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

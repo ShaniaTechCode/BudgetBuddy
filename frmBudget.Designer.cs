@@ -139,7 +139,7 @@
             this.pnlSidebarBudget.Controls.Add(this.btnDashboard);
             this.pnlSidebarBudget.Controls.Add(this.sidebarLogo);
             this.pnlSidebarBudget.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarBudget.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarBudget.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarBudget.Name = "pnlSidebarBudget";
             this.pnlSidebarBudget.ShadowDecoration.Parent = this.pnlSidebarBudget;

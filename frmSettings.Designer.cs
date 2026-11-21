@@ -79,7 +79,7 @@
             this.pnlSidebarSettings.Controls.Add(this.btnDashboard);
             this.pnlSidebarSettings.Controls.Add(this.sidebarLogo);
             this.pnlSidebarSettings.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarSettings.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarSettings.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarSettings.Name = "pnlSidebarSettings";
             this.pnlSidebarSettings.ShadowDecoration.Parent = this.pnlSidebarSettings;

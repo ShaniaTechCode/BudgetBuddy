@@ -28,36 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaShape2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaShape2)).BeginInit();
+            this.sideDesignLeft = new Guna.UI2.WinForms.Guna2PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.sideDesignLeft)).BeginInit();
             this.SuspendLayout();
             // 
-            // gunaShape2
+            // sideDesignLeft
             // 
-            this.gunaShape2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShape2.Image = global::BudgetBuddy.Properties.Resources.SHAPE;
-            this.gunaShape2.Location = new System.Drawing.Point(-115, -198);
-            this.gunaShape2.Name = "gunaShape2";
-            this.gunaShape2.ShadowDecoration.Parent = this.gunaShape2;
-            this.gunaShape2.Size = new System.Drawing.Size(377, 375);
-            this.gunaShape2.TabIndex = 7;
-            this.gunaShape2.TabStop = false;
+            this.sideDesignLeft.BackColor = System.Drawing.Color.Transparent;
+            this.sideDesignLeft.Image = global::BudgetBuddy.Properties.Resources.sideDesign;
+            this.sideDesignLeft.Location = new System.Drawing.Point(-77, -109);
+            this.sideDesignLeft.Name = "sideDesignLeft";
+            this.sideDesignLeft.ShadowDecoration.Parent = this.sideDesignLeft;
+            this.sideDesignLeft.Size = new System.Drawing.Size(251, 229);
+            this.sideDesignLeft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.sideDesignLeft.TabIndex = 2;
+            this.sideDesignLeft.TabStop = false;
             // 
             // ucSideDesignLeft
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.Controls.Add(this.gunaShape2);
+            this.Controls.Add(this.sideDesignLeft);
             this.Name = "ucSideDesignLeft";
             this.Size = new System.Drawing.Size(484, 472);
-            ((System.ComponentModel.ISupportInitialize)(this.gunaShape2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sideDesignLeft)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2PictureBox gunaShape2;
+        private Guna.UI2.WinForms.Guna2PictureBox sideDesignLeft;
     }
 }

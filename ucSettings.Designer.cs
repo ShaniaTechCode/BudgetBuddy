@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucSettings));
             this.pnlMainContentSettings = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlContentSettings = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSettingsMenu = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnAbout = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPassword = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNotifications = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSettingsHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.lblSettingsDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblSettingstitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlContentSettings = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSettingsMenu = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnAbout = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPassword = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNotifications = new Guna.UI2.WinForms.Guna2Button();
             this.pnlMainContentSettings.SuspendLayout();
-            this.pnlSettingsMenu.SuspendLayout();
             this.pnlSettingsHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.pnlSettingsMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMainContentSettings
@@ -62,12 +62,91 @@
             this.pnlMainContentSettings.Size = new System.Drawing.Size(1652, 1041);
             this.pnlMainContentSettings.TabIndex = 25;
             // 
+            // pnlSettingsHeader
+            // 
+            this.pnlSettingsHeader.AutoSize = true;
+            this.pnlSettingsHeader.Controls.Add(this.lblSettingsDescription);
+            this.pnlSettingsHeader.Controls.Add(this.lblSettingstitle);
+            this.pnlSettingsHeader.Controls.Add(this.guna2Button2);
+            this.pnlSettingsHeader.Controls.Add(this.guna2CirclePictureBox2);
+            this.pnlSettingsHeader.Controls.Add(this.guna2Button4);
+            this.pnlSettingsHeader.Location = new System.Drawing.Point(6, 3);
+            this.pnlSettingsHeader.Name = "pnlSettingsHeader";
+            this.pnlSettingsHeader.ShadowDecoration.Parent = this.pnlSettingsHeader;
+            this.pnlSettingsHeader.Size = new System.Drawing.Size(1170, 88);
+            this.pnlSettingsHeader.TabIndex = 26;
+            // 
+            // lblSettingsDescription
+            // 
+            this.lblSettingsDescription.BackColor = System.Drawing.Color.Transparent;
+            this.lblSettingsDescription.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSettingsDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.lblSettingsDescription.Location = new System.Drawing.Point(17, 58);
+            this.lblSettingsDescription.Name = "lblSettingsDescription";
+            this.lblSettingsDescription.Size = new System.Drawing.Size(352, 25);
+            this.lblSettingsDescription.TabIndex = 15;
+            this.lblSettingsDescription.Text = "Manage your account details and settings\r\n\r\n";
+            // 
+            // lblSettingstitle
+            // 
+            this.lblSettingstitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblSettingstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSettingstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblSettingstitle.Location = new System.Drawing.Point(17, 15);
+            this.lblSettingstitle.Name = "lblSettingstitle";
+            this.lblSettingstitle.Size = new System.Drawing.Size(123, 37);
+            this.lblSettingstitle.TabIndex = 14;
+            this.lblSettingstitle.Text = "Settings";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Image = global::BudgetBuddy.Properties.Resources.userprofile;
+            this.guna2Button2.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button2.Location = new System.Drawing.Point(1117, 17);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(42, 48);
+            this.guna2Button2.TabIndex = 2;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1092, 18);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(10, 10);
+            this.guna2CirclePictureBox2.TabIndex = 1;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.Parent = this.guna2Button4;
+            this.guna2Button4.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
+            this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button4.Location = new System.Drawing.Point(1064, 18);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+            this.guna2Button4.Size = new System.Drawing.Size(35, 44);
+            this.guna2Button4.TabIndex = 1;
+            // 
             // pnlContentSettings
             // 
             this.pnlContentSettings.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnlContentSettings.BorderColor = System.Drawing.Color.SeaGreen;
+            this.pnlContentSettings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(145)))), ((int)(((byte)(173)))));
             this.pnlContentSettings.BorderRadius = 20;
-            this.pnlContentSettings.BorderThickness = 2;
+            this.pnlContentSettings.BorderThickness = 3;
             this.pnlContentSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(241)))));
             this.pnlContentSettings.Location = new System.Drawing.Point(419, 177);
             this.pnlContentSettings.Name = "pnlContentSettings";
@@ -80,9 +159,9 @@
             // 
             this.pnlSettingsMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlSettingsMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
-            this.pnlSettingsMenu.BorderColor = System.Drawing.Color.SeaGreen;
+            this.pnlSettingsMenu.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(145)))), ((int)(((byte)(173)))));
             this.pnlSettingsMenu.BorderRadius = 20;
-            this.pnlSettingsMenu.BorderThickness = 2;
+            this.pnlSettingsMenu.BorderThickness = 3;
             this.pnlSettingsMenu.Controls.Add(this.btnAbout);
             this.pnlSettingsMenu.Controls.Add(this.btnAccount);
             this.pnlSettingsMenu.Controls.Add(this.btnPassword);
@@ -196,85 +275,6 @@
             this.btnNotifications.TextOffset = new System.Drawing.Point(25, 0);
             this.btnNotifications.Click += new System.EventHandler(this.btnNotifications_Click);
             // 
-            // pnlSettingsHeader
-            // 
-            this.pnlSettingsHeader.AutoSize = true;
-            this.pnlSettingsHeader.Controls.Add(this.lblSettingsDescription);
-            this.pnlSettingsHeader.Controls.Add(this.lblSettingstitle);
-            this.pnlSettingsHeader.Controls.Add(this.guna2Button2);
-            this.pnlSettingsHeader.Controls.Add(this.guna2CirclePictureBox2);
-            this.pnlSettingsHeader.Controls.Add(this.guna2Button4);
-            this.pnlSettingsHeader.Location = new System.Drawing.Point(6, 3);
-            this.pnlSettingsHeader.Name = "pnlSettingsHeader";
-            this.pnlSettingsHeader.ShadowDecoration.Parent = this.pnlSettingsHeader;
-            this.pnlSettingsHeader.Size = new System.Drawing.Size(1170, 88);
-            this.pnlSettingsHeader.TabIndex = 26;
-            // 
-            // lblSettingsDescription
-            // 
-            this.lblSettingsDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblSettingsDescription.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSettingsDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.lblSettingsDescription.Location = new System.Drawing.Point(17, 58);
-            this.lblSettingsDescription.Name = "lblSettingsDescription";
-            this.lblSettingsDescription.Size = new System.Drawing.Size(352, 25);
-            this.lblSettingsDescription.TabIndex = 15;
-            this.lblSettingsDescription.Text = "Manage your account details and settings\r\n\r\n";
-            // 
-            // lblSettingstitle
-            // 
-            this.lblSettingstitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblSettingstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSettingstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblSettingstitle.Location = new System.Drawing.Point(17, 15);
-            this.lblSettingstitle.Name = "lblSettingstitle";
-            this.lblSettingstitle.Size = new System.Drawing.Size(123, 37);
-            this.lblSettingstitle.TabIndex = 14;
-            this.lblSettingstitle.Text = "Settings";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Image = global::BudgetBuddy.Properties.Resources.userprofile;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button2.Location = new System.Drawing.Point(1117, 17);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(42, 48);
-            this.guna2Button2.TabIndex = 2;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1092, 18);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(10, 10);
-            this.guna2CirclePictureBox2.TabIndex = 1;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = global::BudgetBuddy.Properties.Resources.notification__2_;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button4.Location = new System.Drawing.Point(1064, 18);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(35, 44);
-            this.guna2Button4.TabIndex = 1;
-            // 
             // ucSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -285,10 +285,10 @@
             this.Size = new System.Drawing.Size(1652, 1041);
             this.pnlMainContentSettings.ResumeLayout(false);
             this.pnlMainContentSettings.PerformLayout();
-            this.pnlSettingsMenu.ResumeLayout(false);
             this.pnlSettingsHeader.ResumeLayout(false);
             this.pnlSettingsHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            this.pnlSettingsMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

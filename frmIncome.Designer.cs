@@ -68,7 +68,7 @@
             this.pnlSidebarIncome.Controls.Add(this.btnDashboard);
             this.pnlSidebarIncome.Controls.Add(this.sidebarLogo);
             this.pnlSidebarIncome.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidebarIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.pnlSidebarIncome.FillColor = System.Drawing.Color.RoyalBlue;
             this.pnlSidebarIncome.Location = new System.Drawing.Point(0, 0);
             this.pnlSidebarIncome.Name = "pnlSidebarIncome";
             this.pnlSidebarIncome.ShadowDecoration.Parent = this.pnlSidebarIncome;
