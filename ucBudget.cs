@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
-using calculator;
+using BudgetBuddy;
 
 namespace BudgetBuddy
 {
