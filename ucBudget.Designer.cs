@@ -478,7 +478,6 @@
             this.btnEqual.Size = new System.Drawing.Size(55, 29);
             this.btnEqual.TabIndex = 20;
             this.btnEqual.Text = "=";
-            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // btnDecimal
             // 
@@ -494,7 +493,6 @@
             this.btnDecimal.Size = new System.Drawing.Size(55, 29);
             this.btnDecimal.TabIndex = 19;
             this.btnDecimal.Text = ".";
-            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
             // btn0
             // 
@@ -750,7 +748,6 @@
             this.btnClear.Size = new System.Drawing.Size(55, 29);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "C";
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtboxDisplay
             // 
