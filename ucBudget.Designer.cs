@@ -139,7 +139,7 @@
             this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
             this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchBudget.Location = new System.Drawing.Point(490, 16);
+            this.txtSearchBudget.Location = new System.Drawing.Point(489, 16);
             this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearchBudget.Name = "txtSearchBudget";
             this.txtSearchBudget.PasswordChar = '\0';
@@ -200,6 +200,8 @@
             this.dgvBudgetList.RowHeadersVisible = false;
             dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvBudgetList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBudgetList.Size = new System.Drawing.Size(726, 336);
             this.dgvBudgetList.TabIndex = 2;
@@ -329,6 +331,7 @@
             this.btnSaveBudget.Size = new System.Drawing.Size(301, 45);
             this.btnSaveBudget.TabIndex = 18;
             this.btnSaveBudget.Text = "SAVE BUDGET";
+            this.btnSaveBudget.Click += new System.EventHandler(this.btnSaveBudget_Click);
             // 
             // lblBudgetPeriod
             // 
@@ -355,6 +358,11 @@
             this.cbBudgetPeriod.FormattingEnabled = true;
             this.cbBudgetPeriod.HoverState.Parent = this.cbBudgetPeriod;
             this.cbBudgetPeriod.ItemHeight = 30;
+            this.cbBudgetPeriod.Items.AddRange(new object[] {
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Annually"});
             this.cbBudgetPeriod.ItemsAppearance.Parent = this.cbBudgetPeriod;
             this.cbBudgetPeriod.Location = new System.Drawing.Point(36, 254);
             this.cbBudgetPeriod.Name = "cbBudgetPeriod";
@@ -1021,6 +1029,7 @@
             this.Controls.Add(this.pnlSetBudget);
             this.Name = "ucBudget";
             this.Size = new System.Drawing.Size(1904, 1041);
+            this.Load += new System.EventHandler(this.ucBudget_Load);
             this.pnlBudgetList.ResumeLayout(false);
             this.pnlBudgetList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBudgetList)).EndInit();
@@ -1083,12 +1092,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlBudgetHeader;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colBudgetName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPeriod;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDateCreated;
-        private System.Windows.Forms.DataGridViewImageColumn colEdit;
-        private System.Windows.Forms.DataGridViewImageColumn colDelete;
         private Guna.UI2.WinForms.Guna2Button btnNotificaton;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picNotificationBadge;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;

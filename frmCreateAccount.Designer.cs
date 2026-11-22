@@ -63,7 +63,7 @@
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(127, 495);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(154, 18);
@@ -134,7 +134,7 @@
             // 
             this.lblLogIn.BackColor = System.Drawing.Color.Transparent;
             this.lblLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblLogIn.Location = new System.Drawing.Point(286, 607);
             this.lblLogIn.Name = "lblLogIn";
             this.lblLogIn.Size = new System.Drawing.Size(45, 18);
@@ -181,7 +181,7 @@
             this.lblWelcomeBack.AutoSize = false;
             this.lblWelcomeBack.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcomeBack.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcomeBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblWelcomeBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblWelcomeBack.Location = new System.Drawing.Point(68, 20);
             this.lblWelcomeBack.Name = "lblWelcomeBack";
             this.lblWelcomeBack.Size = new System.Drawing.Size(349, 51);
@@ -219,7 +219,7 @@
             this.pnlSignUpForm.Controls.Add(this.lblLoginToContinue);
             this.pnlSignUpForm.Controls.Add(this.lblWelcomeBack);
             this.pnlSignUpForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(241)))));
-            this.pnlSignUpForm.Location = new System.Drawing.Point(813, 107);
+            this.pnlSignUpForm.Location = new System.Drawing.Point(838, 146);
             this.pnlSignUpForm.Name = "pnlSignUpForm";
             this.pnlSignUpForm.ShadowDecoration.Parent = this.pnlSignUpForm;
             this.pnlSignUpForm.Size = new System.Drawing.Size(474, 663);
@@ -229,7 +229,7 @@
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(296, 495);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(106, 18);
@@ -474,8 +474,8 @@
             // 
             this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucBranding1.Location = new System.Drawing.Point(198, 201);
-            this.ucBranding1.Margin = new System.Windows.Forms.Padding(4);
+            this.ucBranding1.Location = new System.Drawing.Point(215, 206);
+            this.ucBranding1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ucBranding1.Name = "ucBranding1";
             this.ucBranding1.Size = new System.Drawing.Size(574, 483);
             this.ucBranding1.TabIndex = 22;
@@ -485,7 +485,7 @@
             this.ucSideDesignRight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ucSideDesignRight1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
             this.ucSideDesignRight1.Location = new System.Drawing.Point(1663, 729);
-            this.ucSideDesignRight1.Margin = new System.Windows.Forms.Padding(4);
+            this.ucSideDesignRight1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ucSideDesignRight1.Name = "ucSideDesignRight1";
             this.ucSideDesignRight1.Size = new System.Drawing.Size(242, 312);
             this.ucSideDesignRight1.TabIndex = 21;
@@ -495,18 +495,10 @@
             this.ucSideDesignLeft1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
             this.ucSideDesignLeft1.Dock = System.Windows.Forms.DockStyle.Left;
             this.ucSideDesignLeft1.Location = new System.Drawing.Point(0, 0);
+            this.ucSideDesignLeft1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ucSideDesignLeft1.Name = "ucSideDesignLeft1";
-            this.ucSideDesignLeft1.Size = new System.Drawing.Size(211, 849);
-            this.ucSideDesignLeft1.TabIndex = 23;
-            // 
-            // ucSideDesignRight2
-            // 
-            this.ucSideDesignRight2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ucSideDesignRight2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucSideDesignRight2.Location = new System.Drawing.Point(1306, 544);
-            this.ucSideDesignRight2.Name = "ucSideDesignRight2";
-            this.ucSideDesignRight2.Size = new System.Drawing.Size(235, 312);
-            this.ucSideDesignRight2.TabIndex = 24;
+            this.ucSideDesignLeft1.Size = new System.Drawing.Size(207, 849);
+            this.ucSideDesignLeft1.TabIndex = 19;
             // 
             // frmCreateAccount
             // 
@@ -514,11 +506,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(1539, 849);
-            this.Controls.Add(this.ucSideDesignRight2);
-            this.Controls.Add(this.ucSideDesignLeft1);
             this.Controls.Add(this.ucBranding1);
             this.Controls.Add(this.pnlSignUpForm);
             this.Controls.Add(this.ucSideDesignRight1);
+            this.Controls.Add(this.ucSideDesignLeft1);
             this.Name = "frmCreateAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
