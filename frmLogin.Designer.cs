@@ -42,10 +42,9 @@
             this.lblEmail_PhoneNumber = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblLoginToContinue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblWelcomeBack = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.ucBranding1 = new BudgetBuddy.ucBranding();
-            this.ucSideDesignRight1 = new BudgetBuddy.ucSideDesignRight();
             this.ucSideDesignLeft1 = new BudgetBuddy.ucSideDesignLeft();
-            this.ucSideDesignRight2 = new BudgetBuddy.ucSideDesignRight();
+            this.ucSideDesignRight1 = new BudgetBuddy.ucSideDesignRight();
+            this.ucBranding1 = new BudgetBuddy.ucBranding();
             this.pnlLogInForm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +68,7 @@
             this.pnlLogInForm.Controls.Add(this.lblLoginToContinue);
             this.pnlLogInForm.Controls.Add(this.lblWelcomeBack);
             this.pnlLogInForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(241)))));
-            this.pnlLogInForm.Location = new System.Drawing.Point(808, 171);
+            this.pnlLogInForm.Location = new System.Drawing.Point(773, 160);
             this.pnlLogInForm.Name = "pnlLogInForm";
             this.pnlLogInForm.ShadowDecoration.Parent = this.pnlLogInForm;
             this.pnlLogInForm.Size = new System.Drawing.Size(471, 509);
@@ -81,7 +80,7 @@
             this.lblCreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCreateAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
             this.lblCreateAccount.Location = new System.Drawing.Point(325, 550);
-            this.lblCreateAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblCreateAccount.Margin = new System.Windows.Forms.Padding(4);
             this.lblCreateAccount.Name = "lblCreateAccount";
             this.lblCreateAccount.Size = new System.Drawing.Size(108, 18);
             this.lblCreateAccount.TabIndex = 12;
@@ -135,7 +134,7 @@
             this.btnLogIn.BorderRadius = 15;
             this.btnLogIn.CheckedState.Parent = this.btnLogIn;
             this.btnLogIn.CustomImages.Parent = this.btnLogIn;
-            this.btnLogIn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(179)))), ((int)(((byte)(35)))));
+            this.btnLogIn.FillColor = System.Drawing.Color.RoyalBlue;
             this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogIn.ForeColor = System.Drawing.Color.White;
             this.btnLogIn.HoverState.Parent = this.btnLogIn;
@@ -150,9 +149,9 @@
             // 
             this.lblForgotPass.BackColor = System.Drawing.Color.Transparent;
             this.lblForgotPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblForgotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblForgotPass.Location = new System.Drawing.Point(378, 384);
-            this.lblForgotPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblForgotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblForgotPass.Location = new System.Drawing.Point(255, 439);
+            this.lblForgotPass.Margin = new System.Windows.Forms.Padding(4);
             this.lblForgotPass.Name = "lblForgotPass";
             this.lblForgotPass.Size = new System.Drawing.Size(128, 18);
             this.lblForgotPass.TabIndex = 6;
@@ -263,34 +262,14 @@
             this.lblWelcomeBack.AutoSize = false;
             this.lblWelcomeBack.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcomeBack.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcomeBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
-            this.lblWelcomeBack.Location = new System.Drawing.Point(84, 25);
-            this.lblWelcomeBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblWelcomeBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblWelcomeBack.Location = new System.Drawing.Point(74, 17);
+            this.lblWelcomeBack.Margin = new System.Windows.Forms.Padding(4);
             this.lblWelcomeBack.Name = "lblWelcomeBack";
             this.lblWelcomeBack.Size = new System.Drawing.Size(349, 51);
             this.lblWelcomeBack.TabIndex = 0;
             this.lblWelcomeBack.Text = "Welcome Back!";
             this.lblWelcomeBack.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // ucBranding1
-            // 
-            this.ucSideDesignLeft1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucSideDesignLeft1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ucSideDesignLeft1.Location = new System.Drawing.Point(0, 0);
-            this.ucSideDesignLeft1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.ucSideDesignLeft1.Name = "ucSideDesignLeft1";
-            this.ucSideDesignLeft1.Size = new System.Drawing.Size(256, 1175);
-            this.ucSideDesignLeft1.TabIndex = 13;
-            // 
-            // ucSideDesignRight1
-            // 
-            this.ucSideDesignRight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ucSideDesignRight1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucSideDesignRight1.Location = new System.Drawing.Point(2079, 911);
-            this.ucSideDesignRight1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.ucSideDesignRight1.Name = "ucSideDesignRight1";
-            this.ucSideDesignRight1.Size = new System.Drawing.Size(241, 312);
-            this.ucSideDesignRight1.TabIndex = 16;
             // 
             // ucSideDesignLeft1
             // 
@@ -298,28 +277,37 @@
             this.ucSideDesignLeft1.Dock = System.Windows.Forms.DockStyle.Left;
             this.ucSideDesignLeft1.Location = new System.Drawing.Point(0, 0);
             this.ucSideDesignLeft1.Name = "ucSideDesignLeft1";
-            this.ucSideDesignLeft1.Size = new System.Drawing.Size(211, 849);
-            this.ucSideDesignLeft1.TabIndex = 18;
+            this.ucSideDesignLeft1.Size = new System.Drawing.Size(168, 849);
+            this.ucSideDesignLeft1.TabIndex = 13;
             // 
-            // ucSideDesignRight2
+            // ucSideDesignRight1
+            // 
+            this.ucSideDesignRight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.ucSideDesignRight1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
+            this.ucSideDesignRight1.Location = new System.Drawing.Point(1287, 537);
+            this.ucSideDesignRight1.Name = "ucSideDesignRight1";
+            this.ucSideDesignRight1.Size = new System.Drawing.Size(257, 312);
+            this.ucSideDesignRight1.TabIndex = 14;
+            // 
+            // ucBranding1
             // 
             this.ucBranding1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ucBranding1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ucBranding1.Location = new System.Drawing.Point(251, 238);
-            this.ucBranding1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucBranding1.Location = new System.Drawing.Point(135, 160);
             this.ucBranding1.Name = "ucBranding1";
-            this.ucBranding1.Size = new System.Drawing.Size(759, 684);
-            this.ucBranding1.TabIndex = 17;
+            this.ucBranding1.Size = new System.Drawing.Size(589, 489);
+            this.ucBranding1.TabIndex = 15;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1924, 1175);
+            this.ClientSize = new System.Drawing.Size(1539, 849);
             this.Controls.Add(this.ucBranding1);
-            this.Controls.Add(this.pnlLogInForm);
             this.Controls.Add(this.ucSideDesignRight1);
+            this.Controls.Add(this.ucSideDesignLeft1);
+            this.Controls.Add(this.pnlLogInForm);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -345,9 +333,8 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblCreateAccount;
+        private ucSideDesignLeft ucSideDesignLeft1;
         private ucSideDesignRight ucSideDesignRight1;
         private ucBranding ucBranding1;
-        private ucSideDesignLeft ucSideDesignLeft1;
-        private ucSideDesignRight ucSideDesignRight2;
     }
 }

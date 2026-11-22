@@ -43,9 +43,9 @@
             // 
             // pnlNotifications
             // 
-            this.pnlNotifications.BorderColor = System.Drawing.Color.SeaGreen;
+            this.pnlNotifications.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(145)))), ((int)(((byte)(173)))));
             this.pnlNotifications.BorderRadius = 20;
-            this.pnlNotifications.BorderThickness = 2;
+            this.pnlNotifications.BorderThickness = 3;
             this.pnlNotifications.Controls.Add(this.pnlEnableNotifications);
             this.pnlNotifications.Controls.Add(this.lblNotificationsDescription);
             this.pnlNotifications.Controls.Add(this.lblNotificationstitle);
@@ -72,9 +72,9 @@
             // 
             // NotificationsToggleSwitch
             // 
-            this.NotificationsToggleSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.NotificationsToggleSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(179)))), ((int)(((byte)(35)))));
             this.NotificationsToggleSwitch.CheckedState.BorderRadius = 15;
-            this.NotificationsToggleSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.NotificationsToggleSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(179)))), ((int)(((byte)(35)))));
             this.NotificationsToggleSwitch.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.NotificationsToggleSwitch.CheckedState.InnerBorderRadius = 15;
             this.NotificationsToggleSwitch.CheckedState.InnerColor = System.Drawing.Color.White;
@@ -84,9 +84,9 @@
             this.NotificationsToggleSwitch.ShadowDecoration.Parent = this.NotificationsToggleSwitch;
             this.NotificationsToggleSwitch.Size = new System.Drawing.Size(92, 38);
             this.NotificationsToggleSwitch.TabIndex = 23;
-            this.NotificationsToggleSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.NotificationsToggleSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(78)))), ((int)(((byte)(121)))));
             this.NotificationsToggleSwitch.UncheckedState.BorderRadius = 15;
-            this.NotificationsToggleSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(105)))));
+            this.NotificationsToggleSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(78)))), ((int)(((byte)(121)))));
             this.NotificationsToggleSwitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.NotificationsToggleSwitch.UncheckedState.InnerBorderRadius = 15;
             this.NotificationsToggleSwitch.UncheckedState.InnerColor = System.Drawing.Color.White;
@@ -141,7 +141,7 @@
             // 
             this.lblNotificationstitle.BackColor = System.Drawing.Color.Transparent;
             this.lblNotificationstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
             this.lblNotificationstitle.Location = new System.Drawing.Point(25, 21);
             this.lblNotificationstitle.Name = "lblNotificationstitle";
             this.lblNotificationstitle.Size = new System.Drawing.Size(189, 37);

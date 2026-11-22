@@ -40,9 +40,9 @@
             // 
             // pnlAbout
             // 
-            this.pnlAbout.BorderColor = System.Drawing.Color.SeaGreen;
+            this.pnlAbout.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(145)))), ((int)(((byte)(173)))));
             this.pnlAbout.BorderRadius = 20;
-            this.pnlAbout.BorderThickness = 2;
+            this.pnlAbout.BorderThickness = 3;
             this.pnlAbout.Controls.Add(this.lblTagline);
             this.pnlAbout.Controls.Add(this.sidebarLogo);
             this.pnlAbout.Controls.Add(this.lblAboutUs);
@@ -60,7 +60,7 @@
             // 
             this.lblTagline.BackColor = System.Drawing.Color.Transparent;
             this.lblTagline.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTagline.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.lblTagline.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(141)))), ((int)(((byte)(184)))));
             this.lblTagline.Location = new System.Drawing.Point(192, 332);
             this.lblTagline.Name = "lblTagline";
             this.lblTagline.Size = new System.Drawing.Size(367, 33);
@@ -70,11 +70,11 @@
             // sidebarLogo
             // 
             this.sidebarLogo.BackColor = System.Drawing.Color.Transparent;
-            this.sidebarLogo.Image = global::BudgetBuddy.Properties.Resources.brandingLogo;
-            this.sidebarLogo.Location = new System.Drawing.Point(244, 104);
+            this.sidebarLogo.Image = global::BudgetBuddy.Properties.Resources.LOGO;
+            this.sidebarLogo.Location = new System.Drawing.Point(244, 62);
             this.sidebarLogo.Name = "sidebarLogo";
             this.sidebarLogo.ShadowDecoration.Parent = this.sidebarLogo;
-            this.sidebarLogo.Size = new System.Drawing.Size(242, 221);
+            this.sidebarLogo.Size = new System.Drawing.Size(242, 263);
             this.sidebarLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.sidebarLogo.TabIndex = 21;
             this.sidebarLogo.TabStop = false;
@@ -107,7 +107,7 @@
             // 
             this.lblNotificationstitle.BackColor = System.Drawing.Color.Transparent;
             this.lblNotificationstitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.lblNotificationstitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(78)))), ((int)(((byte)(121)))));
             this.lblNotificationstitle.Location = new System.Drawing.Point(25, 21);
             this.lblNotificationstitle.Name = "lblNotificationstitle";
             this.lblNotificationstitle.Size = new System.Drawing.Size(90, 37);

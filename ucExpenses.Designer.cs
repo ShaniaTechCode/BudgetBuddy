@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblExpensesDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblExpensestitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlTotalExpenses = new Guna.UI2.WinForms.Guna2Panel();
@@ -81,7 +81,6 @@
             this.txtboxDisplay = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlCalcuHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
             this.dgvExpenseList = new Guna.UI2.WinForms.Guna2DataGridView();
             this.colExpenseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -90,14 +89,24 @@
             this.colExpenseStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
             this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.txtSearchExpense = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbFilterCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.pnlExpenseList = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtSearchExpense = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblExpenseList = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlIExpensesHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlExpensesOverview = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblPlannedExpenses_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblPlannedExpenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picPlannedExpensesIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.picCompletedExpensesIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.lblExpensesByCategory = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblCompletedExpenses_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblCompletedExpenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
             this.pnlTotalExpenses.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExpensesIcon)).BeginInit();
             this.pnlAddIncome.SuspendLayout();
@@ -107,6 +116,9 @@
             this.pnlExpenseList.SuspendLayout();
             this.pnlIExpensesHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.pnlExpensesOverview.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlannedExpensesIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCompletedExpensesIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // lblExpensesDescription
@@ -312,7 +324,7 @@
             this.btnAddExpense.BorderRadius = 15;
             this.btnAddExpense.CheckedState.Parent = this.btnAddExpense;
             this.btnAddExpense.CustomImages.Parent = this.btnAddExpense;
-            this.btnAddExpense.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(179)))), ((int)(((byte)(35)))));
+            this.btnAddExpense.FillColor = System.Drawing.Color.RoyalBlue;
             this.btnAddExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddExpense.ForeColor = System.Drawing.Color.White;
             this.btnAddExpense.HoverState.Parent = this.btnAddExpense;
@@ -453,7 +465,7 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(772, 908);
+            this.pnlCalcu.Location = new System.Drawing.Point(772, 915);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
             this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
@@ -793,40 +805,24 @@
             this.guna2HtmlLabel12.Text = "Calculator";
             this.guna2HtmlLabel12.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnCalculator
-            // 
-            this.btnCalculator.BorderRadius = 30;
-            this.btnCalculator.CheckedState.Parent = this.btnCalculator;
-            this.btnCalculator.CustomImages.Parent = this.btnCalculator;
-            this.btnCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(221)))));
-            this.btnCalculator.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCalculator.ForeColor = System.Drawing.Color.White;
-            this.btnCalculator.HoverState.Parent = this.btnCalculator;
-            this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1116, 922);
-            this.btnCalculator.Name = "btnCalculator";
-            this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
-            this.btnCalculator.Size = new System.Drawing.Size(60, 60);
-            this.btnCalculator.TabIndex = 20;
-            // 
             // dgvExpenseList
             // 
             this.dgvExpenseList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvExpenseList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(223)))), ((int)(((byte)(251)))));
+            this.dgvExpenseList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvExpenseList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvExpenseList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
             this.dgvExpenseList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvExpenseList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvExpenseList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvExpenseList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvExpenseList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvExpenseList.ColumnHeadersHeight = 38;
             this.dgvExpenseList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colExpenseName,
@@ -836,60 +832,60 @@
             this.colExpenseStatus,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(233)))), ((int)(((byte)(252)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(185)))), ((int)(((byte)(246)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvExpenseList.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvExpenseList.EnableHeadersVisualStyles = false;
-            this.dgvExpenseList.GridColor = System.Drawing.Color.DarkGray;
+            this.dgvExpenseList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
             this.dgvExpenseList.Location = new System.Drawing.Point(0, 65);
             this.dgvExpenseList.Name = "dgvExpenseList";
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvExpenseList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvExpenseList.RowHeadersVisible = false;
             this.dgvExpenseList.RowHeadersWidth = 51;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvExpenseList.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvExpenseList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvExpenseList.Size = new System.Drawing.Size(727, 325);
             this.dgvExpenseList.TabIndex = 2;
-            this.dgvExpenseList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
-            this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvExpenseList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Blue;
+            this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(223)))), ((int)(((byte)(251)))));
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvExpenseList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dgvExpenseList.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.dgvExpenseList.ThemeStyle.GridColor = System.Drawing.Color.DarkGray;
-            this.dgvExpenseList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            this.dgvExpenseList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
+            this.dgvExpenseList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
             this.dgvExpenseList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvExpenseList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvExpenseList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvExpenseList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvExpenseList.ThemeStyle.HeaderStyle.Height = 38;
             this.dgvExpenseList.ThemeStyle.ReadOnly = false;
-            this.dgvExpenseList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            this.dgvExpenseList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(233)))), ((int)(((byte)(252)))));
             this.dgvExpenseList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvExpenseList.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dgvExpenseList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvExpenseList.ThemeStyle.RowsStyle.Height = 22;
-            this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(185)))), ((int)(((byte)(246)))));
             this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // colExpenseName
             // 
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
             this.colExpenseName.FillWeight = 121.8274F;
             this.colExpenseName.HeaderText = "Expense Name";
             this.colExpenseName.MinimumWidth = 6;
@@ -897,16 +893,16 @@
             // 
             // colCategory
             // 
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colCategory.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
             this.colCategory.HeaderText = "Category";
             this.colCategory.MinimumWidth = 6;
             this.colCategory.Name = "colCategory";
             // 
             // colAmount
             // 
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
             this.colAmount.FillWeight = 95.63452F;
             this.colAmount.HeaderText = "Amount";
             this.colAmount.MinimumWidth = 6;
@@ -914,8 +910,8 @@
             // 
             // colDate
             // 
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
             this.colDate.FillWeight = 95.63452F;
             this.colDate.HeaderText = "Date ";
             this.colDate.MinimumWidth = 6;
@@ -923,8 +919,8 @@
             // 
             // colExpenseStatus
             // 
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle7;
             this.colExpenseStatus.HeaderText = "Status";
             this.colExpenseStatus.MinimumWidth = 6;
             this.colExpenseStatus.Name = "colExpenseStatus";
@@ -950,38 +946,6 @@
             this.colDelete.Name = "colDelete";
             this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colDelete.Width = 65;
-            // 
-            // txtSearchExpense
-            // 
-            this.txtSearchExpense.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.txtSearchExpense.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
-            this.txtSearchExpense.BorderRadius = 8;
-            this.txtSearchExpense.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchExpense.DefaultText = "";
-            this.txtSearchExpense.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchExpense.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchExpense.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchExpense.DisabledState.Parent = this.txtSearchExpense;
-            this.txtSearchExpense.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchExpense.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchExpense.FocusedState.Parent = this.txtSearchExpense;
-            this.txtSearchExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
-            this.txtSearchExpense.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchExpense.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchExpense.HoverState.Parent = this.txtSearchExpense;
-            this.txtSearchExpense.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
-            this.txtSearchExpense.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchExpense.Location = new System.Drawing.Point(339, 16);
-            this.txtSearchExpense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtSearchExpense.Name = "txtSearchExpense";
-            this.txtSearchExpense.PasswordChar = '\0';
-            this.txtSearchExpense.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.txtSearchExpense.PlaceholderText = "Search expense...";
-            this.txtSearchExpense.SelectedText = "";
-            this.txtSearchExpense.ShadowDecoration.Parent = this.txtSearchExpense;
-            this.txtSearchExpense.Size = new System.Drawing.Size(220, 35);
-            this.txtSearchExpense.TabIndex = 17;
-            this.txtSearchExpense.TextOffset = new System.Drawing.Point(8, 0);
             // 
             // cbFilterCategory
             // 
@@ -1018,6 +982,38 @@
             this.pnlExpenseList.ShadowDecoration.Parent = this.pnlExpenseList;
             this.pnlExpenseList.Size = new System.Drawing.Size(728, 390);
             this.pnlExpenseList.TabIndex = 19;
+            // 
+            // txtSearchExpense
+            // 
+            this.txtSearchExpense.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
+            this.txtSearchExpense.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
+            this.txtSearchExpense.BorderRadius = 8;
+            this.txtSearchExpense.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchExpense.DefaultText = "";
+            this.txtSearchExpense.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchExpense.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchExpense.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchExpense.DisabledState.Parent = this.txtSearchExpense;
+            this.txtSearchExpense.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchExpense.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchExpense.FocusedState.Parent = this.txtSearchExpense;
+            this.txtSearchExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
+            this.txtSearchExpense.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchExpense.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchExpense.HoverState.Parent = this.txtSearchExpense;
+            this.txtSearchExpense.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
+            this.txtSearchExpense.IconLeftOffset = new System.Drawing.Point(8, 0);
+            this.txtSearchExpense.Location = new System.Drawing.Point(339, 16);
+            this.txtSearchExpense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearchExpense.Name = "txtSearchExpense";
+            this.txtSearchExpense.PasswordChar = '\0';
+            this.txtSearchExpense.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.txtSearchExpense.PlaceholderText = "Search expense...";
+            this.txtSearchExpense.SelectedText = "";
+            this.txtSearchExpense.ShadowDecoration.Parent = this.txtSearchExpense;
+            this.txtSearchExpense.Size = new System.Drawing.Size(220, 35);
+            this.txtSearchExpense.TabIndex = 17;
+            this.txtSearchExpense.TextOffset = new System.Drawing.Point(8, 0);
             // 
             // lblExpenseList
             // 
@@ -1087,11 +1083,134 @@
             this.guna2Button4.Size = new System.Drawing.Size(35, 44);
             this.guna2Button4.TabIndex = 1;
             // 
+            // pnlExpensesOverview
+            // 
+            this.pnlExpensesOverview.BorderRadius = 15;
+            this.pnlExpensesOverview.Controls.Add(this.lblPlannedExpenses_Amount);
+            this.pnlExpensesOverview.Controls.Add(this.lblPlannedExpenses);
+            this.pnlExpensesOverview.Controls.Add(this.picPlannedExpensesIcon);
+            this.pnlExpensesOverview.Controls.Add(this.guna2Panel3);
+            this.pnlExpensesOverview.Controls.Add(this.picCompletedExpensesIcon);
+            this.pnlExpensesOverview.Controls.Add(this.lblExpensesByCategory);
+            this.pnlExpensesOverview.Controls.Add(this.lblCompletedExpenses_Amount);
+            this.pnlExpensesOverview.Controls.Add(this.lblCompletedExpenses);
+            this.pnlExpensesOverview.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.pnlExpensesOverview.Location = new System.Drawing.Point(496, 146);
+            this.pnlExpensesOverview.Name = "pnlExpensesOverview";
+            this.pnlExpensesOverview.ShadowDecoration.Parent = this.pnlExpensesOverview;
+            this.pnlExpensesOverview.Size = new System.Drawing.Size(680, 155);
+            this.pnlExpensesOverview.TabIndex = 26;
+            // 
+            // lblPlannedExpenses_Amount
+            // 
+            this.lblPlannedExpenses_Amount.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlannedExpenses_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlannedExpenses_Amount.Location = new System.Drawing.Point(489, 81);
+            this.lblPlannedExpenses_Amount.Name = "lblPlannedExpenses_Amount";
+            this.lblPlannedExpenses_Amount.Size = new System.Drawing.Size(143, 60);
+            this.lblPlannedExpenses_Amount.TabIndex = 16;
+            this.lblPlannedExpenses_Amount.Text = "₱0.00";
+            // 
+            // lblPlannedExpenses
+            // 
+            this.lblPlannedExpenses.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlannedExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlannedExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblPlannedExpenses.Location = new System.Drawing.Point(489, 51);
+            this.lblPlannedExpenses.Name = "lblPlannedExpenses";
+            this.lblPlannedExpenses.Size = new System.Drawing.Size(129, 21);
+            this.lblPlannedExpenses.TabIndex = 15;
+            this.lblPlannedExpenses.Text = "Planned Expenses";
+            // 
+            // picPlannedExpensesIcon
+            // 
+            this.picPlannedExpensesIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picPlannedExpensesIcon.Image = global::BudgetBuddy.Properties.Resources.plannedExpensesIcon;
+            this.picPlannedExpensesIcon.Location = new System.Drawing.Point(361, 51);
+            this.picPlannedExpensesIcon.Name = "picPlannedExpensesIcon";
+            this.picPlannedExpensesIcon.ShadowDecoration.Parent = this.picPlannedExpensesIcon;
+            this.picPlannedExpensesIcon.Size = new System.Drawing.Size(103, 90);
+            this.picPlannedExpensesIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPlannedExpensesIcon.TabIndex = 14;
+            this.picPlannedExpensesIcon.TabStop = false;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(190)))), ((int)(((byte)(185)))));
+            this.guna2Panel3.BorderRadius = 1;
+            this.guna2Panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
+            this.guna2Panel3.Location = new System.Drawing.Point(330, 41);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
+            this.guna2Panel3.Size = new System.Drawing.Size(1, 100);
+            this.guna2Panel3.TabIndex = 13;
+            // 
+            // picCompletedExpensesIcon
+            // 
+            this.picCompletedExpensesIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picCompletedExpensesIcon.Image = global::BudgetBuddy.Properties.Resources.rec_compleIcon;
+            this.picCompletedExpensesIcon.Location = new System.Drawing.Point(21, 51);
+            this.picCompletedExpensesIcon.Name = "picCompletedExpensesIcon";
+            this.picCompletedExpensesIcon.ShadowDecoration.Parent = this.picCompletedExpensesIcon;
+            this.picCompletedExpensesIcon.Size = new System.Drawing.Size(103, 90);
+            this.picCompletedExpensesIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCompletedExpensesIcon.TabIndex = 3;
+            this.picCompletedExpensesIcon.TabStop = false;
+            // 
+            // lblExpensesByCategory
+            // 
+            this.lblExpensesByCategory.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpensesByCategory.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpensesByCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblExpensesByCategory.Location = new System.Drawing.Point(10, 9);
+            this.lblExpensesByCategory.Name = "lblExpensesByCategory";
+            this.lblExpensesByCategory.Size = new System.Drawing.Size(205, 27);
+            this.lblExpensesByCategory.TabIndex = 2;
+            this.lblExpensesByCategory.Text = "Expenses Overview";
+            // 
+            // lblCompletedExpenses_Amount
+            // 
+            this.lblCompletedExpenses_Amount.BackColor = System.Drawing.Color.Transparent;
+            this.lblCompletedExpenses_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompletedExpenses_Amount.Location = new System.Drawing.Point(147, 78);
+            this.lblCompletedExpenses_Amount.Name = "lblCompletedExpenses_Amount";
+            this.lblCompletedExpenses_Amount.Size = new System.Drawing.Size(143, 60);
+            this.lblCompletedExpenses_Amount.TabIndex = 1;
+            this.lblCompletedExpenses_Amount.Text = "₱0.00";
+            // 
+            // lblCompletedExpenses
+            // 
+            this.lblCompletedExpenses.BackColor = System.Drawing.Color.Transparent;
+            this.lblCompletedExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompletedExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblCompletedExpenses.Location = new System.Drawing.Point(147, 51);
+            this.lblCompletedExpenses.Name = "lblCompletedExpenses";
+            this.lblCompletedExpenses.Size = new System.Drawing.Size(149, 21);
+            this.lblCompletedExpenses.TabIndex = 0;
+            this.lblCompletedExpenses.Text = "Completed Expenses";
+            // 
+            // btnCalculator
+            // 
+            this.btnCalculator.BorderRadius = 30;
+            this.btnCalculator.CheckedState.Parent = this.btnCalculator;
+            this.btnCalculator.CustomImages.Parent = this.btnCalculator;
+            this.btnCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(221)))));
+            this.btnCalculator.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCalculator.ForeColor = System.Drawing.Color.White;
+            this.btnCalculator.HoverState.Parent = this.btnCalculator;
+            this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
+            this.btnCalculator.Location = new System.Drawing.Point(1116, 915);
+            this.btnCalculator.Name = "btnCalculator";
+            this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
+            this.btnCalculator.Size = new System.Drawing.Size(60, 60);
+            this.btnCalculator.TabIndex = 20;
+            // 
             // ucExpenses
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
+            this.Controls.Add(this.pnlExpensesOverview);
             this.Controls.Add(this.pnlIExpensesHeader);
             this.Controls.Add(this.pnlCalcu);
             this.Controls.Add(this.btnCalculator);
@@ -1114,6 +1233,10 @@
             this.pnlIExpensesHeader.ResumeLayout(false);
             this.pnlIExpensesHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            this.pnlExpensesOverview.ResumeLayout(false);
+            this.pnlExpensesOverview.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlannedExpensesIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCompletedExpensesIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1180,5 +1303,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseStatus;
         private System.Windows.Forms.DataGridViewImageColumn colEdit;
         private System.Windows.Forms.DataGridViewImageColumn colDelete;
+        private Guna.UI2.WinForms.Guna2Panel pnlExpensesOverview;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblPlannedExpenses_Amount;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblPlannedExpenses;
+        private Guna.UI2.WinForms.Guna2PictureBox picPlannedExpensesIcon;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2PictureBox picCompletedExpensesIcon;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblExpensesByCategory;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblCompletedExpenses_Amount;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblCompletedExpenses;
     }
 }

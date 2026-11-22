@@ -43,9 +43,9 @@
             // 
             // pnlChangePassword
             // 
-            this.pnlChangePassword.BorderColor = System.Drawing.Color.SeaGreen;
+            this.pnlChangePassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(145)))), ((int)(((byte)(173)))));
             this.pnlChangePassword.BorderRadius = 20;
-            this.pnlChangePassword.BorderThickness = 2;
+            this.pnlChangePassword.BorderThickness = 3;
             this.pnlChangePassword.Controls.Add(this.txtBoxConfirmPass);
             this.pnlChangePassword.Controls.Add(this.txtBoxNewPass);
             this.pnlChangePassword.Controls.Add(this.txtBoxCurrentPass);
@@ -177,7 +177,7 @@
             // 
             this.lblChangePasswordtitle.BackColor = System.Drawing.Color.Transparent;
             this.lblChangePasswordtitle.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChangePasswordtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(107)))), ((int)(((byte)(58)))));
+            this.lblChangePasswordtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
             this.lblChangePasswordtitle.Location = new System.Drawing.Point(25, 21);
             this.lblChangePasswordtitle.Name = "lblChangePasswordtitle";
             this.lblChangePasswordtitle.Size = new System.Drawing.Size(262, 37);
@@ -200,7 +200,7 @@
             this.btn_SaveChanges.BorderRadius = 15;
             this.btn_SaveChanges.CheckedState.Parent = this.btn_SaveChanges;
             this.btn_SaveChanges.CustomImages.Parent = this.btn_SaveChanges;
-            this.btn_SaveChanges.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(162)))), ((int)(((byte)(39)))));
+            this.btn_SaveChanges.FillColor = System.Drawing.Color.RoyalBlue;
             this.btn_SaveChanges.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_SaveChanges.ForeColor = System.Drawing.Color.White;
             this.btn_SaveChanges.HoverState.Parent = this.btn_SaveChanges;

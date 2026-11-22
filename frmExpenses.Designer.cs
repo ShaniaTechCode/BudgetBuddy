@@ -84,7 +84,7 @@
             this.btnLogOut.FillColor = System.Drawing.Color.Transparent;
             this.btnLogOut.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
-            this.btnLogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnLogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnLogOut.HoverState.Parent = this.btnLogOut;
             this.btnLogOut.Image = global::BudgetBuddy.Properties.Resources.logoutLogo;
             this.btnLogOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -92,7 +92,7 @@
             this.btnLogOut.ImageSize = new System.Drawing.Size(40, 40);
             this.btnLogOut.Location = new System.Drawing.Point(12, 795);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnLogOut.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnLogOut.ShadowDecoration.Parent = this.btnLogOut;
             this.btnLogOut.Size = new System.Drawing.Size(225, 50);
             this.btnLogOut.TabIndex = 9;
@@ -107,7 +107,7 @@
             this.btnSettings.FillColor = System.Drawing.Color.Transparent;
             this.btnSettings.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnSettings.HoverState.Parent = this.btnSettings;
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -115,7 +115,7 @@
             this.btnSettings.ImageSize = new System.Drawing.Size(40, 40);
             this.btnSettings.Location = new System.Drawing.Point(13, 668);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnSettings.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnSettings.ShadowDecoration.Parent = this.btnSettings;
             this.btnSettings.Size = new System.Drawing.Size(225, 50);
             this.btnSettings.TabIndex = 8;
@@ -130,7 +130,7 @@
             this.btnAnalytics.FillColor = System.Drawing.Color.Transparent;
             this.btnAnalytics.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnalytics.ForeColor = System.Drawing.Color.White;
-            this.btnAnalytics.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnAnalytics.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnAnalytics.HoverState.Parent = this.btnAnalytics;
             this.btnAnalytics.Image = ((System.Drawing.Image)(resources.GetObject("btnAnalytics.Image")));
             this.btnAnalytics.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -138,7 +138,7 @@
             this.btnAnalytics.ImageSize = new System.Drawing.Size(40, 40);
             this.btnAnalytics.Location = new System.Drawing.Point(14, 599);
             this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnAnalytics.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnAnalytics.ShadowDecoration.Parent = this.btnAnalytics;
             this.btnAnalytics.Size = new System.Drawing.Size(225, 50);
             this.btnAnalytics.TabIndex = 6;
@@ -153,7 +153,7 @@
             this.btnExpenses.FillColor = System.Drawing.Color.Transparent;
             this.btnExpenses.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExpenses.ForeColor = System.Drawing.Color.White;
-            this.btnExpenses.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnExpenses.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnExpenses.HoverState.Parent = this.btnExpenses;
             this.btnExpenses.Image = ((System.Drawing.Image)(resources.GetObject("btnExpenses.Image")));
             this.btnExpenses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -161,7 +161,7 @@
             this.btnExpenses.ImageSize = new System.Drawing.Size(40, 40);
             this.btnExpenses.Location = new System.Drawing.Point(14, 526);
             this.btnExpenses.Name = "btnExpenses";
-            this.btnExpenses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnExpenses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnExpenses.ShadowDecoration.Parent = this.btnExpenses;
             this.btnExpenses.Size = new System.Drawing.Size(225, 50);
             this.btnExpenses.TabIndex = 5;
@@ -176,7 +176,7 @@
             this.btnIncome.FillColor = System.Drawing.Color.Transparent;
             this.btnIncome.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIncome.ForeColor = System.Drawing.Color.White;
-            this.btnIncome.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnIncome.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnIncome.HoverState.Parent = this.btnIncome;
             this.btnIncome.Image = ((System.Drawing.Image)(resources.GetObject("btnIncome.Image")));
             this.btnIncome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -184,7 +184,7 @@
             this.btnIncome.ImageSize = new System.Drawing.Size(40, 40);
             this.btnIncome.Location = new System.Drawing.Point(14, 459);
             this.btnIncome.Name = "btnIncome";
-            this.btnIncome.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnIncome.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnIncome.ShadowDecoration.Parent = this.btnIncome;
             this.btnIncome.Size = new System.Drawing.Size(225, 50);
             this.btnIncome.TabIndex = 4;
@@ -199,7 +199,7 @@
             this.btnBudget.FillColor = System.Drawing.Color.Transparent;
             this.btnBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBudget.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnBudget.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnBudget.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnBudget.HoverState.Parent = this.btnBudget;
             this.btnBudget.Image = ((System.Drawing.Image)(resources.GetObject("btnBudget.Image")));
             this.btnBudget.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -207,7 +207,7 @@
             this.btnBudget.ImageSize = new System.Drawing.Size(45, 45);
             this.btnBudget.Location = new System.Drawing.Point(12, 387);
             this.btnBudget.Name = "btnBudget";
-            this.btnBudget.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnBudget.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnBudget.ShadowDecoration.Parent = this.btnBudget;
             this.btnBudget.Size = new System.Drawing.Size(225, 50);
             this.btnBudget.TabIndex = 3;
@@ -222,7 +222,7 @@
             this.btnDashboard.FillColor = System.Drawing.Color.Transparent;
             this.btnDashboard.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(80)))));
+            this.btnDashboard.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnDashboard.HoverState.Parent = this.btnDashboard;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -230,7 +230,7 @@
             this.btnDashboard.ImageSize = new System.Drawing.Size(40, 40);
             this.btnDashboard.Location = new System.Drawing.Point(12, 317);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(53)))), ((int)(((byte)(120)))));
             this.btnDashboard.ShadowDecoration.Parent = this.btnDashboard;
             this.btnDashboard.Size = new System.Drawing.Size(225, 50);
             this.btnDashboard.TabIndex = 2;
@@ -244,7 +244,7 @@
             this.sidebarLogo.Location = new System.Drawing.Point(7, 33);
             this.sidebarLogo.Name = "sidebarLogo";
             this.sidebarLogo.ShadowDecoration.Parent = this.sidebarLogo;
-            this.sidebarLogo.Size = new System.Drawing.Size(242, 221);
+            this.sidebarLogo.Size = new System.Drawing.Size(242, 238);
             this.sidebarLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.sidebarLogo.TabIndex = 1;
             this.sidebarLogo.TabStop = false;

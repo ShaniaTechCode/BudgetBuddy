@@ -38,6 +38,7 @@ namespace BudgetBuddy
             pnlContentSettings.Visible = true;
             pnlContentSettings.BringToFront();
         }
+
         // Tracks the currently selected Settings button.
         private Guna.UI2.WinForms.Guna2Button activeSettingsButton = null;
 
@@ -54,18 +55,16 @@ namespace BudgetBuddy
                 btnAbout
             };
 
-            // Resets the menu buttons to their default style.
+            // Reset all buttons
             foreach (var btn in buttons)
             {
                 btn.FillColor = Color.Transparent;
-                btn.ForeColor = Color.FromArgb(80, 80, 80);
-                btn.BorderRadius = 15;
+                btn.ForeColor = Color.FromArgb(55, 65, 75);
             }
 
-            // Highlights the selected button.
+            // Highlight selected button only
             activeSettingsButton = selectedButton;
-            activeSettingsButton.FillColor =
-                Color.FromArgb(102, 187, 106);
+            activeSettingsButton.FillColor = Color.FromArgb(130, 163, 200);
             activeSettingsButton.ForeColor = Color.White;
         }
 

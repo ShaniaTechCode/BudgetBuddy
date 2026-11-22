@@ -257,12 +257,6 @@
     <Compile Include="ucSettings.Designer.cs">
       <DependentUpon>ucSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucSettingsHeader.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ucSettingsHeader.Designer.cs">
-      <DependentUpon>ucSettingsHeader.cs</DependentUpon>
-    </Compile>
     <Compile Include="ucSideDesignLeft.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -340,9 +334,6 @@
     <EmbeddedResource Include="ucSettings.resx">
       <DependentUpon>ucSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucSettingsHeader.resx">
-      <DependentUpon>ucSettingsHeader.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ucSideDesignLeft.resx">
       <DependentUpon>ucSideDesignLeft.cs</DependentUpon>
     </EmbeddedResource>
@@ -389,9 +380,6 @@
     <None Include="Resources\about1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brandingLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\deleteIcon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -432,6 +420,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sidebarLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalSpentIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rec_compleIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expectedIncomeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plannedExpensesIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remainingBudgetIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Microsoft.Data.SqlClient.SNI.7.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('packages\Microsoft.Data.SqlClient.SNI.7.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />

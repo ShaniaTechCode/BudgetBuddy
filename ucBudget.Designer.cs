@@ -28,17 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlBudgetList = new Guna.UI2.WinForms.Guna2Panel();
-            this.txtSearchBudget = new Guna.UI2.WinForms.Guna2TextBox();
             this.dgvBudgetList = new Guna.UI2.WinForms.Guna2DataGridView();
             this.colBudgetName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,31 +78,38 @@
             this.pnlCalcuHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlBudgetHeader = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlTotalIncome = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblTotalBudget_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalBudget = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlBudgetOverview = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblRemainingBudget_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblRemainingBudget = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblExpensesByCategory = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalSpent_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalSpent = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picRemainingBudgetIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.picTotalSpentIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.picBudgetIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.picNotificationBadge = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnNotificaton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
-            this.pnlTotalIncome = new Guna.UI2.WinForms.Guna2Panel();
-            this.picBudgetIcon = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblTotalBudget_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblTotalBudget = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSearchBudget = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlBudgetList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBudgetList)).BeginInit();
             this.pnlSetBudget.SuspendLayout();
             this.pnlCalcu.SuspendLayout();
             this.pnlCalcuHeader.SuspendLayout();
             this.pnlBudgetHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).BeginInit();
             this.pnlTotalIncome.SuspendLayout();
+            this.pnlBudgetOverview.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picRemainingBudgetIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotalSpentIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlBudgetList
@@ -120,55 +125,24 @@
             this.pnlBudgetList.Size = new System.Drawing.Size(726, 398);
             this.pnlBudgetList.TabIndex = 17;
             // 
-            // txtSearchBudget
-            // 
-            this.txtSearchBudget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
-            this.txtSearchBudget.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
-            this.txtSearchBudget.BorderRadius = 8;
-            this.txtSearchBudget.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchBudget.DefaultText = "";
-            this.txtSearchBudget.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchBudget.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchBudget.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBudget.DisabledState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchBudget.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBudget.FocusedState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
-            this.txtSearchBudget.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
-            this.txtSearchBudget.Location = new System.Drawing.Point(489, 16);
-            this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtSearchBudget.Name = "txtSearchBudget";
-            this.txtSearchBudget.PasswordChar = '\0';
-            this.txtSearchBudget.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.txtSearchBudget.PlaceholderText = "Search budget name...";
-            this.txtSearchBudget.SelectedText = "";
-            this.txtSearchBudget.ShadowDecoration.Parent = this.txtSearchBudget;
-            this.txtSearchBudget.Size = new System.Drawing.Size(220, 35);
-            this.txtSearchBudget.TabIndex = 16;
-            this.txtSearchBudget.TextOffset = new System.Drawing.Point(8, 0);
-            // 
             // dgvBudgetList
             // 
             this.dgvBudgetList.AllowUserToResizeRows = false;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
-            this.dgvBudgetList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(223)))), ((int)(((byte)(251)))));
+            this.dgvBudgetList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvBudgetList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvBudgetList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.dgvBudgetList.BackgroundColor = System.Drawing.Color.White;
             this.dgvBudgetList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvBudgetList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvBudgetList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(141)))), ((int)(((byte)(184)))));
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(141)))), ((int)(((byte)(184)))));
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBudgetList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBudgetList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvBudgetList.ColumnHeadersHeight = 38;
             this.dgvBudgetList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colBudgetName,
@@ -177,62 +151,58 @@
             this.colDateCreated,
             this.colEdit,
             this.colDelete});
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBudgetList.DefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(233)))), ((int)(((byte)(252)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(185)))), ((int)(((byte)(246)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBudgetList.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvBudgetList.EnableHeadersVisualStyles = false;
-            this.dgvBudgetList.GridColor = System.Drawing.Color.DarkGray;
+            this.dgvBudgetList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
             this.dgvBudgetList.Location = new System.Drawing.Point(0, 62);
             this.dgvBudgetList.Name = "dgvBudgetList";
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBudgetList.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBudgetList.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvBudgetList.RowHeadersVisible = false;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle45;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvBudgetList.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvBudgetList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBudgetList.Size = new System.Drawing.Size(726, 336);
             this.dgvBudgetList.TabIndex = 2;
-            this.dgvBudgetList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
-            this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.dgvBudgetList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Blue;
+            this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(223)))), ((int)(((byte)(251)))));
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvBudgetList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgvBudgetList.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.dgvBudgetList.ThemeStyle.GridColor = System.Drawing.Color.DarkGray;
-            this.dgvBudgetList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            this.dgvBudgetList.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgvBudgetList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
+            this.dgvBudgetList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(242)))));
             this.dgvBudgetList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvBudgetList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvBudgetList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvBudgetList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvBudgetList.ThemeStyle.HeaderStyle.Height = 38;
             this.dgvBudgetList.ThemeStyle.ReadOnly = false;
-            this.dgvBudgetList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            this.dgvBudgetList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(233)))), ((int)(((byte)(252)))));
             this.dgvBudgetList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvBudgetList.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dgvBudgetList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvBudgetList.ThemeStyle.RowsStyle.Height = 22;
-            this.dgvBudgetList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            this.dgvBudgetList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(185)))), ((int)(((byte)(246)))));
             this.dgvBudgetList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // colBudgetName
             // 
             this.colBudgetName.DataPropertyName = "DESKTOP-M46PC6F\\SQLEXPRESS";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colBudgetName.DefaultCellStyle = dataGridViewCellStyle3;
             this.colBudgetName.FillWeight = 121.8274F;
             this.colBudgetName.HeaderText = "Budget Name";
             this.colBudgetName.MinimumWidth = 6;
@@ -240,8 +210,8 @@
             // 
             // colAmount
             // 
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle3;
             this.colAmount.FillWeight = 95.63452F;
             this.colAmount.HeaderText = "Amount";
             this.colAmount.MinimumWidth = 6;
@@ -249,8 +219,8 @@
             // 
             // colPeriod
             // 
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colPeriod.DefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colPeriod.DefaultCellStyle = dataGridViewCellStyle4;
             this.colPeriod.FillWeight = 95.63452F;
             this.colPeriod.HeaderText = "Period";
             this.colPeriod.MinimumWidth = 6;
@@ -258,8 +228,8 @@
             // 
             // colDateCreated
             // 
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDateCreated.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDateCreated.DefaultCellStyle = dataGridViewCellStyle5;
             this.colDateCreated.FillWeight = 95.63452F;
             this.colDateCreated.HeaderText = "Date Created";
             this.colDateCreated.MinimumWidth = 6;
@@ -321,7 +291,7 @@
             this.btnSaveBudget.BorderRadius = 15;
             this.btnSaveBudget.CheckedState.Parent = this.btnSaveBudget;
             this.btnSaveBudget.CustomImages.Parent = this.btnSaveBudget;
-            this.btnSaveBudget.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(179)))), ((int)(((byte)(35)))));
+            this.btnSaveBudget.FillColor = System.Drawing.Color.RoyalBlue;
             this.btnSaveBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveBudget.ForeColor = System.Drawing.Color.White;
             this.btnSaveBudget.HoverState.Parent = this.btnSaveBudget;
@@ -488,7 +458,7 @@
             this.pnlCalcu.Controls.Add(this.btnClear);
             this.pnlCalcu.Controls.Add(this.txtboxDisplay);
             this.pnlCalcu.Controls.Add(this.pnlCalcuHeader);
-            this.pnlCalcu.Location = new System.Drawing.Point(725, 759);
+            this.pnlCalcu.Location = new System.Drawing.Point(760, 765);
             this.pnlCalcu.Name = "pnlCalcu";
             this.pnlCalcu.ShadowDecoration.Parent = this.pnlCalcu;
             this.pnlCalcu.Size = new System.Drawing.Size(251, 260);
@@ -842,6 +812,196 @@
             this.pnlBudgetHeader.Size = new System.Drawing.Size(1170, 110);
             this.pnlBudgetHeader.TabIndex = 21;
             // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 64);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(259, 25);
+            this.guna2HtmlLabel3.TabIndex = 17;
+            this.guna2HtmlLabel3.Text = "Set and manage your budgets";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(14, 23);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 37);
+            this.guna2HtmlLabel2.TabIndex = 15;
+            this.guna2HtmlLabel2.Text = "Budget";
+            // 
+            // pnlTotalIncome
+            // 
+            this.pnlTotalIncome.BorderRadius = 15;
+            this.pnlTotalIncome.Controls.Add(this.picBudgetIcon);
+            this.pnlTotalIncome.Controls.Add(this.lblTotalBudget_Amount);
+            this.pnlTotalIncome.Controls.Add(this.lblTotalBudget);
+            this.pnlTotalIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.pnlTotalIncome.Location = new System.Drawing.Point(20, 146);
+            this.pnlTotalIncome.Name = "pnlTotalIncome";
+            this.pnlTotalIncome.ShadowDecoration.Parent = this.pnlTotalIncome;
+            this.pnlTotalIncome.Size = new System.Drawing.Size(414, 155);
+            this.pnlTotalIncome.TabIndex = 23;
+            // 
+            // lblTotalBudget_Amount
+            // 
+            this.lblTotalBudget_Amount.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalBudget_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalBudget_Amount.Location = new System.Drawing.Point(167, 59);
+            this.lblTotalBudget_Amount.Name = "lblTotalBudget_Amount";
+            this.lblTotalBudget_Amount.Size = new System.Drawing.Size(143, 60);
+            this.lblTotalBudget_Amount.TabIndex = 1;
+            this.lblTotalBudget_Amount.Text = "₱0.00";
+            // 
+            // lblTotalBudget
+            // 
+            this.lblTotalBudget.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblTotalBudget.Location = new System.Drawing.Point(167, 26);
+            this.lblTotalBudget.Name = "lblTotalBudget";
+            this.lblTotalBudget.Size = new System.Drawing.Size(93, 21);
+            this.lblTotalBudget.TabIndex = 0;
+            this.lblTotalBudget.Text = "Total Budget";
+            // 
+            // pnlBudgetOverview
+            // 
+            this.pnlBudgetOverview.BorderRadius = 15;
+            this.pnlBudgetOverview.Controls.Add(this.lblRemainingBudget_Amount);
+            this.pnlBudgetOverview.Controls.Add(this.lblRemainingBudget);
+            this.pnlBudgetOverview.Controls.Add(this.picRemainingBudgetIcon);
+            this.pnlBudgetOverview.Controls.Add(this.guna2Panel3);
+            this.pnlBudgetOverview.Controls.Add(this.picTotalSpentIcon);
+            this.pnlBudgetOverview.Controls.Add(this.lblExpensesByCategory);
+            this.pnlBudgetOverview.Controls.Add(this.lblTotalSpent_Amount);
+            this.pnlBudgetOverview.Controls.Add(this.lblTotalSpent);
+            this.pnlBudgetOverview.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.pnlBudgetOverview.Location = new System.Drawing.Point(496, 146);
+            this.pnlBudgetOverview.Name = "pnlBudgetOverview";
+            this.pnlBudgetOverview.ShadowDecoration.Parent = this.pnlBudgetOverview;
+            this.pnlBudgetOverview.Size = new System.Drawing.Size(680, 155);
+            this.pnlBudgetOverview.TabIndex = 24;
+            // 
+            // lblRemainingBudget_Amount
+            // 
+            this.lblRemainingBudget_Amount.BackColor = System.Drawing.Color.Transparent;
+            this.lblRemainingBudget_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemainingBudget_Amount.Location = new System.Drawing.Point(489, 81);
+            this.lblRemainingBudget_Amount.Name = "lblRemainingBudget_Amount";
+            this.lblRemainingBudget_Amount.Size = new System.Drawing.Size(143, 60);
+            this.lblRemainingBudget_Amount.TabIndex = 16;
+            this.lblRemainingBudget_Amount.Text = "₱0.00";
+            // 
+            // lblRemainingBudget
+            // 
+            this.lblRemainingBudget.BackColor = System.Drawing.Color.Transparent;
+            this.lblRemainingBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemainingBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblRemainingBudget.Location = new System.Drawing.Point(489, 51);
+            this.lblRemainingBudget.Name = "lblRemainingBudget";
+            this.lblRemainingBudget.Size = new System.Drawing.Size(132, 21);
+            this.lblRemainingBudget.TabIndex = 15;
+            this.lblRemainingBudget.Text = "Remaining Budget";
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(190)))), ((int)(((byte)(185)))));
+            this.guna2Panel3.BorderRadius = 1;
+            this.guna2Panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(222)))));
+            this.guna2Panel3.Location = new System.Drawing.Point(330, 41);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
+            this.guna2Panel3.Size = new System.Drawing.Size(1, 100);
+            this.guna2Panel3.TabIndex = 13;
+            // 
+            // lblExpensesByCategory
+            // 
+            this.lblExpensesByCategory.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpensesByCategory.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpensesByCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblExpensesByCategory.Location = new System.Drawing.Point(10, 9);
+            this.lblExpensesByCategory.Name = "lblExpensesByCategory";
+            this.lblExpensesByCategory.Size = new System.Drawing.Size(181, 27);
+            this.lblExpensesByCategory.TabIndex = 2;
+            this.lblExpensesByCategory.Text = "Budget Overview";
+            // 
+            // lblTotalSpent_Amount
+            // 
+            this.lblTotalSpent_Amount.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalSpent_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSpent_Amount.Location = new System.Drawing.Point(147, 78);
+            this.lblTotalSpent_Amount.Name = "lblTotalSpent_Amount";
+            this.lblTotalSpent_Amount.Size = new System.Drawing.Size(143, 60);
+            this.lblTotalSpent_Amount.TabIndex = 1;
+            this.lblTotalSpent_Amount.Text = "₱0.00";
+            // 
+            // lblTotalSpent
+            // 
+            this.lblTotalSpent.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalSpent.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSpent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.lblTotalSpent.Location = new System.Drawing.Point(147, 51);
+            this.lblTotalSpent.Name = "lblTotalSpent";
+            this.lblTotalSpent.Size = new System.Drawing.Size(84, 21);
+            this.lblTotalSpent.TabIndex = 0;
+            this.lblTotalSpent.Text = "Total Spent";
+            // 
+            // picRemainingBudgetIcon
+            // 
+            this.picRemainingBudgetIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picRemainingBudgetIcon.Image = global::BudgetBuddy.Properties.Resources.remainingBudgetIcon;
+            this.picRemainingBudgetIcon.Location = new System.Drawing.Point(361, 51);
+            this.picRemainingBudgetIcon.Name = "picRemainingBudgetIcon";
+            this.picRemainingBudgetIcon.ShadowDecoration.Parent = this.picRemainingBudgetIcon;
+            this.picRemainingBudgetIcon.Size = new System.Drawing.Size(103, 90);
+            this.picRemainingBudgetIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picRemainingBudgetIcon.TabIndex = 14;
+            this.picRemainingBudgetIcon.TabStop = false;
+            // 
+            // picTotalSpentIcon
+            // 
+            this.picTotalSpentIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picTotalSpentIcon.Image = global::BudgetBuddy.Properties.Resources.totalSpentIcon;
+            this.picTotalSpentIcon.Location = new System.Drawing.Point(21, 51);
+            this.picTotalSpentIcon.Name = "picTotalSpentIcon";
+            this.picTotalSpentIcon.ShadowDecoration.Parent = this.picTotalSpentIcon;
+            this.picTotalSpentIcon.Size = new System.Drawing.Size(103, 90);
+            this.picTotalSpentIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTotalSpentIcon.TabIndex = 3;
+            this.picTotalSpentIcon.TabStop = false;
+            // 
+            // picBudgetIcon
+            // 
+            this.picBudgetIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picBudgetIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardBudget;
+            this.picBudgetIcon.Location = new System.Drawing.Point(40, 26);
+            this.picBudgetIcon.Name = "picBudgetIcon";
+            this.picBudgetIcon.ShadowDecoration.Parent = this.picBudgetIcon;
+            this.picBudgetIcon.Size = new System.Drawing.Size(103, 90);
+            this.picBudgetIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBudgetIcon.TabIndex = 0;
+            this.picBudgetIcon.TabStop = false;
+            // 
+            // btnCalculator
+            // 
+            this.btnCalculator.BorderRadius = 30;
+            this.btnCalculator.CheckedState.Parent = this.btnCalculator;
+            this.btnCalculator.CustomImages.Parent = this.btnCalculator;
+            this.btnCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(221)))));
+            this.btnCalculator.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCalculator.ForeColor = System.Drawing.Color.White;
+            this.btnCalculator.HoverState.Parent = this.btnCalculator;
+            this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
+            this.btnCalculator.Location = new System.Drawing.Point(1116, 797);
+            this.btnCalculator.Name = "btnCalculator";
+            this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
+            this.btnCalculator.Size = new System.Drawing.Size(60, 60);
+            this.btnCalculator.TabIndex = 22;
+            // 
             // guna2Button1
             // 
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
@@ -885,142 +1045,44 @@
             this.btnNotificaton.Size = new System.Drawing.Size(35, 44);
             this.btnNotificaton.TabIndex = 18;
             // 
-            // guna2HtmlLabel3
+            // txtSearchBudget
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 64);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(259, 25);
-            this.guna2HtmlLabel3.TabIndex = 17;
-            this.guna2HtmlLabel3.Text = "Set and manage your budgets";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(14, 23);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 37);
-            this.guna2HtmlLabel2.TabIndex = 15;
-            this.guna2HtmlLabel2.Text = "Budget";
-            // 
-            // btnCalculator
-            // 
-            this.btnCalculator.BorderRadius = 30;
-            this.btnCalculator.CheckedState.Parent = this.btnCalculator;
-            this.btnCalculator.CustomImages.Parent = this.btnCalculator;
-            this.btnCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(187)))), ((int)(((byte)(221)))));
-            this.btnCalculator.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCalculator.ForeColor = System.Drawing.Color.White;
-            this.btnCalculator.HoverState.Parent = this.btnCalculator;
-            this.btnCalculator.Image = global::BudgetBuddy.Properties.Resources.calculatorLogo;
-            this.btnCalculator.Location = new System.Drawing.Point(1116, 759);
-            this.btnCalculator.Name = "btnCalculator";
-            this.btnCalculator.ShadowDecoration.Parent = this.btnCalculator;
-            this.btnCalculator.Size = new System.Drawing.Size(60, 60);
-            this.btnCalculator.TabIndex = 22;
-            // 
-            // pnlTotalIncome
-            // 
-            this.pnlTotalIncome.BorderRadius = 15;
-            this.pnlTotalIncome.Controls.Add(this.picBudgetIcon);
-            this.pnlTotalIncome.Controls.Add(this.lblTotalBudget_Amount);
-            this.pnlTotalIncome.Controls.Add(this.lblTotalBudget);
-            this.pnlTotalIncome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.pnlTotalIncome.Location = new System.Drawing.Point(20, 146);
-            this.pnlTotalIncome.Name = "pnlTotalIncome";
-            this.pnlTotalIncome.ShadowDecoration.Parent = this.pnlTotalIncome;
-            this.pnlTotalIncome.Size = new System.Drawing.Size(414, 155);
-            this.pnlTotalIncome.TabIndex = 23;
-            // 
-            // picBudgetIcon
-            // 
-            this.picBudgetIcon.BackColor = System.Drawing.Color.Transparent;
-            this.picBudgetIcon.Image = global::BudgetBuddy.Properties.Resources.summaryCardBudget;
-            this.picBudgetIcon.Location = new System.Drawing.Point(40, 26);
-            this.picBudgetIcon.Name = "picBudgetIcon";
-            this.picBudgetIcon.ShadowDecoration.Parent = this.picBudgetIcon;
-            this.picBudgetIcon.Size = new System.Drawing.Size(103, 90);
-            this.picBudgetIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBudgetIcon.TabIndex = 0;
-            this.picBudgetIcon.TabStop = false;
-            // 
-            // lblTotalBudget_Amount
-            // 
-            this.lblTotalBudget_Amount.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudget_Amount.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalBudget_Amount.Location = new System.Drawing.Point(167, 59);
-            this.lblTotalBudget_Amount.Name = "lblTotalBudget_Amount";
-            this.lblTotalBudget_Amount.Size = new System.Drawing.Size(143, 60);
-            this.lblTotalBudget_Amount.TabIndex = 1;
-            this.lblTotalBudget_Amount.Text = "₱0.00";
-            // 
-            // lblTotalBudget
-            // 
-            this.lblTotalBudget.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalBudget.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalBudget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblTotalBudget.Location = new System.Drawing.Point(167, 26);
-            this.lblTotalBudget.Name = "lblTotalBudget";
-            this.lblTotalBudget.Size = new System.Drawing.Size(93, 21);
-            this.lblTotalBudget.TabIndex = 0;
-            this.lblTotalBudget.Text = "Total Budget";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BorderRadius = 15;
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(479, 146);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(697, 155);
-            this.guna2Panel1.TabIndex = 24;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::BudgetBuddy.Properties.Resources.summaryCardBudget;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(40, 26);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(103, 90);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(167, 59);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(143, 60);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "₱0.00";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(167, 26);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(93, 21);
-            this.guna2HtmlLabel4.TabIndex = 0;
-            this.guna2HtmlLabel4.Text = "Total Budget";
+            this.txtSearchBudget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(235)))), ((int)(((byte)(213)))));
+            this.txtSearchBudget.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(222)))), ((int)(((byte)(217)))));
+            this.txtSearchBudget.BorderRadius = 8;
+            this.txtSearchBudget.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchBudget.DefaultText = "";
+            this.txtSearchBudget.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchBudget.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchBudget.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBudget.DisabledState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchBudget.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBudget.FocusedState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.1F);
+            this.txtSearchBudget.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchBudget.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchBudget.HoverState.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.IconLeft = global::BudgetBuddy.Properties.Resources.searchIcon;
+            this.txtSearchBudget.IconLeftOffset = new System.Drawing.Point(8, 0);
+            this.txtSearchBudget.Location = new System.Drawing.Point(489, 16);
+            this.txtSearchBudget.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearchBudget.Name = "txtSearchBudget";
+            this.txtSearchBudget.PasswordChar = '\0';
+            this.txtSearchBudget.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.txtSearchBudget.PlaceholderText = "Search budget name...";
+            this.txtSearchBudget.SelectedText = "";
+            this.txtSearchBudget.ShadowDecoration.Parent = this.txtSearchBudget;
+            this.txtSearchBudget.Size = new System.Drawing.Size(220, 35);
+            this.txtSearchBudget.TabIndex = 16;
+            this.txtSearchBudget.TextOffset = new System.Drawing.Point(8, 0);
             // 
             // ucBudget
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(241)))), ((int)(((byte)(213)))));
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.pnlBudgetOverview);
             this.Controls.Add(this.pnlTotalIncome);
             this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.pnlBudgetHeader);
@@ -1040,13 +1102,14 @@
             this.pnlCalcuHeader.PerformLayout();
             this.pnlBudgetHeader.ResumeLayout(false);
             this.pnlBudgetHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).EndInit();
             this.pnlTotalIncome.ResumeLayout(false);
             this.pnlTotalIncome.PerformLayout();
+            this.pnlBudgetOverview.ResumeLayout(false);
+            this.pnlBudgetOverview.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picRemainingBudgetIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotalSpentIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBudgetIcon)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNotificationBadge)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1106,5 +1169,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colDateCreated;
         private System.Windows.Forms.DataGridViewImageColumn colEdit;
         private System.Windows.Forms.DataGridViewImageColumn colDelete;
+        private Guna.UI2.WinForms.Guna2Panel pnlBudgetOverview;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalSpent_Amount;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalSpent;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblExpensesByCategory;
+        private Guna.UI2.WinForms.Guna2PictureBox picTotalSpentIcon;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2PictureBox picRemainingBudgetIcon;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblRemainingBudget;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblRemainingBudget_Amount;
     }
 }

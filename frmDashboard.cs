@@ -40,8 +40,7 @@ namespace BudgetBuddy
         private Guna.UI2.WinForms.Guna2Button activeButton = null;
 
         // Updates the appearance of the selected navigation button.
-        private void SetActive_Button(
-            Guna.UI2.WinForms.Guna2Button selectedButton)
+        private void SetActive_Button(Guna.UI2.WinForms.Guna2Button selectedButton)
         {
             Guna.UI2.WinForms.Guna2Button[] buttons =
             {
@@ -52,6 +51,7 @@ namespace BudgetBuddy
                 btnAnalytics,
                 btnSettings
             };
+
             // Resets all navigation buttons to their default style.
             foreach (var btn in buttons)
             {
@@ -59,9 +59,10 @@ namespace BudgetBuddy
                 btn.ForeColor = Color.White;
                 btn.BorderRadius = 15;
             }
+
             // Highlights the selected button.
             activeButton = selectedButton;
-            activeButton.FillColor = Color.FromArgb(56, 142, 80);
+            activeButton.FillColor = Color.FromArgb(13, 71, 161);
             activeButton.ForeColor = Color.White;
             activeButton.BorderRadius = 15;
         }

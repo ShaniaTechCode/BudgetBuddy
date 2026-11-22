@@ -28,12 +28,12 @@ namespace BudgetBuddy
 
         private void ucBudget_Load(object sender, EventArgs e)
         {
-            SqlConnection sqlConnection = conecction.GetSqlConnection();
-            string query = "SELECT BudgetName, Period, DateCreated FROM BudgetTable";
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
-            DataTable dataTable = new DataTable();
-            sqlDataAdapter.Fill(dataTable);
-            dgvBudgetList.DataSource = dataTable;
+            //SqlConnection sqlConnection = conecction.GetSqlConnection();
+            //string query = "SELECT BudgetName, Period, DateCreated FROM BudgetTable";
+            //SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
+            //DataTable dataTable = new DataTable();
+            //sqlDataAdapter.Fill(dataTable);
+            //dgvBudgetList.DataSource = dataTable;
         }
     }
 }

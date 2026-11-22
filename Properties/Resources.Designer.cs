@@ -83,16 +83,6 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap brandingLogo {
-            get {
-                object obj = ResourceManager.GetObject("brandingLogo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap budgetLogo {
             get {
                 object obj = ResourceManager.GetObject("budgetLogo", resourceCulture);
@@ -193,6 +183,16 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap expectedIncomeIcon {
+            get {
+                object obj = ResourceManager.GetObject("expectedIncomeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap expensesLogo {
             get {
                 object obj = ResourceManager.GetObject("expensesLogo", resourceCulture);
@@ -263,9 +263,9 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap owlLogo {
+        internal static System.Drawing.Bitmap password {
             get {
-                object obj = ResourceManager.GetObject("owlLogo", resourceCulture);
+                object obj = ResourceManager.GetObject("password", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,29 @@ namespace BudgetBuddy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap password {
+        internal static System.Drawing.Bitmap plannedExpensesIcon {
             get {
-                object obj = ResourceManager.GetObject("password", resourceCulture);
+                object obj = ResourceManager.GetObject("plannedExpensesIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rec_compleIcon {
+            get {
+                object obj = ResourceManager.GetObject("rec_compleIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap remainingBudgetIcon {
+            get {
+                object obj = ResourceManager.GetObject("remainingBudgetIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +406,16 @@ namespace BudgetBuddy.Properties {
         internal static System.Drawing.Bitmap summaryCardRemainingBalance {
             get {
                 object obj = ResourceManager.GetObject("summaryCardRemainingBalance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap totalSpentIcon {
+            get {
+                object obj = ResourceManager.GetObject("totalSpentIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
