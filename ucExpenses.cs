@@ -1,13 +1,15 @@
-﻿using System;
+﻿using BudgetBuddy;
+using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BudgetBuddy;
 
 namespace BudgetBuddy
 {
@@ -19,6 +21,7 @@ namespace BudgetBuddy
             InitializeComponent();
             pnlCalcu.Visible = false;
             Calculator();
+            Datagridcon();
         }
         private void btnEqual_Click_1(object sender, EventArgs e)
         {
@@ -96,5 +99,156 @@ namespace BudgetBuddy
         {
             txtboxDisplay.Text = calc.InputDigit(((Control)sender).Text);
         }
+
+        class expense
+        {
+            public string expName { get; set; }
+            public string expcategory { get; set; }
+            public decimal expAmount { get; set; }
+            public DateTime expDate { get; set; }
+            public string expstatus { get; set; }
+        }
+
+        private List<expense> expenses = new List<expense>();
+        private expense editingexpenses = null;
+
+        private void Datagridcon()
+        {
+            dgvExpenseList.Columns[0].DataPropertyName = "expName";
+            dgvExpenseList.Columns[1].DataPropertyName = "expcategory";
+            dgvExpenseList.Columns[2].DataPropertyName = "expAmount";
+            dgvExpenseList.Columns[3].DataPropertyName = "expDate";
+            dgvExpenseList.Columns[4].DataPropertyName = "expstatus";
+
+            dgvExpenseList.Columns[2].DefaultCellStyle.Format = "₱#,##0.00";
+            dgvExpenseList.Columns[3].DefaultCellStyle.Format = "MM/dd/yyyy";
+
+           
+            dgvExpenseList.AllowUserToAddRows = false;
+            dgvExpenseList.ReadOnly = true;
+            dgvExpenseList.RowHeadersVisible = false;
+            dgvExpenseList.AutoGenerateColumns = false;
+            dgvExpenseList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+            txtSearchExpense.TextChanged += (s, e) => RefreshGrid();
+            cbFilterCategory.SelectedIndexChanged += (s, e) => RefreshGrid();
+
+            cbFilterCategory.Items.Clear();
+            cbFilterCategory.Items.Add("All");
+            cbFilterCategory.Items.AddRange(cbCategory.Items.Cast<string>().ToArray());
+            cbFilterCategory.SelectedIndex = 0;
+
+        }
+
+        private void btnAddExpense_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtExpenseName.Text)|| txtExpenseName.Text.Trim() == "")
+            {
+                MessageBox.Show("Please enter an expense name.");
+                return;
+            }
+            if (cbCategory.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a category.");
+                return;
+            }
+            if (!decimal.TryParse(txtExpensesAmount.Text, out decimal amount)|| amount <= 0)
+            {
+                MessageBox.Show("Please enter a valid amount.");
+                return;
+            }
+            if (dtpExpensesDate.Value > DateTime.Today)
+            {
+                MessageBox.Show("Please select a valid date, nothing is free.");
+                return;
+            }
+            if (rbPlanned.Checked == false && rbCompleted.Checked == false)
+            {
+                MessageBox.Show("Please select a status.");
+                return;
+            }
+            if (editingexpenses == null)
+            {
+                expense newExpense = new expense
+                {
+                    expName = txtExpenseName.Text,
+                    expcategory = cbCategory.SelectedItem.ToString(),
+                    expAmount = amount,
+                    expDate = dtpExpensesDate.Value.Date,
+                    expstatus = rbPlanned.Checked ? "Planned" : "Completed"
+                };
+                expenses.Add(newExpense);
+            }
+            else
+            {
+                editingexpenses.expName = txtExpenseName.Text.Trim();
+                editingexpenses.expcategory = cbCategory.SelectedItem.ToString();
+                editingexpenses.expAmount = amount;
+                editingexpenses.expDate = dtpExpensesDate.Value;
+                editingexpenses.expstatus = rbPlanned.Checked ? "Planned" : "Completed";
+                editingexpenses = null;
+            }
+            RefreshGrid();
+            btnAddExpense.Text = "+   ADD EXPENSE";
+            ClearForm();
+
+        }
+        private void RefreshGrid()
+        {
+            IEnumerable<expense> query = expenses;
+            string searchText = txtSearchExpense.Text.Trim();
+            if (searchText != "")
+            {
+                query = query.Where(x => x.expName.IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0);
+            }
+            if (cbFilterCategory.SelectedItem != null && cbFilterCategory.SelectedItem.ToString() != "All")
+            {
+                query = query.Where(x => x.expcategory == cbFilterCategory.SelectedItem.ToString());
+            }
+
+            dgvExpenseList.DataSource = null;
+            dgvExpenseList.DataSource = query.OrderByDescending(x => x.expDate).ToList();
+        }
+        private void ClearForm()
+        {
+            txtExpenseName.Clear();
+            cbCategory.SelectedIndex = -1;
+            txtExpensesAmount.Clear();
+            dtpExpensesDate.Value = DateTime.Now;
+            rbPlanned.Checked = false;
+            rbCompleted.Checked = false;
+
+        }
+
+        private void dgvExpenseList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+            expense selected = (expense)dgvExpenseList.Rows[e.RowIndex].DataBoundItem;
+            string colName = dgvExpenseList.Columns[e.ColumnIndex].Name;
+
+            if (colName == "colDelete")
+            {
+                var result = MessageBox.Show("Delete \"" + selected.expName + "\"?",
+                                             "Confirm delete", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    expenses.Remove(selected);
+                    RefreshGrid();
+                }
+            }
+            else if (colName == "colEdit" )
+            {
+                editingexpenses = selected;
+                txtExpenseName.Text = selected.expName;
+                cbCategory.SelectedItem = selected.expcategory;
+                txtExpensesAmount.Text = selected.expAmount.ToString();
+                dtpExpensesDate.Value = selected.expDate;
+                rbPlanned.Checked = selected.expstatus == "Planned";
+                rbCompleted.Checked = selected.expstatus == "Completed";
+                btnAddExpense.Text = "Update Expense";
+            }
+        }
+        //reminder for other me to use this  to display on dashboard charts and graphs
+        //public List<expense> GetExpenses() {return expenses;}
     }
 }
