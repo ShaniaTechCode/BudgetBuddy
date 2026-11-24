@@ -157,7 +157,7 @@ namespace BudgetBuddy
                 MessageBox.Show("Please enter a valid amount.");
                 return;
             }
-            if (dtpExpensesDate.Value > DateTime.Today)
+            if (dtpExpensesDate.Value == null)
             {
                 MessageBox.Show("Please select a valid date, nothing is free.");
                 return;
@@ -192,6 +192,12 @@ namespace BudgetBuddy
             btnAddExpense.Text = "+   ADD EXPENSE";
             ClearForm();
 
+            decimal totalExpenses = expenses.Sum(x => x.expAmount);
+            lblTotalExpenses_Amount.Text = "₱" + totalExpenses.ToString("N2");
+            decimal completedExpenses = expenses.Where(x => x.expstatus == "Completed").Sum(x => x.expAmount);
+            lblCompletedExpenses_Amount.Text = "₱" + completedExpenses.ToString("N2");
+            decimal plannedExpenses = expenses.Where(x => x.expstatus == "Planned").Sum(x => x.expAmount);
+            lblPlannedExpenses_Amount.Text = "₱" + plannedExpenses.ToString("N2");
         }
         private void RefreshGrid()
         {
