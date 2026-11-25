@@ -308,6 +308,11 @@ namespace BudgetBuddy
 
             RefreshGrid();
         }
+
+        private void btnCalculator_Click(object sender, EventArgs e)
+        {
+            pnlCalcu.Visible = !pnlCalcu.Visible;
+        }
         //reminder for other me to use this  to display on dashboard charts and graphs
         //public List<expense> GetExpenses() {return expenses;}
     }

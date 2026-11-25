@@ -18,14 +18,14 @@ namespace BudgetBuddy
 
             // To show all the forms
 
-            frmLogin login = new frmLogin();
+            /*frmLogin login = new frmLogin();
             login.Show();
 
             frmCreateAccount create = new frmCreateAccount();
             create.Show();
 
             frmDashboard dashboard = new frmDashboard();
-            dashboard.Show();
+            dashboard.Show();*/
 
             //frmBudget budget = new frmBudget();
             //budget.Show();
@@ -41,6 +41,8 @@ namespace BudgetBuddy
 
             //frmSettings settings = new frmSettings();
             //settings.Show();
+
+            
         }
 
         private void frmSplashScreen_Load(object sender, EventArgs e)
@@ -50,7 +52,10 @@ namespace BudgetBuddy
 
         private void btnGetStarted_Click(object sender, EventArgs e)
         {
-
+            frmCreateAccount create = new frmCreateAccount();
+            create.Show();
+            this.Close();
+            
         }
     }
 }

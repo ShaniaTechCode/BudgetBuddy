@@ -28,6 +28,10 @@ namespace BudgetBuddy
             
         }
 
+        /// <summary>
+        /// Occurs when the control is loaded.
+        /// </summary>
+        /// <param name="sender">The source o
         private void ucBudget_Load(object sender, EventArgs e)
         {
             SqlConnection sqlConnection = conecction.GetSqlConnection();

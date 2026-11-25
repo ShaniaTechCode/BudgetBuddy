@@ -19,7 +19,27 @@ namespace BudgetBuddy
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
+            if (checkBoxAgree.Checked)
+            {
+                
+                frmDashboard dashboard = new frmDashboard();
+                dashboard.Show();
+                this.Close();
 
+            }
+            else
+            {
+                MessageBox.Show("Please agree to the terms and conditions.");
+                return;
+            }
+            
+        }
+
+        private void lblLogIn_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            login.Show();
+            this.Close();
         }
     }
 }

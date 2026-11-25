@@ -144,6 +144,7 @@
             this.btnLogIn.Size = new System.Drawing.Size(410, 45);
             this.btnLogIn.TabIndex = 7;
             this.btnLogIn.Text = "LOGIN";
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // lblForgotPass
             // 

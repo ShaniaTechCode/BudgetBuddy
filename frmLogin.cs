@@ -26,5 +26,12 @@ namespace BudgetBuddy
         {
 
         }
+
+        private void btnLogIn_Click(object sender, EventArgs e)
+        {
+            frmDashboard dashboard = new frmDashboard();
+            dashboard.Show();
+            this.Close();
+        }
     }
 }

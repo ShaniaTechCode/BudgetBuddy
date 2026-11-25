@@ -96,5 +96,10 @@ namespace BudgetBuddy
         {
             txtboxDisplay.Text = calc.InputDigit(((Control)sender).Text);
         }
+
+        private void btnCalculator_Click(object sender, EventArgs e)
+        {
+            pnlCalcu.Visible = !pnlCalcu.Visible;
+        }
     }
 }

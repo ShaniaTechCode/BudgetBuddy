@@ -140,6 +140,7 @@
             this.lblLogIn.TabIndex = 6;
             this.lblLogIn.Text = "Log In";
             this.lblLogIn.TextAlignment = System.Drawing.ContentAlignment.TopRight;
+            this.lblLogIn.Click += new System.EventHandler(this.lblLogIn_Click);
             // 
             // lblEmail_PhoneNum
             // 

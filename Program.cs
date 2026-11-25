@@ -16,7 +16,19 @@ namespace BudgetBuddy
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmSplashScreen());
+            frmSplashScreen splashScreen = new frmSplashScreen();
+            splashScreen.Show();
+
+            Application.Idle += Application_Idle;
+            Application.Run(new ApplicationContext());
+
+        }
+        private static void Application_Idle(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.Count == 0)
+            {
+                Application.Exit();
+            }
         }
     }
 }
