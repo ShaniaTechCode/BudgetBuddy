@@ -82,13 +82,6 @@
             this.pnlCalcuHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.dgvExpenseList = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.colExpenseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colExpenseStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
-            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.cbFilterCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.pnlExpenseList = new Guna.UI2.WinForms.Guna2Panel();
             this.txtSearchExpense = new Guna.UI2.WinForms.Guna2TextBox();
@@ -107,6 +100,13 @@
             this.lblCompletedExpenses_Amount = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblCompletedExpenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCalculator = new Guna.UI2.WinForms.Guna2Button();
+            this.colExpenseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colExpenseStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEdit = new System.Windows.Forms.DataGridViewImageColumn();
+            this.colDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.pnlTotalExpenses.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExpensesIcon)).BeginInit();
             this.pnlAddIncome.SuspendLayout();
@@ -896,71 +896,6 @@
             this.dgvExpenseList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvExpenseList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvExpenseList_CellContentClick);
             // 
-            // colExpenseName
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
-            this.colExpenseName.FillWeight = 121.8274F;
-            this.colExpenseName.HeaderText = "Expense Name";
-            this.colExpenseName.MinimumWidth = 6;
-            this.colExpenseName.Name = "colExpenseName";
-            // 
-            // colCategory
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
-            this.colCategory.HeaderText = "Category";
-            this.colCategory.MinimumWidth = 6;
-            this.colCategory.Name = "colCategory";
-            // 
-            // colAmount
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
-            this.colAmount.FillWeight = 95.63452F;
-            this.colAmount.HeaderText = "Amount";
-            this.colAmount.MinimumWidth = 6;
-            this.colAmount.Name = "colAmount";
-            // 
-            // colDate
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
-            this.colDate.FillWeight = 95.63452F;
-            this.colDate.HeaderText = "Date ";
-            this.colDate.MinimumWidth = 6;
-            this.colDate.Name = "colDate";
-            // 
-            // colExpenseStatus
-            // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle7;
-            this.colExpenseStatus.HeaderText = "Status";
-            this.colExpenseStatus.MinimumWidth = 6;
-            this.colExpenseStatus.Name = "colExpenseStatus";
-            // 
-            // colEdit
-            // 
-            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colEdit.FillWeight = 95.63452F;
-            this.colEdit.HeaderText = "Edit";
-            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colEdit.MinimumWidth = 6;
-            this.colEdit.Name = "colEdit";
-            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colEdit.Width = 65;
-            // 
-            // colDelete
-            // 
-            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colDelete.FillWeight = 95.63452F;
-            this.colDelete.HeaderText = "Delete";
-            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.colDelete.MinimumWidth = 6;
-            this.colDelete.Name = "colDelete";
-            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colDelete.Width = 65;
-            // 
             // cbFilterCategory
             // 
             this.cbFilterCategory.BackColor = System.Drawing.Color.Transparent;
@@ -1218,6 +1153,73 @@
             this.btnCalculator.TabIndex = 20;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
+            // colExpenseName
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseName.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colExpenseName.FillWeight = 121.8274F;
+            this.colExpenseName.HeaderText = "Expense Name";
+            this.colExpenseName.MinimumWidth = 6;
+            this.colExpenseName.Name = "colExpenseName";
+            // 
+            // colCategory
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colCategory.DefaultCellStyle = dataGridViewCellStyle4;
+            this.colCategory.HeaderText = "Category";
+            this.colCategory.MinimumWidth = 6;
+            this.colCategory.Name = "colCategory";
+            // 
+            // colAmount
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            this.colAmount.FillWeight = 95.63452F;
+            this.colAmount.HeaderText = "Amount";
+            this.colAmount.MinimumWidth = 6;
+            this.colAmount.Name = "colAmount";
+            // 
+            // colDate
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colDate.DefaultCellStyle = dataGridViewCellStyle6;
+            this.colDate.FillWeight = 95.63452F;
+            this.colDate.HeaderText = "Date ";
+            this.colDate.MinimumWidth = 6;
+            this.colDate.Name = "colDate";
+            // 
+            // colExpenseStatus
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colExpenseStatus.DefaultCellStyle = dataGridViewCellStyle7;
+            this.colExpenseStatus.HeaderText = "Status";
+            this.colExpenseStatus.MinimumWidth = 6;
+            this.colExpenseStatus.Name = "colExpenseStatus";
+            // 
+            // colEdit
+            // 
+            this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colEdit.FillWeight = 95.63452F;
+            this.colEdit.HeaderText = "Edit";
+            this.colEdit.Image = global::BudgetBuddy.Properties.Resources.editIcon;
+            this.colEdit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colEdit.MinimumWidth = 6;
+            this.colEdit.Name = "colEdit";
+            this.colEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colEdit.Width = 65;
+            // 
+            // colDelete
+            // 
+            this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colDelete.FillWeight = 95.63452F;
+            this.colDelete.HeaderText = "Delete";
+            this.colDelete.Image = global::BudgetBuddy.Properties.Resources.deleteIcon;
+            this.colDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.colDelete.MinimumWidth = 6;
+            this.colDelete.Name = "colDelete";
+            this.colDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colDelete.Width = 65;
+            // 
             // ucExpenses
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1309,13 +1311,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpenseStatus;
         private Guna.UI2.WinForms.Guna2RadioButton rbCompleted;
         private Guna.UI2.WinForms.Guna2RadioButton rbPlanned;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCategory;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseStatus;
-        private System.Windows.Forms.DataGridViewImageColumn colEdit;
-        private System.Windows.Forms.DataGridViewImageColumn colDelete;
         private Guna.UI2.WinForms.Guna2Panel pnlExpensesOverview;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPlannedExpenses_Amount;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPlannedExpenses;
@@ -1325,5 +1320,12 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpensesByCategory;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblCompletedExpenses_Amount;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblCompletedExpenses;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCategory;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAmount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colExpenseStatus;
+        private System.Windows.Forms.DataGridViewImageColumn colEdit;
+        private System.Windows.Forms.DataGridViewImageColumn colDelete;
     }
 }
