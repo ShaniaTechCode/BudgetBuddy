@@ -191,14 +191,63 @@ namespace BudgetBuddy
             RefreshGrid();
             btnAddExpense.Text = "+   ADD EXPENSE";
             ClearForm();
+            
+            
+        }
+
+        private void sumtotal()
+        {
 
             decimal totalExpenses = expenses.Sum(x => x.expAmount);
-            lblTotalExpenses_Amount.Text = "₱" + totalExpenses.ToString("N2");
+            if (totalExpenses >= 1000000)
+            {
+                decimal millions = totalExpenses / 1000000;
+                lblTotalExpenses_Amount.Text = "₱" + millions.ToString("N2") + "M";
+            }
+            else if (totalExpenses >= 1000)
+            {
+                decimal thousands = totalExpenses / 1000;
+                lblTotalExpenses_Amount.Text = "₱" + thousands.ToString("N2") + "K";
+            }
+            else
+            {
+                lblTotalExpenses_Amount.Text = "₱" + totalExpenses.ToString("N2");
+            }
+
             decimal completedExpenses = expenses.Where(x => x.expstatus == "Completed").Sum(x => x.expAmount);
-            lblCompletedExpenses_Amount.Text = "₱" + completedExpenses.ToString("N2");
+            if (completedExpenses >= 1000000)
+            {
+                decimal millions = completedExpenses / 1000000;
+                lblCompletedExpenses_Amount.Text = "₱" + millions.ToString("N2") + "M";
+            }
+            if (completedExpenses >= 1000)
+            {
+                decimal thousands = completedExpenses / 1000;
+                lblCompletedExpenses_Amount.Text = "₱" + thousands.ToString("N2") + "K";
+            }
+            else
+            {
+                lblCompletedExpenses_Amount.Text = "₱" + completedExpenses.ToString("N2");
+            }
+
             decimal plannedExpenses = expenses.Where(x => x.expstatus == "Planned").Sum(x => x.expAmount);
-            lblPlannedExpenses_Amount.Text = "₱" + plannedExpenses.ToString("N2");
+            if (plannedExpenses >= 1000000)
+            {
+                decimal millions = plannedExpenses / 1000000;
+                lblPlannedExpenses_Amount.Text = "₱" + millions.ToString("N2") + "M";
+            }
+            if (plannedExpenses >= 1000)
+            {
+                decimal thousands = plannedExpenses / 1000;
+                lblPlannedExpenses_Amount.Text = "₱" + thousands.ToString("N2") + "K";
+            }
+            else
+            {
+                lblPlannedExpenses_Amount.Text = "₱" + plannedExpenses.ToString("N2");
+            }
         }
+
+
         private void RefreshGrid()
         {
             IEnumerable<expense> query = expenses;
@@ -214,6 +263,9 @@ namespace BudgetBuddy
 
             dgvExpenseList.DataSource = null;
             dgvExpenseList.DataSource = query.OrderByDescending(x => x.expDate).ToList();
+
+            sumtotal();
+
         }
         private void ClearForm()
         {
@@ -253,6 +305,8 @@ namespace BudgetBuddy
                 rbCompleted.Checked = selected.expstatus == "Completed";
                 btnAddExpense.Text = "Update Expense";
             }
+
+            RefreshGrid();
         }
         //reminder for other me to use this  to display on dashboard charts and graphs
         //public List<expense> GetExpenses() {return expenses;}
