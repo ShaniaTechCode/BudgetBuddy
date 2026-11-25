@@ -220,7 +220,7 @@ namespace BudgetBuddy
                 decimal millions = completedExpenses / 1000000;
                 lblCompletedExpenses_Amount.Text = "₱" + millions.ToString("N2") + "M";
             }
-            if (completedExpenses >= 1000)
+            else if (completedExpenses >= 1000)
             {
                 decimal thousands = completedExpenses / 1000;
                 lblCompletedExpenses_Amount.Text = "₱" + thousands.ToString("N2") + "K";
@@ -236,7 +236,7 @@ namespace BudgetBuddy
                 decimal millions = plannedExpenses / 1000000;
                 lblPlannedExpenses_Amount.Text = "₱" + millions.ToString("N2") + "M";
             }
-            if (plannedExpenses >= 1000)
+            else if (plannedExpenses >= 1000)
             {
                 decimal thousands = plannedExpenses / 1000;
                 lblPlannedExpenses_Amount.Text = "₱" + thousands.ToString("N2") + "K";
