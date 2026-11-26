@@ -284,18 +284,18 @@ namespace BudgetBuddy
             expense selected = (expense)dgvExpenseList.Rows[e.RowIndex].DataBoundItem;
             string colName = dgvExpenseList.Columns[e.ColumnIndex].Name;
 
-            if (colName == "colDelete")
+            if (colName == "Delete")
             {
-                var result = MessageBox.Show("Delete \"" + selected.expName + "\"?",
-                                             "Confirm delete", MessageBoxButtons.YesNo);
+                var result = MessageBox.Show("Are you sure you want to delete this income entry?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     expenses.Remove(selected);
                     RefreshGrid();
                 }
             }
-            else if (colName == "colEdit" )
+            else if (colName == "Edit" )
             {
+                var eEdit = MessageBox.Show("Are you sure you want to edit this expense entry?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 editingexpenses = selected;
                 txtExpenseName.Text = selected.expName;
                 cbCategory.SelectedItem = selected.expcategory;
