@@ -176,7 +176,7 @@ namespace BudgetBuddy
                     IncDate = dtpIncomeDate.Value.Date,
                     IncStatus = rbExpected.Checked ? "Expected" : "Received"
                 };
-                incomeList.Add(newIncome);
+                incomeList.Add(newIncome);// extend this code to be added in database same in the expense
             }
             else
             {
@@ -190,6 +190,7 @@ namespace BudgetBuddy
             refreshIncomeList();
             btnAddIncome.Text = "+   ADD INCOME";
             clearIncomeFields();
+
 
 
         }

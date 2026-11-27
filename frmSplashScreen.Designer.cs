@@ -39,6 +39,7 @@
             this.btnGetStarted.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnGetStarted.BorderRadius = 15;
             this.btnGetStarted.CheckedState.Parent = this.btnGetStarted;
+            this.btnGetStarted.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGetStarted.CustomImages.Parent = this.btnGetStarted;
             this.btnGetStarted.FillColor = System.Drawing.Color.RoyalBlue;
             this.btnGetStarted.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

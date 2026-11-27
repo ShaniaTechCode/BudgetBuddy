@@ -61,8 +61,9 @@
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.guna2HtmlLabel4.IsSelectionEnabled = false;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(127, 495);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(154, 18);
@@ -114,8 +115,10 @@
             // 
             // btnCreateAcc
             // 
+            this.btnCreateAcc.BackColor = System.Drawing.Color.Transparent;
             this.btnCreateAcc.BorderRadius = 15;
             this.btnCreateAcc.CheckedState.Parent = this.btnCreateAcc;
+            this.btnCreateAcc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCreateAcc.CustomImages.Parent = this.btnCreateAcc;
             this.btnCreateAcc.FillColor = System.Drawing.Color.RoyalBlue;
             this.btnCreateAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -134,6 +137,7 @@
             this.lblLogIn.BackColor = System.Drawing.Color.Transparent;
             this.lblLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.lblLogIn.IsSelectionEnabled = false;
             this.lblLogIn.Location = new System.Drawing.Point(286, 607);
             this.lblLogIn.Name = "lblLogIn";
             this.lblLogIn.Size = new System.Drawing.Size(45, 18);
@@ -228,8 +232,9 @@
             // guna2HtmlLabel10
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(95)))), ((int)(((byte)(133)))));
+            this.guna2HtmlLabel10.IsSelectionEnabled = false;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(308, 495);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(106, 18);

@@ -29,9 +29,23 @@ namespace BudgetBuddy
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            frmDashboard dashboard = new frmDashboard();
-            dashboard.Show();
-            this.Close();
+            if (txtBoxEmail_PhoneNumber.Text == "admin" && txtBoxPass.Text == "admin")
+            {
+                frmDashboard dashboard = new frmDashboard();
+                dashboard.Show();
+                this.Close();
+                //if admin is logged in, i think the system should open to dashboard and has access to all data of all user. i think.
+            }
+            //in this else if statement should be if it exist in the database, then open the dashboard of that user. if not, then show messagebox of invalid email/phone number or password.
+            else if (txtBoxEmail_PhoneNumber.Text == null || txtBoxPass.Text == null)
+            {
+                MessageBox.Show("Please enter your email/phone number and password.");
+            }
+            else
+            {
+                MessageBox.Show("Invalid email/phone number or password. Please try again.");
+            }
+
         }
     }
 }
